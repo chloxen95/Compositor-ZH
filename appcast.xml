@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Compositor 简体中文版的自动更新源。
+
+  发布新版时不要手改本文件，用 scripts/l10n/feed.sh publish 生成，
+  它会写入格式正确的 item、Sparkle 签名与文件长度。
+
+  当前没有任何 item：表示「没有可用的新版本」，Sparkle 查询后不会有任何动作。
+
+  分支名必须是 update-feed，不能叫 feed：raw.githubusercontent.com 会把第一段路径
+  同时当作分支名和提交 SHA 前缀来解析，而 "feed" 恰好是十六进制字符，历史上真有一个
+  提交叫 feedc263fc…，于是 /feed/appcast.xml 会静默指向那份 2026-09 的旧公告。
+  详见本分支 README.md。
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Compositor 简体中文</title>
+    <link>https://github.com/chloxen95/Compositor-ZH</link>
+    <description>Compositor 简体中文版的更新源</description>
+    <language>zh-cn</language>
+  </channel>
+</rss>
