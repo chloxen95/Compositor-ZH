@@ -58,7 +58,10 @@
 	<key>SUEnableInstallerLauncherService</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/robbietilton/Compositor/main/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/chloxen95/Compositor-ZH/update-feed/appcast.xml</string>
+	<!-- 简体中文版的更新源在 fork 的独立 update-feed 分支上，不指向上游，避免汉化版被英文官方包覆盖。
+	     分支名不能叫 feed：raw 会把该段当作提交 SHA 前缀解析，feed 恰好是合法十六进制，
+	     会静默命中 2026-09-21 的旧提交 feedc263fc…。详见该分支的 README.md。 -->
 	<key>SUPublicEDKey</key>
 	<string>KZvD724t8QpzTR4OGrHrsCWt538TJ/g/qrTZii+o214=</string>
 	<key>SUEnableAutomaticChecks</key>
