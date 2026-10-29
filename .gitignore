@@ -25,3 +25,9 @@ BUILD_PLAN.md
 
 # Local HDR plans and agent handoffs: HDR_FULL_PLAN.md, HDR_EDITING_PLAN.md, HDR_LIGHT_PLAN.md
 /HDR_*.md
+
+# Localization: keys.json is generated from the sources and carries a timestamp,
+# so committing it would diff on every run. Rebuild with scripts/l10n/extract.py.
+# l10n/translations.csv and l10n/glossary.json ARE tracked: they are the inputs.
+/l10n/keys.json
+/l10n/*.xcstrings.tmp
