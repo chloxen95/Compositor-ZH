@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:00:44+00:00",
+  "generatedAt": "2026-10-29T06:02:15+00:00",
   "tool": "scripts/l10n/extract.py",
   "note": "启发式清单。Xcode 的 xcodebuild -exportLocalizations 为权威来源，两者需对账。",
   "sites": 731,
