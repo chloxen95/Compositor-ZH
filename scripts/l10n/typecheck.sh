@@ -8,8 +8,16 @@
 #   2. 类型层（--typecheck，需要完整 Xcode）
 #      复制源码到临时目录，用 scripts/l10n/typecheck/SparkleStub.swift 顶替 SPM 依赖 Sparkle，
 #      再 swiftc -typecheck 做整模块类型检查。
-#      之所以需要 Xcode：SwiftUI 的 @State/@Bindable/@Environment 等是外部宏，其实现在
-#      Xcode 工具链的 libSwiftUIMacros.dylib 里，Command Line Tools 只带 Observation 与 Swift 宏。
+#
+#      需要 Xcode 的原因只有一个：SwiftUI 的 @State/@Bindable 等是外部宏，实现在
+#      Xcode 的平台插件里（MacOSX.platform/.../host/plugins/libSwiftUIMacros.dylib），
+#      Command Line Tools 只带 Observation 与 Swift 宏。因此要显式 -plugin-path。
+#
+#      另外必须补齐工程的并发设置：pbxproj 里 SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor、
+#      SWIFT_APPROACHABLE_CONCURRENCY = YES。不补的话，编译器不认为类型默认在 MainActor 上，
+#      会把 normal 代码调用 @MainActor API 当成错误，报出一批与真实问题无关的假错。
+#
+#      它不依赖 xcodebuild，因此 Xcode 首启动组件没装好时（缺 CoreSimulator）也能用。
 #
 # 用法：
 #   scripts/l10n/typecheck.sh              # 语法检查
@@ -77,12 +85,47 @@ echo "▸ 复制源码到临时目录"
 mkdir -p "$SCRATCH/src"
 cp -R "$SRC"/. "$SCRATCH/src/"
 
-/usr/bin/find "$SCRATCH/src" -name '*.swift' -exec sed -i '' -e '/^import Sparkle$/d' {} +
+# 去掉 import Sparkle，改用桩。用 python 而不是 sed -i：BSD sed 的 -i 参数
+# 与 -exec {} + 组合会多打印一行 "sed: : No such file or directory"，容易误判为失败。
+/usr/bin/python3 - "$SCRATCH/src" <<'PY'
+import pathlib, sys
+root = pathlib.Path(sys.argv[1])
+stripped = 0
+for path in root.rglob("*.swift"):
+    text = path.read_text(encoding="utf-8")
+    if "import Sparkle\n" in text:
+        path.write_text(text.replace("import Sparkle\n", "", 1), encoding="utf-8")
+        stripped += 1
+print(f"  已用桩替换 import Sparkle 的文件：{stripped}")
+PY
 cp "$STUB" "$SCRATCH/src/SparkleStub.swift"
 
+# 编译选项必须与 pbxproj 一致，否则会报假错（见文件头说明）。
+DEV_DIR="$(xcode-select -p 2>/dev/null)"
+PLUGIN_PATH="$DEV_DIR/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins"
+EXTRA=()
+[[ -d "$PLUGIN_PATH" ]] && EXTRA+=(-plugin-path "$PLUGIN_PATH")
+if xcrun --sdk macosx swiftc -help-hidden 2>&1 | grep -q -- '-default-isolation'; then
+    EXTRA+=(-default-isolation MainActor)
+fi
+EXTRA+=(-enable-upcoming-feature MemberImportVisibility)
+EXTRA+=(-enable-upcoming-feature NonisolatedNonsendingByDefault)
+EXTRA+=(-enable-upcoming-feature InferIsolatedConformances)
+
+# 工程的像素运算在 C 里（10 个 .c + 11 个 .h），Swift 通过桥接头调用。
+# 不引入桥接头的话，dither_quantize16 之类的符号会报 "cannot find in scope"。
+BRIDGING="$SCRATCH/src/Compositor-Bridging-Header.h"
+if [[ -f "$BRIDGING" ]]; then
+    EXTRA+=(-import-objc-header "$BRIDGING")
+    EXTRA+=(-Xcc -I -Xcc "$SCRATCH/src/Rendering")
+else
+    echo "⚠️  找不到桥接头 Compositor-Bridging-Header.h，C 函数会报未定义" >&2
+fi
+
 COUNT=$(( $(/usr/bin/find "$SCRATCH/src" -name '*.swift' | wc -l | tr -d ' ') - 1 ))
-echo "▸ 类型检查 $COUNT 个源文件"
+echo "▸ 类型检查 $COUNT 个源文件（宏插件：$([[ -d "$PLUGIN_PATH" ]] && echo 已加载 || echo 缺失)）"
 if xcrun --sdk macosx swiftc -typecheck -parse-as-library -swift-version 5 -target "$TARGET" \
+        "${EXTRA[@]}" \
         $(/usr/bin/find "$SCRATCH/src" -name '*.swift') 2> "$SCRATCH/errors.txt"; then
     echo "✅ 类型检查通过"
     exit 0

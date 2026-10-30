@@ -104,7 +104,8 @@ final class SPUUpdater {
     init(hostBundle: Bundle, applicationBundle: Bundle, userDriver: SPUUserDriver, delegate: Any?) {}
 
     var allowsAutomaticUpdates: Bool { false }
-    var automaticallyDownloadsUpdates: Bool { false }
+    // 真实 Sparkle 里这个属性是可写的，UpdateDriver 会按用户偏好赋值。
+    var automaticallyDownloadsUpdates = false
     var canCheckForUpdates: Bool { true }
 
     func start() throws {}

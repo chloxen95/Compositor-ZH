@@ -142,8 +142,8 @@ git push origin update-feed
 ```bash
 git fetch upstream
 git checkout main && git merge --ff-only upstream/main
-git checkout hans && git merge main          # 有冲突就解，解完跑下面两条
-./scripts/l10n/typecheck.sh
+git checkout hans && git merge main          # 有冲突就解，解完跑下面三条
+./scripts/l10n/typecheck.sh --typecheck      # 类型层；不加参数是语法层，更快
 python3 scripts/l10n/extract.py --csv l10n/translations.csv   # 看新增/孤儿
 python3 scripts/l10n/lint.py
 ```
