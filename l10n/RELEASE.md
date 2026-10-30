@@ -33,26 +33,56 @@ git push origin update-feed
 > 应用启动时会去读这个地址，未推送时是 404，Sparkle 会在日志里报错（不会弹窗、不会装错东西，
 > 但配置不算就绪）。
 
-### 2. 生成我们自己的更新签名密钥
+### 2. 准备 Sparkle 命令行工具
+
+```bash
+./scripts/l10n/feed.sh tools
+```
+
+下载 Sparkle 2.10.0 官方发行包里的 `generate_keys` / `sign_update` / `generate_appcast`，
+解压到 `~/Library/Caches/CompositorZH/Sparkle-tools/bin`。发行包带 SHA-256 校验，
+版本与 `Package.resolved` 锁定的 revision（2.10.0）一致；包被换掉会直接失败，不会静默使用。
+
+> 这些工具在 SPM 解析后的 artifact bundle 里也有，但那要求先构建成功一次，
+> 而且会随 DerivedData 被清掉。独立下载更稳，也不依赖 Xcode 是否装好。
+
+### 3. 生成我们自己的更新签名密钥
 
 ```bash
 ./scripts/l10n/feed.sh key
 ```
 
-这一步需要完整 Xcode（用 Sparkle 官方的 `generate_keys`）。它做两件事：
-把公钥写进 `Config/Info.plist` 的 `SUPublicEDKey`，并提示你备份私钥。
+幂等：钥匙串里已有密钥就复用，不覆盖。它做四件事：
 
-**为什么必须换掉**：`SUPublicEDKey` 现在还是上游的公钥。Sparkle 只认「与包内公钥配对的私钥」
-签出的更新包。留着上游的公钥，我们既签不出自己的更新，又等于给上游的英文包开了后门。
+1. 生成 Ed25519 密钥对，私钥存进登录钥匙串（服务 `https://sparkle-project.org`，账户 `ed25519`）；
+2. 把公钥写进 `Config/Info.plist` 的 `SUPublicEDKey`——**只改这一行**，注释与键序原样保留。
+   （不用 `plutil -replace`：它按字母序重排整个文件并丢掉 XML 注释，那样每次合并上游都要多解一次冲突。）
+3. 导出私钥到 `~/Library/Application Support/CompositorZH/signing/ed25519-private-key.txt`（600 权限）；
+4. 真签一个测试文件，再用 CryptoKit 独立验签，确认私钥与公钥确实配对。
 
-**私钥必须备份**（登录钥匙串里名为 `ed25519` 的条目，导出为 `.p8` 存好）。
-私钥丢了，已经装了旧版的用户就再也收不到自动更新，只能手动重装。
+**为什么必须换掉**：留着上游的公钥，我们既签不出自己的更新，又等于给上游的英文包开了后门。
 
-### 3. 打开自动检查
+**私钥必须另存一份离线备份**。丢了就再也签不出能通过校验的更新包，已装旧版的用户只能手动重装。
+备份目录特意放在 `Application Support` 而不是 `Documents`：后者默认同步 iCloud，私钥不该进任何云端。
 
-`Config/Info.plist` 里把 `SUEnableAutomaticChecks` 设为 `<true/>`，然后重新构建。
+> `SUEnableAutomaticChecks` 沿用上游的 `<true/>`，无需改动。
 
-### 4. 验证配置自洽
+### 4. 单独验证密钥（可选，`key` 已自动执行）
+
+```bash
+PUB=$(plutil -extract SUPublicEDKey raw Config/Info.plist)
+printf 'selftest\n' > /tmp/selftest.bin
+SIG=$("$HOME/Library/Caches/CompositorZH/Sparkle-tools/bin/sign_update" /tmp/selftest.bin \
+      | sed -E 's/.*edSignature="([^"]+)".*/\1/')
+xcrun swift scripts/l10n/verify-ed25519.swift "$PUB" /tmp/selftest.bin "$SIG"
+```
+
+输出「✅ 验签通过」表示钥匙串私钥与 plist 公钥是同一对。
+
+用 CryptoKit 而不是 Sparkle 自己的代码，是因为**用签名工具去验自己的签名等于没验**。
+公钥配错在用户端的表现不是报错，而是静默装不上，所以必须用独立实现证一次。
+
+### 5. 验证配置自洽
 
 ```bash
 ./scripts/l10n/feed.sh check
@@ -131,9 +161,12 @@ python3 scripts/l10n/lint.py
 |---|---|---|
 | `feed.sh check` 报「取不到」 | `update-feed` 还没推送，或仓库不是公开的 | `git push origin update-feed` |
 | 报「不是我们的公告（标题不是 …）」 | 分支名撞上了提交 SHA 前缀 | 见下节；改回 `update-feed` |
+| 找不到 `generate_keys` / `sign_update` | 工具还没下载 | `./scripts/l10n/feed.sh tools`（需联网，可能要 VPN） |
+| `feed.sh key` 报「验签自检失败」 | 钥匙串私钥与 plist 公钥不配对 | 重跑 `feed.sh key`；仍失败则删掉钥匙串里 `ed25519` 条目后重新生成 |
 | 应用提示更新但安装失败 | `SUPublicEDKey` 还是上游的公钥 | `./scripts/l10n/feed.sh key` 后重新构建 |
 | 更新装完变回英文 | `SUFeedURL` 指到了上游 | `feed.sh check` 核对 |
 | 合并上游时 `appcast.xml` 冲突 | feed 被放进了 `hans` | 把该文件移回 `update-feed` 分支 |
+| `xcodebuild` 报「a required plug-in failed to load」 | Xcode 首启动组件没装（缺 CoreSimulator） | `sudo xcodebuild -runFirstLaunch`，需管理员密码 |
 
 ### 分支名为什么不能叫 `feed`
 

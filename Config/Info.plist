@@ -63,7 +63,7 @@
 	     分支名不能叫 feed：raw 会把该段当作提交 SHA 前缀解析，feed 恰好是合法十六进制，
 	     会静默命中 2026-09-21 的旧提交 feedc263fc…。详见该分支的 README.md。 -->
 	<key>SUPublicEDKey</key>
-	<string>KZvD724t8QpzTR4OGrHrsCWt538TJ/g/qrTZii+o214=</string>
+	<string>A91s8/4SmNayFGMUGDWuH7WuHNJ0wUHLrYrQowAc/M0=</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>UTExportedTypeDeclarations</key>
