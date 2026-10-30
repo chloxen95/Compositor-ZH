@@ -181,3 +181,54 @@ python3 scripts/l10n/lint.py
 凡是只由 `0-9a-f` 组成的名字都有这个问题：`feed`、`dead`、`beef`、`cafe`、`face`、`decade`。
 `update-feed` 含 `u`、`p`、`t`、`-`，不可能与 SHA 前缀混淆。
 `feed.sh check` 会核对频道标题必须是 `Compositor 简体中文`，专门用来抓这类劫持。
+
+---
+
+## 六、本机构建
+
+```bash
+./scripts/l10n/build-zh.sh          # Release 构建，产物在 ~/Library/Caches/CompositorZH/Build/Products/Release/
+ZH_REV=2 ./scripts/l10n/build-zh.sh # 同一上游基线上再出一版
+```
+
+脚本做四件事：读上游的 `MARKETING_VERSION` / `CURRENT_PROJECT_VERSION`、把 build 号注入成
+`上游 × 10 + 汉化修订`、构建、再回头核对产物 `Info.plist` 里的版本与更新源。
+
+所有开关都从命令行注入，**不写进 `project.pbxproj`**，因为上游每次发版都会改那里，写进去就每次都冲突。
+
+### 两处环境适配（脚本自动判定）
+
+| 现象 | 原因 | 脚本的动作 |
+|---|---|---|
+| 构建报 `sandbox-exec: sandbox_apply: Operation not permitted`，或 `swift-plugin-server produced malformed response` | Xcode 用 `sandbox-exec` 跑包清单解析和宏插件服务；受限会话里内核拒绝 `sandbox_apply`。后者尤其误导，看着像宏坏了 | 先探测 `sandbox-exec` 能否工作，不能才关这两处沙箱 |
+| 构建报 `No signing certificate "Mac Development" found` | 工程写死了上游的证书与 team id | 改 ad-hoc 签名（`-`），并**同时关掉加固运行时**，否则库校验会拒绝加载内嵌的 Sparkle.framework，App 一启动就崩 |
+
+要分发时（需要开发者账号）：
+
+```bash
+ZH_SIGN_IDENTITY="Developer ID Application: 你的名字 (TEAMID)" ./scripts/l10n/build-zh.sh
+```
+
+此时不要关加固运行时——整包同一个 team，库校验自然通过；脚本也只在 ad-hoc 时才关。
+
+### 单元测试在本会话跑不起来（已查清，非工程问题）
+
+```bash
+xcodebuild test -project Compositor.xcodeproj -scheme Compositor -destination 'platform=macOS' \
+  CODE_SIGN_IDENTITY="-" CODE_SIGN_STYLE=Manual OTHER_SWIFT_FLAGS="-disable-sandbox" \
+  ENABLE_HARDENED_RUNTIME=NO
+```
+
+会失败于 `The test runner hung before establishing connection`（有时报 `exited with code 0`）。
+
+已排除的可能：沙箱（用 `ENABLE_APP_SANDBOX=NO` 重建过）、加固运行时、调试器启动器
+（另建过 PosixSpawn 的 scheme）、调试 dylib（`ENABLE_DEBUG_DYLIB=NO`）、首启动组件
+（`-checkFirstLaunchStatus` 返回 0）、残留实例。
+
+采样（`sample`）给出的证据是决定性的：宿主进程正常跑在 `NSApplication.run` 的事件循环里，
+`sample` 输出里**没有任何 XCTest 镜像**——测试包根本没被注入，所以不是「连不上」，
+是「没开始连」。注入靠 `DYLD_INSERT_LIBRARIES`，被当前受限会话的环境策略丢弃。
+
+**替代方案**：在 Xcode 图形界面里按 ⌘U 运行（Xcode 的测试流程与命令行不同），
+或把纯逻辑代码用 `swiftc` 单独编译成可执行的自检程序（`scripts/l10n/verify-ed25519.swift`
+就是这种形式）。类型闸门 `scripts/l10n/typecheck.sh --typecheck` 不受影响，可照常使用。
