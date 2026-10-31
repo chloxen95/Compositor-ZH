@@ -143,6 +143,7 @@ git push origin update-feed
 git fetch upstream
 git checkout main && git merge --ff-only upstream/main
 git checkout hans && git merge main          # 有冲突就解，解完跑下面几条
+python3 scripts/l10n/wirecheck.py --against main  # 上游有没有动 rawValue？动了才 --update
 ./scripts/l10n/typecheck.sh --typecheck      # 类型层；不加参数是语法层，更快
 python3 scripts/l10n/harvest.py              # 重新采集 key：看新增/孤儿
 python3 scripts/l10n/apply.py --init         # 把新 key 加进 TM，标 new
@@ -175,6 +176,7 @@ python3 scripts/l10n/make_catalog.py            # ③ TM → Localizable.xcstrin
 | `Compositor/Localizable.xcstrings` | `make_catalog.py` | 构建产物，**不要手改** |
 | `Compositor/InfoPlist.xcstrings` | `make_catalog.py` | Finder 的「种类」列（Compositor 项目 / Adobe Photoshop 文档） |
 | `l10n/keys.json` | `extract.py` | **旧的手写扫描器结果，只作盲区报告用，不是键源**。别拿它建 catalog |
+| `l10n/wire-format.json` | `wirecheck.py` | 工程文件格式的指纹（60 个枚举 / 301 个取值 / 42 个 Codable 结构）。rawValue 是文件格式，改一个字符旧工程就读不了 |
 
 ### 为什么键要从 Xcode 拿，而不是自己扫源码
 
@@ -202,12 +204,14 @@ python3 scripts/l10n/make_catalog.py            # ③ TM → Localizable.xcstrin
 
 ### 闸门会拦什么
 
-`lint.py` 现在对 649 条键是 0 ERROR / 0 WARN。它拦的是：
+`lint.py` 现在对 731 条键是 0 ERROR / 0 WARN。它拦的是：
 
 - **E1 覆盖率**：有 key 没译文（上游加了新句子时必然触发）；
 - **E2 占位符**：`%@`、`%lld`、`%1$lld` 的数量或位置对不上——这条最要命，
   少一个 `%lld` 在运行时会直接崩，不是显示错乱；
-- **E3 术语**：整条 key 就是术语表里的词（`Cancel` 必须「取消」）。
+- **E3 术语**：整条 key 就是术语表里的词（`Cancel` 必须「取消」）。术语表含
+  `terms` 与 `blendModes` 两张表——后者是 Photoshop 简中的 24 个混合模式，之前没人
+  校验它，现在混合模式直接显示在界面上，所以一并纳入；
   一词多义在 `glossary.termOverrides` 里登记，例如 `Type` 在画笔面板是「类型」，
   在工具栏才是「文字」；
 - **E5 省略号**：原文以 `…` 结尾，译文也必须以 `…` 结尾；
@@ -330,6 +334,7 @@ xcodebuild test -project Compositor.xcodeproj -scheme Compositor -destination 'p
 | 语言偏好逻辑 | `./scripts/l10n/selftest-language.sh`（18 项断言） | 否 |
 | 更新签名密钥配对 | `scripts/l10n/verify-ed25519.swift` | 否 |
 | 翻译质量 | `./scripts/l10n/lint.py` | 否 |
+| 工程文件格式没被改动 | `python3 scripts/l10n/wirecheck.py` | 否 |
 | catalog 与 CSV 是否同步 | `python3 scripts/l10n/make_catalog.py --check` | 否 |
 | 整模块类型 | `scripts/l10n/typecheck.sh --typecheck` | 否（只要 Xcode 的 SDK） |
 | 界面行为回归（104 套件） | Xcode 图形界面按 ⌘U | 是 |

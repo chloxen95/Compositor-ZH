@@ -1,0 +1,1166 @@
+{
+ "note": "工程文件格式的指纹。由 scripts/l10n/wirecheck.py 生成，不要手改。",
+ "manifestVersion": 20,
+ "stringEnums": {
+  "AdjustmentKind": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "rawValues": {
+    "hsv": "Hue/Saturation",
+    "levels": "Levels",
+    "curves": "Curves",
+    "exposure": "Exposure",
+    "gradientMap": "Gradient Map",
+    "grain": "Grain",
+    "addNoise": "Add Noise",
+    "gaussianBlur": "Gaussian Blur",
+    "motionBlur": "Motion Blur",
+    "invert": "Invert",
+    "blackWhite": "Black & White",
+    "colorBalance": "Color Balance",
+    "progressiveBlur": "Progressive Blur",
+    "bloomGlow": "Bloom / Glow",
+    "rgbSplit": "RGB Split",
+    "vignette": "Vignette",
+    "lensEffects": "Lens Effects",
+    "tonalContrast": "Tonal Contrast",
+    "sharpen": "Sharpen"
+   }
+  },
+  "AppLanguage": {
+   "file": "Compositor/App/LanguagePreference.swift",
+   "rawValues": {
+    "system": "system",
+    "english": "en",
+    "simplifiedChinese": "zh-Hans"
+   }
+  },
+  "BackgroundQuality": {
+   "file": "Compositor/Document/Filters.swift",
+   "rawValues": {
+    "basic": "Basic",
+    "advanced": "Advanced"
+   }
+  },
+  "BlurToolMode": {
+   "file": "Compositor/Document/SmudgeLiquify.swift",
+   "rawValues": {
+    "liquify": "Liquify",
+    "blur": "Blur",
+    "smudge": "Smudge"
+   }
+  },
+  "BokehShape": {
+   "file": "Compositor/Document/LensEffects.swift",
+   "rawValues": {
+    "round": "Round",
+    "hexagon": "Hexagon",
+    "oval": "Oval",
+    "catsEye": "Cat's Eye"
+   }
+  },
+  "BrushToolMode": {
+   "file": "Compositor/Document/SmudgeLiquify.swift",
+   "rawValues": {
+    "paint": "Paint",
+    "erase": "Erase"
+   }
+  },
+  "CameraRawControls.Section": {
+   "file": "Compositor/UI/CameraRawControls.swift",
+   "rawValues": {
+    "light": "Light",
+    "color": "Color",
+    "colorGrading": "Color Grading",
+    "effects": "Effects",
+    "curve": "Curve",
+    "colorMixer": "Color Mixer",
+    "detail": "Detail",
+    "optics": "Optics",
+    "geometry": "Geometry",
+    "calibration": "Calibration"
+   }
+  },
+  "CameraRawCurvePage": {
+   "file": "Compositor/Document/CameraRawColor.swift",
+   "rawValues": {
+    "parametric": "Parametric",
+    "point": "Point"
+   }
+  },
+  "CameraRawGlowStyle": {
+   "file": "Compositor/Document/CameraRaw.swift",
+   "rawValues": {
+    "diffusion": "Diffusion",
+    "bloom": "Bloom",
+    "halation": "Halation"
+   }
+  },
+  "CameraRawGradePage": {
+   "file": "Compositor/Document/CameraRawColor.swift",
+   "rawValues": {
+    "threeWay": "Three-Way",
+    "shadows": "Shadows",
+    "midtones": "Midtones",
+    "highlights": "Highlights",
+    "global": "Global"
+   }
+  },
+  "CameraRawGroup": {
+   "file": "Compositor/Document/CameraRawReset.swift",
+   "rawValues": {
+    "light": "Light",
+    "color": "Color",
+    "effects": "Effects",
+    "curve": "Curve",
+    "mixer": "Color Mixer",
+    "grading": "Color Grading",
+    "detail": "Detail",
+    "optics": "Optics",
+    "geometry": "Geometry",
+    "calibration": "Calibration"
+   }
+  },
+  "CameraRawMixerPage": {
+   "file": "Compositor/Document/CameraRawColor.swift",
+   "rawValues": {
+    "hsl": "HSL",
+    "color": "Color",
+    "point": "Point Color"
+   }
+  },
+  "CameraRawMixerTab": {
+   "file": "Compositor/Document/CameraRawColor.swift",
+   "rawValues": {
+    "hue": "Hue",
+    "saturation": "Saturation",
+    "luminance": "Luminance"
+   }
+  },
+  "CameraRawPointChannel": {
+   "file": "Compositor/Document/CameraRawColor.swift",
+   "rawValues": {
+    "rgb": "RGB",
+    "red": "Red",
+    "green": "Green",
+    "blue": "Blue"
+   }
+  },
+  "CameraRawProcessVersion": {
+   "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+   "rawValues": {
+    "version1": "Version 1",
+    "version2": "Version 2",
+    "version3": "Version 3",
+    "version4": "Version 4",
+    "version5": "Version 5",
+    "version6": "Version 6"
+   }
+  },
+  "CameraRawProjection": {
+   "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+   "rawValues": {
+    "perspective": "Perspective",
+    "rectilinear": "Rectilinear"
+   }
+  },
+  "CameraRawScopeMode": {
+   "file": "Compositor/Document/CameraRaw.swift",
+   "rawValues": {
+    "histogram": "Histogram",
+    "vectorscope": "Vectorscope"
+   }
+  },
+  "CameraRawUprightMode": {
+   "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+   "rawValues": {
+    "off": "Off",
+    "guided": "Guided"
+   }
+  },
+  "CameraRawVignetteStyle": {
+   "file": "Compositor/Document/CameraRaw.swift",
+   "rawValues": {
+    "highlightPriority": "Highlight Priority",
+    "colorPriority": "Color Priority",
+    "paintOverlay": "Paint Overlay"
+   }
+  },
+  "CameraRawWhiteBalance": {
+   "file": "Compositor/Document/CameraRaw.swift",
+   "rawValues": {
+    "custom": "Custom",
+    "auto": "Auto"
+   }
+  },
+  "CanvasGuide.Axis": {
+   "file": "Compositor/Document/Guides.swift",
+   "rawValues": {
+    "horizontal": "horizontal",
+    "vertical": "vertical"
+   }
+  },
+  "CanvasUnit": {
+   "file": "Compositor/Document/CanvasSize.swift",
+   "rawValues": {
+    "pixels": "Pixels",
+    "percent": "Percent",
+    "inches": "Inches",
+    "centimeters": "Centimeters"
+   }
+  },
+  "ChannelPack.Channel": {
+   "file": "Compositor/IO/ChannelPack.swift",
+   "rawValues": {
+    "red": "Red",
+    "green": "Green",
+    "blue": "Blue",
+    "alpha": "Alpha"
+   }
+  },
+  "ColorRange": {
+   "file": "Compositor/Document/HueSaturation.swift",
+   "rawValues": {
+    "master": "Master",
+    "reds": "Reds",
+    "yellows": "Yellows",
+    "greens": "Greens",
+    "cyans": "Cyans",
+    "blues": "Blues",
+    "magentas": "Magentas"
+   }
+  },
+  "DitherColors": {
+   "file": "Compositor/Document/Dither.swift",
+   "rawValues": {
+    "blackWhite": "Black & White",
+    "twoColors": "Two Colors",
+    "original": "Original"
+   }
+  },
+  "DitherPixelShape": {
+   "file": "Compositor/Document/Dither.swift",
+   "rawValues": {
+    "square": "Square",
+    "dot": "Dot"
+   }
+  },
+  "DitherStyle": {
+   "file": "Compositor/Document/Dither.swift",
+   "rawValues": {
+    "atkinson": "Atkinson (Classic Mac)",
+    "floydSteinberg": "Floyd–Steinberg",
+    "bayer2": "Bayer 2 × 2",
+    "bayer4": "Bayer 4 × 4",
+    "bayer8": "Bayer 8 × 8",
+    "dots": "Halftone Dots",
+    "lines": "Halftone Lines",
+    "diamonds": "Halftone Diamonds",
+    "patterns": "Mac Patterns",
+    "ascii": "ASCII"
+   }
+  },
+  "ExportFormat": {
+   "file": "Compositor/IO/ProjectController.swift",
+   "rawValues": {
+    "png": "PNG",
+    "jpeg": "JPEG",
+    "tiff": "TIFF",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "exr": "EXR",
+    "channelPack": "Channel Pack"
+   }
+  },
+  "FilterKind": {
+   "file": "Compositor/Document/Filters.swift",
+   "rawValues": {
+    "gaussianBlur": "Gaussian Blur",
+    "motionBlur": "Motion Blur",
+    "progressiveBlur": "Progressive Blur",
+    "sharpen": "Sharpen",
+    "addNoise": "Add Noise",
+    "vignette": "Vignette",
+    "bloomGlow": "Bloom / Glow",
+    "dither": "Dither",
+    "scanlines": "Scanlines",
+    "rgbSplit": "RGB Split",
+    "lensEffects": "Lens Effects",
+    "tonalContrast": "Tonal Contrast",
+    "rimLight": "Rim Light",
+    "lensCorrection": "Lens Correction",
+    "cameraRaw": "Camera Raw Filter",
+    "removeBackground": "Remove Background",
+    "contentAwareFill": "Content-Aware Fill",
+    "curves": "Curves",
+    "exposure": "Exposure",
+    "gradientMap": "Gradient Map",
+    "grain": "Grain",
+    "blackWhite": "Black & White",
+    "colorBalance": "Color Balance"
+   }
+  },
+  "GIFDelayMode": {
+   "file": "Compositor/Document/GIFFrameTiming.swift",
+   "rawValues": {
+    "perFrame": "Frame delay",
+    "uniform": "Same for all"
+   }
+  },
+  "GIFFrameGeometry.CodingKeys": {
+   "file": "Compositor/Document/GIFAnimation.swift",
+   "rawValues": {
+    "width": "width",
+    "height": "height",
+    "a": "a",
+    "b": "b",
+    "c": "c",
+    "d": "d",
+    "tx": "tx",
+    "ty": "ty",
+    "sampling": "sampling"
+   }
+  },
+  "GradientShape": {
+   "file": "Compositor/Document/Gradient.swift",
+   "rawValues": {
+    "linear": "Linear",
+    "radial": "Radial"
+   }
+  },
+  "GradientStyle": {
+   "file": "Compositor/Document/Gradient.swift",
+   "rawValues": {
+    "foregroundToBackground": "Foreground to Background",
+    "foregroundToTransparent": "Foreground to Transparent"
+   }
+  },
+  "GridAppearance.Preset": {
+   "file": "Compositor/Document/Guides.swift",
+   "rawValues": {
+    "lightGray": "Light Gray",
+    "lightBlue": "Light Blue",
+    "lightRed": "Light Red",
+    "green": "Green"
+   }
+  },
+  "GridAppearance.Style": {
+   "file": "Compositor/Document/Guides.swift",
+   "rawValues": {
+    "lines": "Lines",
+    "dashedLines": "Dashed Lines",
+    "dots": "Dots"
+   }
+  },
+  "HueSampleMode": {
+   "file": "Compositor/Document/HueSaturation.swift",
+   "rawValues": {
+    "replace": "Sample",
+    "add": "Add",
+    "remove": "Remove"
+   }
+  },
+  "LassoKind": {
+   "file": "Compositor/Document/Selection.swift",
+   "rawValues": {
+    "freehand": "Freehand",
+    "polygonal": "Polygonal",
+    "rectangle": "Rectangle",
+    "ellipse": "Ellipse"
+   }
+  },
+  "LayerAlignment": {
+   "file": "Compositor/Document/LayerAlign.swift",
+   "rawValues": {
+    "left": "Left Edges",
+    "horizontalCenter": "Horizontal Centers",
+    "right": "Right Edges",
+    "top": "Top Edges",
+    "verticalCenter": "Vertical Centers",
+    "bottom": "Bottom Edges"
+   }
+  },
+  "LayerBlendMode": {
+   "file": "Compositor/Document/LayerAppearance.swift",
+   "rawValues": {
+    "normal": "Normal",
+    "darken": "Darken",
+    "multiply": "Multiply",
+    "colorBurn": "Color Burn",
+    "linearBurn": "Linear Burn",
+    "lighten": "Lighten",
+    "screen": "Screen",
+    "colorDodge": "Color Dodge",
+    "linearDodge": "Linear Dodge (Add)",
+    "overlay": "Overlay",
+    "softLight": "Soft Light",
+    "hardLight": "Hard Light",
+    "vividLight": "Vivid Light",
+    "linearLight": "Linear Light",
+    "pinLight": "Pin Light",
+    "hardMix": "Hard Mix",
+    "difference": "Difference",
+    "exclusion": "Exclusion",
+    "subtract": "Subtract",
+    "divide": "Divide",
+    "hue": "Hue",
+    "saturation": "Saturation",
+    "color": "Color",
+    "luminosity": "Luminosity"
+   }
+  },
+  "LayerDistribution": {
+   "file": "Compositor/Document/LayerAlign.swift",
+   "rawValues": {
+    "horizontalCenters": "Horizontal Centers",
+    "verticalCenters": "Vertical Centers",
+    "horizontalSpacing": "Horizontal Spacing",
+    "verticalSpacing": "Vertical Spacing"
+   }
+  },
+  "LayerEffectKind": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "rawValues": {
+    "stroke": "Stroke",
+    "shadow": "Drop Shadow",
+    "colorOverlay": "Color Overlay",
+    "innerShadow": "Inner Shadow",
+    "outerGlow": "Outer Glow",
+    "innerGlow": "Inner Glow"
+   }
+  },
+  "LayerSampling": {
+   "file": "Compositor/Document/LayerTransform.swift",
+   "rawValues": {
+    "nearest": "Nearest",
+    "smooth": "Smooth",
+    "high": "High quality"
+   }
+  },
+  "LayerType": {
+   "file": "Compositor/UI/LayerSearchControls.swift",
+   "rawValues": {
+    "image": "image",
+    "shape": "shape",
+    "text": "text",
+    "folder": "folder",
+    "adjustment": "adjustment",
+    "selected": "selected"
+   }
+  },
+  "LensEffect": {
+   "file": "Compositor/Document/LensEffects.swift",
+   "rawValues": {
+    "anamorphicFlare": "Anamorphic Flare",
+    "starburst": "Starburst",
+    "mist": "Mist",
+    "prism": "Prism",
+    "bokeh": "Bokeh"
+   }
+  },
+  "LevelsAuto": {
+   "file": "Compositor/Document/LevelsAutomatic.swift",
+   "rawValues": {
+    "contrast": "Contrast",
+    "color": "Color",
+    "neutral": "Color + neutral midtones"
+   }
+  },
+  "LevelsChannel": {
+   "file": "Compositor/Document/Levels.swift",
+   "rawValues": {
+    "rgb": "RGB",
+    "red": "Red",
+    "green": "Green",
+    "blue": "Blue"
+   }
+  },
+  "LevelsSample": {
+   "file": "Compositor/Document/LevelsAutomatic.swift",
+   "rawValues": {
+    "black": "Black",
+    "gray": "Gray",
+    "white": "White"
+   }
+  },
+  "NavigationTool": {
+   "file": "Compositor/Document/EditorSession.swift",
+   "rawValues": {
+    "move": "move",
+    "marquee": "marquee",
+    "lasso": "lasso",
+    "wand": "wand",
+    "crop": "crop",
+    "brush": "brush",
+    "spotHealing": "spotHealing",
+    "cloneStamp": "cloneStamp",
+    "blur": "blur",
+    "gradient": "gradient",
+    "shape": "shape",
+    "type": "type",
+    "eyedropper": "eyedropper",
+    "hand": "hand",
+    "zoom": "zoom",
+    "idle": "idle"
+   }
+  },
+  "NewCanvasBackground": {
+   "file": "Compositor/UI/NewCanvasSheet.swift",
+   "rawValues": {
+    "transparent": "transparent",
+    "white": "white",
+    "black": "black"
+   }
+  },
+  "NewCanvasUnit": {
+   "file": "Compositor/UI/NewCanvasSheet.swift",
+   "rawValues": {
+    "pixels": "px",
+    "inches": "in",
+    "centimeters": "cm",
+    "millimeters": "mm"
+   }
+  },
+  "ProjectGIFRecord.CodingKeys": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "rawValues": {
+    "sourceFile": "sourceFile",
+    "selectedFrameIndex": "selectedFrameIndex",
+    "geometry": "geometry",
+    "framePixels": "framePixels",
+    "deletedFrameIndices": "deletedFrameIndices",
+    "frameOrder": "frameOrder",
+    "timing": "timing"
+   }
+  },
+  "SelectionAmountOperation": {
+   "file": "Compositor/Document/Selection.swift",
+   "rawValues": {
+    "expand": "Expand",
+    "contract": "Contract",
+    "feather": "Feather"
+   }
+  },
+  "SelectionMode": {
+   "file": "Compositor/Document/Selection.swift",
+   "rawValues": {
+    "replace": "New",
+    "add": "Add",
+    "subtract": "Subtract"
+   }
+  },
+  "ShapeKind": {
+   "file": "Compositor/Document/ShapeTool.swift",
+   "rawValues": {
+    "rectangle": "Rectangle",
+    "ellipse": "Ellipse",
+    "line": "Line"
+   }
+  },
+  "ShapeLineCap": {
+   "file": "Compositor/Document/ShapeTool.swift",
+   "rawValues": {
+    "square": "Square",
+    "round": "Round"
+   }
+  },
+  "ShapeLineStyle": {
+   "file": "Compositor/Document/ShapeTool.swift",
+   "rawValues": {
+    "solid": "Solid",
+    "dotted": "Dotted",
+    "dashed": "Dashed",
+    "longDash": "Long Dash"
+   }
+  },
+  "SpotHealingMode": {
+   "file": "Compositor/Document/BrushStroke.swift",
+   "rawValues": {
+    "contentAware": "Content-Aware",
+    "createTexture": "Create Texture",
+    "proximityMatch": "Proximity Match"
+   }
+  },
+  "TextAlignment": {
+   "file": "Compositor/Document/TypeTool.swift",
+   "rawValues": {
+    "left": "Left",
+    "center": "Center",
+    "right": "Right"
+   }
+  },
+  "TrimBasedOn": {
+   "file": "Compositor/Document/ImageTrim.swift",
+   "rawValues": {
+    "transparentPixels": "Transparent Pixels",
+    "topLeftPixelColor": "Top Left Pixel Color",
+    "bottomRightPixelColor": "Bottom Right Pixel Color"
+   }
+  },
+  "WandMode": {
+   "file": "Compositor/Document/Selection.swift",
+   "rawValues": {
+    "wand": "Wand",
+    "object": "Object"
+   }
+  }
+ },
+ "codableStructs": {
+  "AdjustmentColor": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "blue",
+    "clamped",
+    "green",
+    "isValid",
+    "red"
+   ]
+  },
+  "BlackWhiteSettings": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "blues",
+    "cyans",
+    "greens",
+    "isValid",
+    "magentas",
+    "reds",
+    "tintHue",
+    "tintSaturation",
+    "yellows"
+   ]
+  },
+  "CameraRawGeometryGuide": {
+   "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+   "fields": [
+    "end",
+    "endX",
+    "endY",
+    "start",
+    "startX",
+    "startY"
+   ]
+  },
+  "CanvasGuide": {
+   "file": "Compositor/Document/Guides.swift",
+   "fields": [
+    "axis",
+    "id",
+    "position"
+   ]
+  },
+  "ColorBalanceSettings": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "highlightCyanRed",
+    "highlightMagentaGreen",
+    "highlightYellowBlue",
+    "isIdentity",
+    "isValid",
+    "midCyanRed",
+    "midMagentaGreen",
+    "midYellowBlue",
+    "shadowCyanRed",
+    "shadowMagentaGreen",
+    "shadowYellowBlue"
+   ]
+  },
+  "ColorOverlayEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "blue",
+    "color",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "opacity",
+    "red"
+   ]
+  },
+  "CurvePoint": {
+   "file": "Compositor/Document/Curves.swift",
+   "fields": [
+    "x",
+    "y"
+   ]
+  },
+  "CurvesSettings": {
+   "file": "Compositor/Document/Curves.swift",
+   "fields": [
+    "isValid"
+   ]
+  },
+  "ExposureSettings": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "exposure",
+    "gamma",
+    "isValid",
+    "normalized",
+    "offset",
+    "table"
+   ]
+  },
+  "FilterLayerSettings": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "fields": [
+    "bloomAmount",
+    "bloomRadius",
+    "isValid",
+    "lens",
+    "progressiveEnd",
+    "progressiveFrom",
+    "progressiveStart",
+    "progressiveTo",
+    "resolvedSharpen",
+    "resolvedTonal",
+    "resolvedVignette",
+    "rgbSplitAngle",
+    "rgbSplitBlur",
+    "rgbSplitCenter",
+    "rgbSplitDistance",
+    "rgbSplitReach",
+    "sharpen",
+    "tonal",
+    "vignette"
+   ]
+  },
+  "GIFFrameGeometry": {
+   "file": "Compositor/Document/GIFAnimation.swift",
+   "fields": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "height",
+    "isValid",
+    "sampling",
+    "tx",
+    "ty",
+    "unitTransform",
+    "width"
+   ]
+  },
+  "GIFFrameReference": {
+   "file": "Compositor/Document/GIFAnimation.swift",
+   "fields": [
+    "index",
+    "sourceIndex"
+   ]
+  },
+  "GradientMapSettings": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "ends",
+    "isValid",
+    "normalized",
+    "scaled",
+    "t",
+    "value"
+   ]
+  },
+  "GrainSettings": {
+   "file": "Compositor/Document/ImageAdjustments.swift",
+   "fields": [
+    "amount",
+    "isValid",
+    "normalized",
+    "roughness",
+    "seed",
+    "size"
+   ]
+  },
+  "HueBand": {
+   "file": "Compositor/Document/HueSaturation.swift",
+   "fields": [
+    "falloffEnd",
+    "falloffStart",
+    "handles",
+    "rangeEnd",
+    "rangeStart"
+   ]
+  },
+  "HueSaturationSettings": {
+   "file": "Compositor/Document/HueSaturation.swift",
+   "fields": [
+    "adjustments",
+    "band",
+    "bands",
+    "hue",
+    "isIdentity",
+    "lightness",
+    "range",
+    "saturation"
+   ]
+  },
+  "InnerGlowEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "blue",
+    "color",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "opacity",
+    "red",
+    "size"
+   ]
+  },
+  "InnerShadowEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "angle",
+    "blue",
+    "blur",
+    "color",
+    "distance",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "offset",
+    "opacity",
+    "red"
+   ]
+  },
+  "LayerAdjustment": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "fields": [
+    "blackWhite",
+    "blackWhiteSettings",
+    "blurRadius",
+    "colorBalance",
+    "colorBalanceSettings",
+    "exposure",
+    "exposureSettings",
+    "filterKind",
+    "filterLayer",
+    "filterLayerSettings",
+    "gaussianRadius",
+    "gradientMap",
+    "gradientMapSettings",
+    "grain",
+    "grainSettings",
+    "hsvSettings",
+    "hue",
+    "isValid",
+    "kind",
+    "lightness",
+    "motionAngle",
+    "motionDistance",
+    "noiseAmount",
+    "noiseGaussian",
+    "noiseMonochromatic",
+    "noiseSeed",
+    "resolvedHSV",
+    "resolvedMotionAngle",
+    "resolvedMotionDistance",
+    "resolvedNoiseAmount",
+    "resolvedNoiseGaussian",
+    "resolvedNoiseMonochromatic",
+    "resolvedNoiseSeed",
+    "samplingMargin",
+    "saturation",
+    "sixteenBitLookup"
+   ]
+  },
+  "LayerEffects": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "colorOverlay",
+    "innerGlow",
+    "innerShadow",
+    "isEmpty",
+    "isValid",
+    "kinds",
+    "outerGlow",
+    "shadow",
+    "stroke",
+    "visible"
+   ]
+  },
+  "LayerShapeStyle": {
+   "file": "Compositor/Document/ShapeTool.swift",
+   "fields": [
+    "blue",
+    "color",
+    "cornerRadius",
+    "end",
+    "green",
+    "kind",
+    "lineCap",
+    "lineStyle",
+    "lineWidth",
+    "red",
+    "smoothing",
+    "start"
+   ]
+  },
+  "LayerTextColorRun": {
+   "file": "Compositor/Document/TypeTool.swift",
+   "fields": [
+    "blue",
+    "green",
+    "length",
+    "location",
+    "red"
+   ]
+  },
+  "LayerTextFontRun": {
+   "file": "Compositor/Document/TypeTool.swift",
+   "fields": [
+    "fontName",
+    "length",
+    "location"
+   ]
+  },
+  "LayerTextStyle": {
+   "file": "Compositor/Document/TypeTool.swift",
+   "fields": [
+    "alignment",
+    "autoLeading",
+    "blue",
+    "boxIsValid",
+    "boxSize",
+    "colorRuns",
+    "fontRuns",
+    "fontSize",
+    "green",
+    "isValid",
+    "leading",
+    "lineHeight",
+    "red",
+    "runs",
+    "tracking"
+   ]
+  },
+  "LayerTransform": {
+   "file": "Compositor/Document/LayerTransform.swift",
+   "fields": [
+    "center",
+    "isValid",
+    "origin",
+    "radians",
+    "rotation",
+    "sampling",
+    "sign",
+    "size",
+    "unitToDocument"
+   ]
+  },
+  "LensEffectSettings": {
+   "file": "Compositor/Document/LensEffects.swift",
+   "fields": [
+    "bokehBrightness",
+    "bokehRadius",
+    "bokehRing",
+    "bokehShape",
+    "effect",
+    "flareAmount",
+    "flareBlue",
+    "flareLength",
+    "isIdentity",
+    "mistSize",
+    "mistStrength",
+    "normalized",
+    "prismAmount",
+    "prismAngle",
+    "prismBlur",
+    "prismCopies",
+    "prismFringe",
+    "prismOffset",
+    "result",
+    "starAmount",
+    "starAngle",
+    "starLength",
+    "threshold"
+   ]
+  },
+  "LevelRange": {
+   "file": "Compositor/Document/Levels.swift",
+   "fields": [
+    "black",
+    "gamma",
+    "normalized",
+    "outputBlack",
+    "outputWhite",
+    "white"
+   ]
+  },
+  "LevelsSettings": {
+   "file": "Compositor/Document/Levels.swift",
+   "fields": [
+    "channel",
+    "current",
+    "isIdentity"
+   ]
+  },
+  "OuterGlowEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "blue",
+    "color",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "opacity",
+    "red",
+    "size"
+   ]
+  },
+  "ProjectGIFDelayRecord": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "duration",
+    "index"
+   ]
+  },
+  "ProjectGIFPixelsRecord": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "imageFile",
+    "index"
+   ]
+  },
+  "ProjectGIFRecord": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "deletedFrameIndices",
+    "frameOrder",
+    "framePixels",
+    "geometry",
+    "selectedFrameIndex",
+    "sourceFile",
+    "timing"
+   ]
+  },
+  "ProjectGIFTimingRecord": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "frameDelays",
+    "frameTiming",
+    "isValid",
+    "mode",
+    "uniformDelay"
+   ]
+  },
+  "ProjectLayerRecord": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "adjustment",
+    "blendMode",
+    "effects",
+    "gif",
+    "id",
+    "imageFile",
+    "isGroup",
+    "isVisible",
+    "maskEnabled",
+    "maskFile",
+    "maskLinked",
+    "maskPlacement",
+    "maskSourceID",
+    "name",
+    "opacity",
+    "parentID",
+    "shape",
+    "text",
+    "transform"
+   ]
+  },
+  "ProjectManifest": {
+   "file": "Compositor/IO/ProjectStore.swift",
+   "fields": [
+    "activeLayerID",
+    "documentID",
+    "guides",
+    "height",
+    "layers",
+    "resolution",
+    "width"
+   ]
+  },
+  "RangeAdjustment": {
+   "file": "Compositor/Document/HueSaturation.swift",
+   "fields": [
+    "hue",
+    "lightness",
+    "saturation"
+   ]
+  },
+  "ShadowEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "angle",
+    "blue",
+    "blur",
+    "color",
+    "distance",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "offset",
+    "opacity",
+    "red"
+   ]
+  },
+  "SharpenLayerSettings": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "fields": [
+    "amount",
+    "radius"
+   ]
+  },
+  "ShortcutChord": {
+   "file": "Compositor/UI/KeyboardShortcuts.swift",
+   "fields": [
+    "cocoaModifiers",
+    "codes",
+    "eventModifiers",
+    "flags",
+    "isNone",
+    "key",
+    "keyboardShortcut",
+    "label",
+    "modifiers"
+   ]
+  },
+  "StrokeEffect": {
+   "file": "Compositor/Document/LayerEffects.swift",
+   "fields": [
+    "blue",
+    "color",
+    "enabled",
+    "green",
+    "isEnabled",
+    "isValid",
+    "opacity",
+    "red",
+    "size"
+   ]
+  },
+  "TonalLayerSettings": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "fields": [
+    "amount",
+    "highlights",
+    "midtones",
+    "radius",
+    "shadows"
+   ]
+  },
+  "VignetteLayerSettings": {
+   "file": "Compositor/Document/LayerAdjustment.swift",
+   "fields": [
+    "amount",
+    "feather",
+    "highlights",
+    "midpoint",
+    "roundness"
+   ]
+  }
+ }
+}

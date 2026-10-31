@@ -423,7 +423,7 @@ struct FilterSheet: View {
         HStack(spacing: 10) {
             Text("Effect")
             Picker("Effect", selection: Binding(get: { settings.lens.effect }, set: { new in update { $0.lens.effect = new } })) {
-                ForEach(LensEffect.allCases, id: \.self) { Text($0.rawValue).tag($0) }
+                ForEach(LensEffect.allCases, id: \.self) { Text($0.displayName).tag($0) }
             }
             .labelsHidden().fixedSize()
         }
@@ -487,7 +487,7 @@ struct FilterSheet: View {
             HStack(spacing: 10) {
                 Text("Shape")
                 Picker("Shape", selection: Binding(get: { settings.lens.bokehShape }, set: { new in update { $0.lens.bokehShape = new } })) {
-                    ForEach(BokehShape.allCases, id: \.self) { Text($0.rawValue).tag($0) }
+                    ForEach(BokehShape.allCases, id: \.self) { Text($0.displayName).tag($0) }
                 }
                 .labelsHidden().fixedSize()
                 .help("The aperture's shape: round wide open, a hexagon of blades, an anamorphic oval, or a cat's eye toward the edges")

@@ -103,7 +103,11 @@ def check(key: str, zh: str, status: str, glossary: dict, findings: Findings,
                        f"译文 {zh_placeholders}")
 
     # E3 术语（termOverrides 里登记过的多义词按 allow 列表放行）
-    terms = glossary.get("terms", {})
+    # E3 术语。blendModes 是一张独立的权威表（Photoshop 简中的 24 个混合模式），
+    # 之前只校验 terms，于是混合模式的译名没有任何闸门看着——既然它们现在直接进界面
+    # （LayerBlendMode.displayName），就一并纳入。
+    terms = dict(glossary.get("blendModes", {}))
+    terms.update(glossary.get("terms", {}))
     overrides = glossary.get("termOverrides", {})
     if english in terms and zh.strip() != terms[english]:
         allowed = overrides.get(english, {}).get("allow", [])

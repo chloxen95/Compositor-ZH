@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T04:06:31+00:00",
+ "generatedAt": "2026-10-31T04:31:55+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-l6aen1nx/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-_bgn55gc/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -61,6 +61,14 @@
      "line": 18
     },
     {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 166
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 167
+    },
+    {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 587
     },
@@ -75,6 +83,15 @@
     {
      "file": "Compositor/UI/HueSaturationSheet.swift",
      "line": 91
+    }
+   ]
+  },
+  {
+   "key": "%@ effect",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1251
     }
    ]
   },
@@ -122,7 +139,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 11
+     "line": 12
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -130,7 +147,7 @@
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 313
+     "line": 332
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -245,7 +262,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 132
+     "line": 151
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -267,6 +284,15 @@
    ]
   },
   {
+   "key": "Add %@",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 273
+    }
+   ]
+  },
+  {
    "key": "Add Light",
    "sites": [
     {
@@ -276,6 +302,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 414
+    }
+   ]
+  },
+  {
+   "key": "Add Noise",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 13
     }
    ]
   },
@@ -349,7 +384,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 406
+     "line": 425
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -362,6 +397,33 @@
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 176
+    }
+   ]
+  },
+  {
+   "key": "Align center",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Align left",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Align right",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 41
     }
    ]
   },
@@ -383,7 +445,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 270
+     "line": 289
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -459,6 +521,15 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Anamorphic Flare",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 6
     }
    ]
   },
@@ -677,6 +748,15 @@
    ]
   },
   {
+   "key": "Black & White",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
    "key": "Black · Hide",
    "sites": [
     {
@@ -724,8 +804,21 @@
    ]
   },
   {
+   "key": "Bloom / Glow",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
    "key": "Blue",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 37
+    },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
@@ -750,6 +843,15 @@
    ]
   },
   {
+   "key": "Blues",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
    "key": "Blur only the colors, keeping the layer's outline and transparency as they are",
    "sites": [
     {
@@ -759,6 +861,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 91
+    }
+   ]
+  },
+  {
+   "key": "Bokeh",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 10
     }
    ]
   },
@@ -845,7 +956,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 154
+     "line": 173
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1074,6 +1185,15 @@
    ]
   },
   {
+   "key": "Cancel %@",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 308
+    }
+   ]
+  },
+  {
    "key": "Canvas Size",
    "sites": [
     {
@@ -1091,7 +1211,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 320
+     "line": 339
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1130,6 +1250,15 @@
     {
      "file": "Compositor/UI/ShapeControls.swift",
      "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Cat's Eye",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 21
     }
    ]
   },
@@ -1188,7 +1317,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 114
+     "line": 115
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1279,7 +1408,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 202
+     "line": 221
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1300,7 +1429,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 79
+     "line": 80
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1313,7 +1442,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 261
+     "line": 280
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1512,6 +1641,15 @@
    ]
   },
   {
+   "key": "Click to select; double-click to edit; Option-drag to copy %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1248
+    }
+   ]
+  },
+  {
    "key": "Clone Stamp",
    "sites": [
     {
@@ -1550,7 +1688,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 105
+     "line": 106
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1588,6 +1726,10 @@
    "key": "Color",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 31
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
     },
@@ -1638,8 +1780,39 @@
    ]
   },
   {
+   "key": "Color Balance",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Color Burn",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Color Dodge",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
    "key": "Color Overlay",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 9
+    },
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 86
@@ -1655,7 +1828,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 291
+     "line": 310
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1762,7 +1935,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 15
+     "line": 16
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1801,7 +1974,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 263
+     "line": 282
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1840,7 +2013,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 300
+     "line": 319
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1866,7 +2039,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 226
+     "line": 245
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1875,11 +2048,20 @@
    ]
   },
   {
+   "key": "Copy %@",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 360
+    }
+   ]
+  },
+  {
    "key": "Copy Merged",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 232
+     "line": 251
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -1931,7 +2113,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 374
+     "line": 393
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2009,11 +2191,20 @@
    ]
   },
   {
+   "key": "Curves",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 9
+    }
+   ]
+  },
+  {
    "key": "Curves…",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 306
+     "line": 325
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2073,11 +2264,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 220
+     "line": 239
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 239
+    }
+   ]
+  },
+  {
+   "key": "Cyans",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 51
     }
    ]
   },
@@ -2103,6 +2303,15 @@
    ]
   },
   {
+   "key": "Darken",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 10
+    }
+   ]
+  },
+  {
    "key": "Darker or lighter before the lines are drawn",
    "sites": [
     {
@@ -2112,6 +2321,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 341
+    }
+   ]
+  },
+  {
+   "key": "Dashed",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 18
     }
    ]
   },
@@ -2151,6 +2369,15 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Delete %@",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 439
     }
    ]
   },
@@ -2269,7 +2496,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 279
+     "line": 298
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2295,6 +2522,15 @@
     {
      "file": "Compositor/UI/RawDevelopSheet.swift",
      "line": 22
+    }
+   ]
+  },
+  {
+   "key": "Difference",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 25
     }
    ]
   },
@@ -2350,7 +2586,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 412
+     "line": 431
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2380,11 +2616,20 @@
    ]
   },
   {
+   "key": "Divide",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 28
+    }
+   ]
+  },
+  {
    "key": "Document Bounds",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 195
+     "line": 214
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2402,6 +2647,15 @@
     {
      "file": "Compositor/UI/TypeControls.swift",
      "line": 92
+    }
+   ]
+  },
+  {
+   "key": "Dotted",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 17
     }
    ]
   },
@@ -2565,6 +2819,10 @@
    "key": "Drop Shadow",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 8
+    },
+    {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 63
     },
@@ -2618,7 +2876,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 371
+     "line": 390
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2661,6 +2919,24 @@
    ]
   },
   {
+   "key": "Edit %@",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 333
+    }
+   ]
+  },
+  {
+   "key": "Edit %@ Adjustment",
+   "sites": [
+    {
+     "file": "Compositor/Document/AdjustmentEditing.swift",
+     "line": 61
+    }
+   ]
+  },
+  {
    "key": "Edit %@.",
    "sites": [
     {
@@ -2678,7 +2954,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 365
+     "line": 384
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2717,6 +2993,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 425
+    }
+   ]
+  },
+  {
+   "key": "Ellipse",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 7
     }
    ]
   },
@@ -2779,6 +3064,10 @@
   {
    "key": "English",
    "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 125
+    },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 125
@@ -2851,11 +3140,20 @@
    ]
   },
   {
+   "key": "Exclusion",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 26
+    }
+   ]
+  },
+  {
    "key": "Expand…",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 298
+     "line": 317
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2881,7 +3179,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 101
+     "line": 102
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2894,7 +3192,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 94
+     "line": 95
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2907,7 +3205,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 97
+     "line": 98
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -2925,6 +3223,15 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 254
+    }
+   ]
+  },
+  {
+   "key": "Exposure",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 10
     }
    ]
   },
@@ -2993,7 +3300,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 302
+     "line": 321
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3032,7 +3339,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 255
+     "line": 274
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3045,7 +3352,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 249
+     "line": 268
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3058,7 +3365,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 340
+     "line": 359
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3209,7 +3516,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 129
+     "line": 148
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3235,7 +3542,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 334
+     "line": 353
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3248,7 +3555,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 336
+     "line": 355
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3282,7 +3589,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 402
+     "line": 421
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3295,7 +3602,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 404
+     "line": 423
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3340,6 +3647,10 @@
   {
    "key": "Follow System",
    "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 124
+    },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 124
@@ -3428,6 +3739,15 @@
    ]
   },
   {
+   "key": "Frame delay",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 59
+    }
+   ]
+  },
+  {
    "key": "Frames",
    "sites": [
     {
@@ -3479,7 +3799,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 158
+     "line": 177
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3497,6 +3817,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 145
+    }
+   ]
+  },
+  {
+   "key": "Gaussian Blur",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 14
     }
    ]
   },
@@ -3527,6 +3856,15 @@
    ]
   },
   {
+   "key": "Gradient Map",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 11
+    }
+   ]
+  },
+  {
    "key": "Grading",
    "sites": [
     {
@@ -3543,6 +3881,10 @@
    "key": "Grain",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 12
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 294
     },
@@ -3555,6 +3897,10 @@
   {
    "key": "Green",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 36
+    },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
@@ -3579,19 +3925,28 @@
    ]
   },
   {
+   "key": "Greens",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
    "key": "Grid",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 176
-    },
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 191
+     "line": 195
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 195
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 210
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3612,7 +3967,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 181
+     "line": 200
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3646,7 +4001,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 380
+     "line": 399
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3672,15 +4027,15 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 178
-    },
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 189
+     "line": 197
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 197
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 208
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3698,6 +4053,24 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 279
+    }
+   ]
+  },
+  {
+   "key": "Hard Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Hard Mix",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 24
     }
    ]
   },
@@ -3799,8 +4172,21 @@
    ]
   },
   {
+   "key": "Hexagon",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
    "key": "Hide %@",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 369
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
@@ -3808,6 +4194,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1234
     }
    ]
   },
@@ -3829,7 +4219,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 209
+     "line": 228
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3842,7 +4232,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 409
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3855,7 +4245,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 210
+     "line": 229
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -3886,6 +4276,15 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 174
+    }
+   ]
+  },
+  {
+   "key": "High quality",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 71
     }
    ]
   },
@@ -3964,6 +4363,15 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 47
+    }
+   ]
+  },
+  {
+   "key": "Horizontal",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 50
     }
    ]
   },
@@ -4322,6 +4730,10 @@
    "key": "Hue",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 29
+    },
+    {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 95
     },
@@ -4371,11 +4783,20 @@
    ]
   },
   {
+   "key": "Hue/Saturation",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
    "key": "Hue/Saturation…",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 310
+     "line": 329
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4388,7 +4809,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 305
+     "line": 324
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4414,7 +4835,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 323
+     "line": 342
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4526,7 +4947,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 83
+     "line": 84
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4542,6 +4963,10 @@
    "key": "Inner Glow",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 12
+    },
+    {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 140
     },
@@ -4554,6 +4979,10 @@
   {
    "key": "Inner Shadow",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 10
+    },
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 100
@@ -4599,7 +5028,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 281
+     "line": 300
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4612,11 +5041,15 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 316
+     "line": 335
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 335
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 16
     },
     {
      "file": "Compositor/UI/ColorRangeSheet.swift",
@@ -4641,7 +5074,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 316
+     "line": 335
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4706,7 +5139,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 247
+     "line": 266
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4717,6 +5150,10 @@
   {
    "key": "Language",
    "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 119
+    },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 119
@@ -4749,7 +5186,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 354
+     "line": 373
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4775,7 +5212,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 371
+     "line": 390
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4788,7 +5225,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 284
+     "line": 303
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4801,7 +5238,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 193
+     "line": 212
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4865,6 +5302,15 @@
    ]
   },
   {
+   "key": "Lens Effects",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 23
+    }
+   ]
+  },
+  {
    "key": "Let the lights glow in the air around the subject, blending them into the background",
    "sites": [
     {
@@ -4878,11 +5324,20 @@
    ]
   },
   {
+   "key": "Levels",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 8
+    }
+   ]
+  },
+  {
    "key": "Levels…",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 308
+     "line": 327
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -4990,6 +5445,15 @@
    ]
   },
   {
+   "key": "Lighten",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
    "key": "Limited to the selection",
    "sites": [
     {
@@ -5007,6 +5471,15 @@
     {
      "file": "Compositor/UI/HueSaturationSheet.swift",
      "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Line",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 8
     }
    ]
   },
@@ -5062,6 +5535,33 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Linear Burn",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Linear Dodge (Add)",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Linear Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 22
     }
    ]
   },
@@ -5135,7 +5635,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 170
+     "line": 189
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5169,7 +5669,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 200
+     "line": 219
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5217,6 +5717,15 @@
    ]
   },
   {
+   "key": "Long Dash",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
    "key": "Loop",
    "sites": [
     {
@@ -5247,6 +5756,24 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 169
+    }
+   ]
+  },
+  {
+   "key": "Luminosity",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 32
+    }
+   ]
+  },
+  {
+   "key": "Magentas",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 53
     }
    ]
   },
@@ -5367,11 +5894,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 293
+     "line": 312
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 312
+    }
+   ]
+  },
+  {
+   "key": "Master",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 47
     }
    ]
   },
@@ -5411,6 +5947,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Mist",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 8
     }
    ]
   },
@@ -5504,11 +6049,20 @@
    ]
   },
   {
+   "key": "Motion Blur",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
    "key": "Move Layer Down",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 396
+     "line": 415
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5521,7 +6075,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 394
+     "line": 413
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5534,7 +6088,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 384
+     "line": 403
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5556,6 +6110,15 @@
    ]
   },
   {
+   "key": "Multiply",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 11
+    }
+   ]
+  },
+  {
    "key": "Navigator",
    "sites": [
     {
@@ -5573,11 +6136,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 145
+     "line": 164
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 164
+    }
+   ]
+  },
+  {
+   "key": "Nearest",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 69
     }
    ]
   },
@@ -5595,11 +6167,20 @@
    ]
   },
   {
+   "key": "New %@ Adjustment",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerAdjustment.swift",
+     "line": 283
+    }
+   ]
+  },
+  {
    "key": "New Adjustment Layer",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 355
+     "line": 374
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5612,7 +6193,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 386
+     "line": 405
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5625,7 +6206,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 61
+     "line": 62
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -5811,6 +6392,15 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Normal",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 9
     }
    ]
   },
@@ -6075,7 +6665,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 66
+     "line": 67
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -6088,7 +6678,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 71
+     "line": 72
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -6204,6 +6794,10 @@
    "key": "Outer Glow",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 11
+    },
+    {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 123
     },
@@ -6223,6 +6817,24 @@
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Oval",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Overlay",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 18
     }
    ]
   },
@@ -6296,7 +6908,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 234
+     "line": 253
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -6383,11 +6995,20 @@
    ]
   },
   {
+   "key": "Pin Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 23
+    }
+   ]
+  },
+  {
    "key": "Pixel Grid (800% and above)",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 146
+     "line": 165
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -6688,6 +7309,15 @@
    ]
   },
   {
+   "key": "Prism",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 9
+    }
+   ]
+  },
+  {
    "key": "Process",
    "sites": [
     {
@@ -6705,11 +7335,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 163
+     "line": 182
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 182
+    }
+   ]
+  },
+  {
+   "key": "Progressive Blur",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 19
     }
    ]
   },
@@ -6744,7 +7383,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 155
+     "line": 174
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -6829,6 +7468,10 @@
    "key": "RGB",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 34
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 380
     },
@@ -6843,6 +7486,15 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 381
+    }
+   ]
+  },
+  {
+   "key": "RGB Split",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 21
     }
    ]
   },
@@ -7009,8 +7661,21 @@
    ]
   },
   {
+   "key": "Rectangle",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 6
+    }
+   ]
+  },
+  {
    "key": "Red",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 35
+    },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
@@ -7052,7 +7717,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 40
+     "line": 41
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7060,7 +7725,7 @@
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 53
+     "line": 54
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7073,11 +7738,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 53
+     "line": 54
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Reds",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 48
     }
    ]
   },
@@ -7100,6 +7774,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 131
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 131
     }
    ]
   },
@@ -7108,11 +7786,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 374
+     "line": 393
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 393
+    }
+   ]
+  },
+  {
+   "key": "Remove %@",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 383
     }
    ]
   },
@@ -7199,7 +7886,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 388
+     "line": 407
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7412,7 +8099,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 330
+     "line": 349
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7425,11 +8112,24 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 332
+     "line": 351
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 351
+    }
+   ]
+  },
+  {
+   "key": "Round",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 18
     }
    ]
   },
@@ -7451,11 +8151,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 183
+     "line": 202
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 202
+    }
+   ]
+  },
+  {
+   "key": "Same for all",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 60
     }
    ]
   },
@@ -7544,6 +8253,15 @@
    ]
   },
   {
+   "key": "Saturation",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
    "key": "Saturation and brightness",
    "sites": [
     {
@@ -7561,7 +8279,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 87
+     "line": 88
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7582,7 +8300,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 89
+     "line": 90
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7617,11 +8335,20 @@
    ]
   },
   {
+   "key": "Screen",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
    "key": "Search Commands…",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 117
+     "line": 136
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7686,7 +8413,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 266
+     "line": 285
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7939,6 +8666,15 @@
    ]
   },
   {
+   "key": "Sharpen",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
    "key": "Sharpening",
    "sites": [
     {
@@ -7982,7 +8718,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 175
+     "line": 194
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -7994,12 +8730,20 @@
    "key": "Show %@",
    "sites": [
     {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 370
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1235
     }
    ]
   },
@@ -8021,7 +8765,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 212
+     "line": 231
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8047,7 +8791,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 409
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8060,7 +8804,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 148
+     "line": 167
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8152,6 +8896,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 126
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 126
     }
    ]
   },
@@ -8223,6 +8971,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 127
+    }
+   ]
+  },
+  {
+   "key": "Smooth",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 70
     }
    ]
   },
@@ -8304,7 +9061,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 186
+     "line": 205
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8317,11 +9074,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 188
+     "line": 207
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 207
+    }
+   ]
+  },
+  {
+   "key": "Soft Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 19
     }
    ]
   },
@@ -8335,6 +9101,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 468
+    }
+   ]
+  },
+  {
+   "key": "Solid",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 16
     }
    ]
   },
@@ -8404,6 +9179,24 @@
    ]
   },
   {
+   "key": "Square",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 27
+    }
+   ]
+  },
+  {
+   "key": "Starburst",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
    "key": "Start of the hue range, in degrees.",
    "sites": [
     {
@@ -8432,6 +9225,10 @@
   {
    "key": "Stroke",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 7
+    },
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 34
@@ -8542,11 +9339,20 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 288
+     "line": 307
     },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 307
+    }
+   ]
+  },
+  {
+   "key": "Subtract",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 27
     }
    ]
   },
@@ -8834,7 +9640,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 123
+     "line": 142
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8860,6 +9666,15 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Tonal Contrast",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 24
     }
    ]
   },
@@ -8941,7 +9756,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 369
+     "line": 388
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -8967,7 +9782,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 369
+     "line": 388
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9032,7 +9847,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 326
+     "line": 345
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9079,7 +9894,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 34
+     "line": 35
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9087,7 +9902,7 @@
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 48
+     "line": 49
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9100,7 +9915,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 48
+     "line": 49
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9113,7 +9928,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 382
+     "line": 401
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9279,8 +10094,21 @@
    ]
   },
   {
+   "key": "Vertical",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 51
+    }
+   ]
+  },
+  {
    "key": "Vignette",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 22
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 276
@@ -9301,6 +10129,15 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 386
+    }
+   ]
+  },
+  {
+   "key": "Vivid Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 21
     }
    ]
   },
@@ -9538,6 +10375,15 @@
    ]
   },
   {
+   "key": "Yellows",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 49
+    }
+   ]
+  },
+  {
    "key": "Zoom",
    "sites": [
     {
@@ -9563,7 +10409,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 135
+     "line": 154
     },
     {
      "file": "Compositor/CompositorApp.swift",
@@ -9576,7 +10422,7 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 140
+     "line": 159
     },
     {
      "file": "Compositor/CompositorApp.swift",

@@ -40,7 +40,7 @@ struct TransformInspector: View {
                 Picker("Sampling", selection: Binding(get: { value.sampling }, set: { sampling in
                     change { $0.sampling = sampling }
                 })) {
-                    ForEach(LayerSampling.allCases, id: \.self) { Text($0.rawValue).tag($0) }
+                    ForEach(LayerSampling.allCases, id: \.self) { Text($0.displayName).tag($0) }
                 }.frame(width: 170)
                 Button { change { $0.flipX.toggle() } } label: {
                     Image(systemName: "arrow.left.and.right.righttriangle.left.righttriangle.right")

@@ -43,17 +43,17 @@ struct LayersPanel: View {
                 Menu {
                     // The Image menu's adjustments, then the Filter menu's filters.
                     ForEach(AdjustmentKind.imageAdjustments, id: \.self) { kind in
-                        Button(kind.rawValue) { session.addAdjustment(kind) }
+                        Button(kind.displayName) { session.addAdjustment(kind) }
                     }
                     Divider()
                     ForEach(AdjustmentKind.filters, id: \.self) { kind in
-                        Button(kind.rawValue) { session.addAdjustment(kind) }
+                        Button(kind.displayName) { session.addAdjustment(kind) }
                     }
                 } label: { Image(systemName: "circle.lefthalf.filled").footerHitArea() }
                     .menuStyle(.borderlessButton).fixedSize().help("New adjustment layer").disabled(!session.layersLookEditable)
                 Menu {
                     ForEach(LayerEffectKind.allCases, id: \.self) { kind in
-                        Button(kind.rawValue + "…") { session.addEffect(kind) }
+                        Button(kind.displayName + "…") { session.addEffect(kind) }
                     }
                 } label: { Image(systemName: "sparkles").footerHitArea() }
                     .menuStyle(.borderlessButton).fixedSize()

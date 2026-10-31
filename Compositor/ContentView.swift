@@ -275,7 +275,7 @@ struct ContentView: View {
         .onChange(of: session.effectsEditing) { _, selection in
             if let selection {
                 effectsPanel.onClose = { session.finishEffectsEditing(commit: false) }
-                effectsPanel.show(title: selection.kind.rawValue, content: EffectsSheet(session: session, kind: selection.kind))
+                effectsPanel.show(title: selection.kind.displayName, content: EffectsSheet(session: session, kind: selection.kind))
             } else { effectsPanel.close() }
         }
         .onChange(of: session.document?.layers) { _, layers in
