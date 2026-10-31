@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T04:31:55+00:00",
+ "generatedAt": "2026-10-31T04:51:49+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-_bgn55gc/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-fpobtqf_/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -66,6 +66,14 @@
     },
     {
      "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 166
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 167
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
      "line": 167
     },
     {
@@ -89,6 +97,10 @@
   {
    "key": "%@ effect",
    "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1251
+    },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1251
@@ -177,6 +189,15 @@
    ]
   },
   {
+   "key": "%lld DPI",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 159
+    }
+   ]
+  },
+  {
    "key": "%lld degrees",
    "sites": [
     {
@@ -245,6 +266,15 @@
    ]
   },
   {
+   "key": "45°",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 393
+    }
+   ]
+  },
+  {
    "key": "A subdivision every %@ pixels.",
    "sites": [
     {
@@ -289,6 +319,10 @@
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 273
+    },
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 273
     }
    ]
   },
@@ -308,6 +342,10 @@
   {
    "key": "Add Noise",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 13
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 13
@@ -406,6 +444,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 40
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 40
     }
    ]
   },
@@ -415,12 +457,20 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 39
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 39
     }
    ]
   },
   {
    "key": "Align right",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 41
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 41
@@ -527,6 +577,10 @@
   {
    "key": "Anamorphic Flare",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 6
+    },
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 6
@@ -753,6 +807,19 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 17
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Black canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 56
     }
    ]
   },
@@ -809,12 +876,20 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 20
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 20
     }
    ]
   },
   {
    "key": "Blue",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 37
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 37
@@ -848,6 +923,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 52
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 52
     }
    ]
   },
@@ -867,6 +946,10 @@
   {
    "key": "Bokeh",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 10
+    },
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 10
@@ -1190,6 +1273,10 @@
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 308
+    },
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 308
     }
    ]
   },
@@ -1259,6 +1346,19 @@
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 21
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 21
+    }
+   ]
+  },
+  {
+   "key": "Centimeters",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 16
     }
    ]
   },
@@ -1511,6 +1611,15 @@
    ]
   },
   {
+   "key": "Click an object to select its outline · Tab for Wand · Shift add · Option subtract · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 352
+    }
+   ]
+  },
+  {
    "key": "Click and drag two points on canvas",
    "sites": [
     {
@@ -1520,6 +1629,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 93
+    }
+   ]
+  },
+  {
+   "key": "Click corners · Click start, double-click or Enter to close · Delete removes corner · Escape cancel",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 357
     }
    ]
   },
@@ -1641,11 +1759,33 @@
    ]
   },
   {
+   "key": "Click to select similar colors · Tab for Object · Shift add · Option subtract · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 353
+    }
+   ]
+  },
+  {
    "key": "Click to select; double-click to edit; Option-drag to copy %@",
    "sites": [
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1248
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1248
+    }
+   ]
+  },
+  {
+   "key": "Click to zoom in · Option-click to zoom out · Drag right or left to zoom smoothly · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 387
     }
    ]
   },
@@ -1730,6 +1870,10 @@
      "line": 31
     },
     {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 31
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
     },
@@ -1785,12 +1929,20 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 18
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 18
     }
    ]
   },
   {
    "key": "Color Burn",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 12
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 12
@@ -1803,12 +1955,20 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 16
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 16
     }
    ]
   },
   {
    "key": "Color Overlay",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 9
+    },
     {
      "file": "Compositor/L10n/Names+Effects.swift",
      "line": 9
@@ -2053,6 +2213,10 @@
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 360
+    },
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 360
     }
    ]
   },
@@ -2143,7 +2307,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 158
+     "line": 174
     }
    ]
   },
@@ -2196,6 +2360,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 9
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 9
     }
    ]
   },
@@ -2229,7 +2397,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 101
+     "line": 117
     }
    ]
   },
@@ -2278,6 +2446,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 51
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 51
     }
    ]
   },
@@ -2308,6 +2480,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 10
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 10
     }
    ]
   },
@@ -2327,6 +2503,10 @@
   {
    "key": "Dashed",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 18
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 18
@@ -2375,6 +2555,10 @@
   {
    "key": "Delete %@",
    "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 439
+    },
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 439
@@ -2531,6 +2715,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 25
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 25
     }
    ]
   },
@@ -2621,6 +2809,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 28
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 28
     }
    ]
   },
@@ -2656,6 +2848,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 17
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 17
     }
    ]
   },
@@ -2686,6 +2882,33 @@
    ]
   },
   {
+   "key": "Drag a rectangle · Shift add · Option subtract · Shift again mid-drag square · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 349
+    }
+   ]
+  },
+  {
+   "key": "Drag a text box · Click text to edit · Drag box handles to resize · ⌘Return finish · Escape cancel",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 373
+    }
+   ]
+  },
+  {
+   "key": "Drag an ellipse · Shift add · Option subtract · Shift again mid-drag circle · Drag inside to move · Delete clears · ⌘D deselect",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 348
+    }
+   ]
+  },
+  {
    "key": "Drag inside the wheel. Angle sets hue, distance sets saturation.",
    "sites": [
     {
@@ -2712,6 +2935,87 @@
    ]
   },
   {
+   "key": "Drag over blemishes to heal · [ ] size · Shift-[ ] hardness · Escape cancel · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 371
+    }
+   ]
+  },
+  {
+   "key": "Drag to crop · Enter apply · Escape cancel · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 379
+    }
+   ]
+  },
+  {
+   "key": "Drag to draw a shape on a new layer · Shift %@ · Option from center · Shift-U or Tab for the next shape · Escape cancel · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 375
+    }
+   ]
+  },
+  {
+   "key": "Drag to draw · Drag ends to adjust · Shift 45° · 1–0 opacity · Enter apply · Escape cancel",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 377
+    }
+   ]
+  },
+  {
+   "key": "Drag to erase · [ ] size · Shift-[ ] hardness · 1–0 opacity · Escape cancel · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 360
+    }
+   ]
+  },
+  {
+   "key": "Drag to move · Handles to resize · Circle to rotate · 1–0 layer opacity · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 381
+    }
+   ]
+  },
+  {
+   "key": "Drag to paint · [ ] size · Shift-[ ] hardness · 1–0 opacity · Escape cancel · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 361
+    }
+   ]
+  },
+  {
+   "key": "Drag to pan · Pinch to zoom",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 383
+    }
+   ]
+  },
+  {
+   "key": "Drag to push pixels · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 367
+    }
+   ]
+  },
+  {
    "key": "Drag to resize the panel",
    "sites": [
     {
@@ -2720,7 +3024,16 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 383
+     "line": 440
+    }
+   ]
+  },
+  {
+   "key": "Drag to select · Drag inside to move · Shift add · Option subtract · Delete clears · ⌥⌫/⌘⌫ fill · ⌘D deselect",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 356
     }
    ]
   },
@@ -2734,6 +3047,24 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 534
+    }
+   ]
+  },
+  {
+   "key": "Drag to smudge · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 366
+    }
+   ]
+  },
+  {
+   "key": "Drag to soften · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 364
     }
    ]
   },
@@ -2818,6 +3149,10 @@
   {
    "key": "Drop Shadow",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 8
+    },
     {
      "file": "Compositor/L10n/Names+Effects.swift",
      "line": 8
@@ -2924,12 +3259,20 @@
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 333
+    },
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 333
     }
    ]
   },
   {
    "key": "Edit %@ Adjustment",
    "sites": [
+    {
+     "file": "Compositor/Document/AdjustmentEditing.swift",
+     "line": 61
+    },
     {
      "file": "Compositor/Document/AdjustmentEditing.swift",
      "line": 61
@@ -2999,6 +3342,10 @@
   {
    "key": "Ellipse",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 7
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 7
@@ -3096,7 +3443,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 151
+     "line": 167
     }
    ]
   },
@@ -3122,7 +3469,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 150
+     "line": 166
     }
    ]
   },
@@ -3142,6 +3489,10 @@
   {
    "key": "Exclusion",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 26
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 26
@@ -3229,6 +3580,10 @@
   {
    "key": "Exposure",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 10
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 10
@@ -3744,6 +4099,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 59
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 59
     }
    ]
   },
@@ -3826,6 +4185,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 14
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 14
     }
    ]
   },
@@ -3861,6 +4224,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 11
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 11
     }
    ]
   },
@@ -3885,6 +4252,10 @@
      "line": 12
     },
     {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 12
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 294
     },
@@ -3897,6 +4268,10 @@
   {
    "key": "Green",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 36
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 36
@@ -3927,6 +4302,10 @@
   {
    "key": "Greens",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 50
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 50
@@ -4062,12 +4441,20 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 20
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 20
     }
    ]
   },
   {
    "key": "Hard Mix",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 24
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 24
@@ -4129,6 +4516,10 @@
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 124
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 143
     }
    ]
   },
@@ -4177,6 +4568,10 @@
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 19
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 19
     }
    ]
   },
@@ -4188,12 +4583,20 @@
      "line": 369
     },
     {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 369
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1234
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -4285,6 +4688,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 71
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 71
     }
    ]
   },
@@ -4369,6 +4776,10 @@
   {
    "key": "Horizontal",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 50
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 50
@@ -4734,6 +5145,10 @@
      "line": 29
     },
     {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 29
+    },
+    {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 95
     },
@@ -4785,6 +5200,10 @@
   {
    "key": "Hue/Saturation",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 7
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 7
@@ -4865,7 +5284,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 156
+     "line": 172
     },
     {
      "file": "Compositor/UI/RawDevelopSheet.swift",
@@ -4925,7 +5344,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 355
+     "line": 412
     }
    ]
   },
@@ -4960,8 +5379,21 @@
    "sites": []
   },
   {
+   "key": "Inches",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
    "key": "Inner Glow",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 12
+    },
     {
      "file": "Compositor/L10n/Names+Effects.swift",
      "line": 12
@@ -4979,6 +5411,10 @@
   {
    "key": "Inner Shadow",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 10
+    },
     {
      "file": "Compositor/L10n/Names+Effects.swift",
      "line": 10
@@ -5046,6 +5482,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 335
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 16
     },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
@@ -5307,6 +5747,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 23
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 23
     }
    ]
   },
@@ -5326,6 +5770,10 @@
   {
    "key": "Levels",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 8
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 8
@@ -5450,6 +5898,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 14
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 14
     }
    ]
   },
@@ -5477,6 +5929,10 @@
   {
    "key": "Line",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 8
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 8
@@ -5544,6 +6000,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 13
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 13
     }
    ]
   },
@@ -5553,12 +6013,20 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 17
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 17
     }
    ]
   },
   {
    "key": "Linear Light",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 22
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 22
@@ -5722,6 +6190,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 19
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 19
     }
    ]
   },
@@ -5765,12 +6237,20 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 32
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 32
     }
    ]
   },
   {
    "key": "Magentas",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 53
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 53
@@ -5908,6 +6388,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 47
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 47
     }
    ]
   },
@@ -5951,8 +6435,21 @@
    ]
   },
   {
+   "key": "Millimeters",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
    "key": "Mist",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 8
+    },
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 8
@@ -6054,6 +6551,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 15
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 15
     }
    ]
   },
@@ -6115,6 +6616,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 11
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 11
     }
    ]
   },
@@ -6150,6 +6655,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 69
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 69
     }
    ]
   },
@@ -6169,6 +6678,10 @@
   {
    "key": "New %@ Adjustment",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerAdjustment.swift",
+     "line": 283
+    },
     {
      "file": "Compositor/Document/LayerAdjustment.swift",
      "line": 283
@@ -6270,7 +6783,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 96
+     "line": 112
     }
    ]
   },
@@ -6383,6 +6896,15 @@
    ]
   },
   {
+   "key": "No tool selected · Press a tool's key to pick one · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 385
+    }
+   ]
+  },
+  {
    "key": "Noise Reduction",
    "sites": [
     {
@@ -6398,6 +6920,10 @@
   {
    "key": "Normal",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 9
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 9
@@ -6708,7 +7234,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 155
+     "line": 171
     }
    ]
   },
@@ -6735,6 +7261,15 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 139
+    }
+   ]
+  },
+  {
+   "key": "Option-click to set the source · Drag to clone · [ ] size · Shift-[ ] hardness · 1–0 opacity · Space to pan",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 369
     }
    ]
   },
@@ -6798,6 +7333,10 @@
      "line": 11
     },
     {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 11
+    },
+    {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 123
     },
@@ -6826,12 +7365,20 @@
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 20
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 20
     }
    ]
   },
   {
    "key": "Overlay",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 18
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 18
@@ -7000,6 +7547,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 23
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 23
     }
    ]
   },
@@ -7026,6 +7577,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 308
+    }
+   ]
+  },
+  {
+   "key": "Pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 14
     }
    ]
   },
@@ -7176,7 +7736,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 121
+     "line": 137
     }
    ]
   },
@@ -7189,7 +7749,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 120
+     "line": 136
     }
    ]
   },
@@ -7314,6 +7874,10 @@
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 9
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 9
     }
    ]
   },
@@ -7346,6 +7910,10 @@
   {
    "key": "Progressive Blur",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 19
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 19
@@ -7472,6 +8040,10 @@
      "line": 34
     },
     {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 34
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 380
     },
@@ -7492,6 +8064,10 @@
   {
    "key": "RGB Split",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 21
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 21
@@ -7656,7 +8232,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 348
+     "line": 405
     }
    ]
   },
@@ -7666,12 +8242,20 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 6
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 6
     }
    ]
   },
   {
    "key": "Red",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 35
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 35
@@ -7752,6 +8336,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 48
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 48
     }
    ]
   },
@@ -7797,6 +8385,10 @@
   {
    "key": "Remove %@",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 383
+    },
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 383
@@ -8036,6 +8628,19 @@
    ]
   },
   {
+   "key": "Resolution: 72 for screens, 300 for print. Click to switch.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 92
+    }
+   ]
+  },
+  {
+   "key": "Resolution: 72 for screens, 300 for print. Click to switch. · %1$lld DPI: %2$lld × %3$lld pixels",
+   "sites": []
+  },
+  {
    "key": "Restore Defaults",
    "sites": [
     {
@@ -8128,6 +8733,14 @@
      "line": 28
     },
     {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 18
+    },
+    {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 18
     }
@@ -8162,6 +8775,10 @@
   {
    "key": "Same for all",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 60
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 60
@@ -8258,6 +8875,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 30
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 30
     }
    ]
   },
@@ -8309,6 +8930,15 @@
    ]
   },
   {
+   "key": "Scale",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 31
+    }
+   ]
+  },
+  {
    "key": "Scale the export: the document stays as it is",
    "sites": [
     {
@@ -8337,6 +8967,10 @@
   {
    "key": "Screen",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 15
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 15
@@ -8671,6 +9305,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 25
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 25
     }
    ]
   },
@@ -8734,12 +9372,20 @@
      "line": 370
     },
     {
+     "file": "Compositor/Document/LayerEffects.swift",
+     "line": 370
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 324
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1235
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -8936,7 +9582,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 100
+     "line": 116
     },
     {
      "file": "Compositor/UI/TypeControls.swift",
@@ -8977,6 +9623,10 @@
   {
    "key": "Smooth",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 70
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 70
@@ -9088,6 +9738,10 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 19
+    },
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 19
     }
    ]
   },
@@ -9107,6 +9761,10 @@
   {
    "key": "Solid",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 16
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 16
@@ -9184,12 +9842,20 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 27
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 27
     }
    ]
   },
   {
    "key": "Starburst",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Lens.swift",
+     "line": 7
+    },
     {
      "file": "Compositor/L10n/Names+Lens.swift",
      "line": 7
@@ -9210,6 +9876,15 @@
    ]
   },
   {
+   "key": "Start see-through, or with a white or black Background layer. Click to switch.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 147
+    }
+   ]
+  },
+  {
    "key": "Strength",
    "sites": [
     {
@@ -9225,6 +9900,10 @@
   {
    "key": "Stroke",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Effects.swift",
+     "line": 7
+    },
     {
      "file": "Compositor/L10n/Names+Effects.swift",
      "line": 7
@@ -9350,6 +10029,10 @@
   {
    "key": "Subtract",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 27
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 27
@@ -9675,6 +10358,10 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 24
+    },
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 24
     }
    ]
   },
@@ -9813,6 +10500,15 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 244
+    }
+   ]
+  },
+  {
+   "key": "Transparent canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 54
     }
    ]
   },
@@ -9971,6 +10667,15 @@
    ]
   },
   {
+   "key": "Units: pixels, inches, centimeters or millimeters. Click to switch.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 152
+    }
+   ]
+  },
+  {
    "key": "Unsaved changes",
    "sites": [
     {
@@ -9980,6 +10685,32 @@
     {
      "file": "Compositor/UI/ProjectTabs.swift",
      "line": 348
+    }
+   ]
+  },
+  {
+   "key": "Untitled",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 206
+    },
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 44
+    }
+   ]
+  },
+  {
+   "key": "Untitled %lld",
+   "sites": [
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 47
     }
    ]
   },
@@ -10099,12 +10830,20 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 51
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 51
     }
    ]
   },
   {
    "key": "Vignette",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 22
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 22
@@ -10135,6 +10874,10 @@
   {
    "key": "Vivid Light",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Blend.swift",
+     "line": 21
+    },
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 21
@@ -10241,6 +10984,15 @@
    ]
   },
   {
+   "key": "White canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
    "key": "White · Reveal",
    "sites": [
     {
@@ -10295,6 +11047,10 @@
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 117
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 141
     },
     {
      "file": "Compositor/UI/ShapeControls.swift",
@@ -10362,7 +11118,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 352
+     "line": 409
     },
     {
      "file": "Compositor/UI/FilterSheet.swift",
@@ -10377,6 +11133,10 @@
   {
    "key": "Yellows",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Adjustment.swift",
+     "line": 49
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 49
@@ -10509,6 +11269,15 @@
    ]
   },
   {
+   "key": "circle",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 395
+    }
+   ]
+  },
+  {
    "key": "pixels",
    "sites": [
     {
@@ -10569,7 +11338,16 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 347
+     "line": 404
+    }
+   ]
+  },
+  {
+   "key": "square",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 394
     }
    ]
   },
@@ -10582,15 +11360,15 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 135
-    },
-    {
-     "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 140
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 140
+     "line": 151
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 156
     }
    ]
   },

@@ -86,6 +86,9 @@
     "%lld": {
       "shouldTranslate": false
     },
+    "%lld DPI": {
+      "shouldTranslate": false
+    },
     "%lld degrees": {
       "localizations": {
         "zh-Hans": {
@@ -111,6 +114,9 @@
           }
         }
       }
+    },
+    "45°": {
+      "shouldTranslate": false
     },
     "A subdivision every %@ pixels.": {
       "localizations": {
@@ -472,6 +478,16 @@
         }
       }
     },
+    "Black canvas": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "黑色画布"
+          }
+        }
+      }
+    },
     "Black · Hide": {
       "localizations": {
         "zh-Hans": {
@@ -711,6 +727,16 @@
         }
       }
     },
+    "Centimeters": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "厘米"
+          }
+        }
+      }
+    },
     "Channel": {
       "localizations": {
         "zh-Hans": {
@@ -871,12 +897,32 @@
         }
       }
     },
+    "Click an object to select its outline · Tab for Wand · Shift add · Option subtract · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点按对象以选取其轮廓 · Tab 切换到魔棒 · Shift 加选 · Option 减选 · 在框内拖移可移动 · ⌘-拖移移动像素 · Delete 清除 · ⌘D 取消选择"
+          }
+        }
+      }
+    },
     "Click and drag two points on canvas": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "在画布上点按并拖出两个点"
+          }
+        }
+      }
+    },
+    "Click corners · Click start, double-click or Enter to close · Delete removes corner · Escape cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点按添加角点 · 点按起点、双击或按 Enter 闭合 · Delete 删除角点 · Escape 取消"
           }
         }
       }
@@ -971,12 +1017,32 @@
         }
       }
     },
+    "Click to select similar colors · Tab for Object · Shift add · Option subtract · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点按以选取相近颜色 · Tab 切换到对象 · Shift 加选 · Option 减选 · 在框内拖移可移动 · ⌘-拖移移动像素 · Delete 清除 · ⌘D 取消选择"
+          }
+        }
+      }
+    },
     "Click to select; double-click to edit; Option-drag to copy %@": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "点按可选中；双击可编辑；按住 Option 拖移可拷贝%@"
+          }
+        }
+      }
+    },
+    "Click to zoom in · Option-click to zoom out · Drag right or left to zoom smoothly · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点按放大 · Option-点按缩小 · 向左或向右拖移可平滑缩放 · 空格平移"
           }
         }
       }
@@ -1704,6 +1770,36 @@
         }
       }
     },
+    "Drag a rectangle · Shift add · Option subtract · Shift again mid-drag square · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移绘制矩形 · Shift 加选 · Option 减选 · 拖动中再按 Shift 为正方形 · 在框内拖移可移动 · ⌘-拖移移动像素 · Delete 清除 · ⌘D 取消选择"
+          }
+        }
+      }
+    },
+    "Drag a text box · Click text to edit · Drag box handles to resize · ⌘Return finish · Escape cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移绘制文本框 · 点按文字可编辑 · 拖动框柄可缩放 · ⌘Return 完成 · Escape 取消"
+          }
+        }
+      }
+    },
+    "Drag an ellipse · Shift add · Option subtract · Shift again mid-drag circle · Drag inside to move · Delete clears · ⌘D deselect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移绘制椭圆 · Shift 加选 · Option 减选 · 拖动中再按 Shift 为正圆 · 在框内拖移可移动 · Delete 清除 · ⌘D 取消选择"
+          }
+        }
+      }
+    },
     "Drag inside the wheel. Angle sets hue, distance sets saturation.": {
       "localizations": {
         "zh-Hans": {
@@ -1724,6 +1820,96 @@
         }
       }
     },
+    "Drag over blemishes to heal · [ ] size · Shift-[ ] hardness · Escape cancel · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在瑕疵上拖移以修复 · [ ] 大小 · Shift-[ ] 硬度 · Escape 取消 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to crop · Enter apply · Escape cancel · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移裁剪 · Enter 应用 · Escape 取消 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to draw a shape on a new layer · Shift %@ · Option from center · Shift-U or Tab for the next shape · Escape cancel · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移在当前图层绘制形状 · Shift 约束为 %@ · Option 从中心绘制 · Shift-U 或 Tab 切换下一个形状 · Escape 取消 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to draw · Drag ends to adjust · Shift 45° · 1–0 opacity · Enter apply · Escape cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移绘制 · 拖动端点可调整 · Shift 约束 45° · 1–0 不透明度 · Enter 应用 · Escape 取消"
+          }
+        }
+      }
+    },
+    "Drag to erase · [ ] size · Shift-[ ] hardness · 1–0 opacity · Escape cancel · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移擦除 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 不透明度 · Escape 取消 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to move · Handles to resize · Circle to rotate · 1–0 layer opacity · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移移动 · 拖动手柄缩放 · 圆形手柄旋转 · 1–0 图层不透明度 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to paint · [ ] size · Shift-[ ] hardness · 1–0 opacity · Escape cancel · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移绘制 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 不透明度 · Escape 取消 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to pan · Pinch to zoom": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移平移 · 双指缩放"
+          }
+        }
+      }
+    },
+    "Drag to push pixels · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移推移像素 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 强度 · 空格平移"
+          }
+        }
+      }
+    },
     "Drag to resize the panel": {
       "localizations": {
         "zh-Hans": {
@@ -1734,12 +1920,42 @@
         }
       }
     },
+    "Drag to select · Drag inside to move · Shift add · Option subtract · Delete clears · ⌥⌫/⌘⌫ fill · ⌘D deselect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移以选取 · 在框内拖移可移动 · Shift 加选 · Option 减选 · Delete 清除 · ⌥⌫/⌘⌫ 填充 · ⌘D 取消选择"
+          }
+        }
+      }
+    },
     "Drag to set hue and saturation. Double-click to reset this wheel.": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "拖移可调整色相与饱和度；双击可重置该色轮。"
+          }
+        }
+      }
+    },
+    "Drag to smudge · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移涂抹 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 强度 · 空格平移"
+          }
+        }
+      }
+    },
+    "Drag to soften · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖移柔化 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 强度 · 空格平移"
           }
         }
       }
@@ -3377,6 +3593,16 @@
         }
       }
     },
+    "Inches": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "英寸"
+          }
+        }
+      }
+    },
     "Inner Glow": {
       "localizations": {
         "zh-Hans": {
@@ -4097,6 +4323,16 @@
         }
       }
     },
+    "Millimeters": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "毫米"
+          }
+        }
+      }
+    },
     "Mist": {
       "localizations": {
         "zh-Hans": {
@@ -4427,6 +4663,16 @@
         }
       }
     },
+    "No tool selected · Press a tool's key to pick one · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未选择工具 · 按工具的字母键选择 · 空格平移"
+          }
+        }
+      }
+    },
     "Noise Reduction": {
       "localizations": {
         "zh-Hans": {
@@ -4583,6 +4829,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "按住 Option 点按可指定源点"
+          }
+        }
+      }
+    },
+    "Option-click to set the source · Drag to clone · [ ] size · Shift-[ ] hardness · 1–0 opacity · Space to pan": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按住 Option 点按以设定源点 · 拖移仿制 · [ ] 大小 · Shift-[ ] 硬度 · 1–0 不透明度 · 空格平移"
           }
         }
       }
@@ -4813,6 +5069,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "像素形状"
+          }
+        }
+      }
+    },
+    "Pixels": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "像素"
           }
         }
       }
@@ -5510,6 +5776,26 @@
         }
       }
     },
+    "Resolution: 72 for screens, 300 for print. Click to switch.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "72 用于屏幕，300 用于印刷。点按可切换。"
+          }
+        }
+      }
+    },
+    "Resolution: 72 for screens, 300 for print. Click to switch. · %1$lld DPI: %2$lld × %3$lld pixels": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "72 用于屏幕，300 用于印刷。点按可切换。· 在 %1$lld DPI 下为 %2$lld × %3$lld 像素"
+          }
+        }
+      }
+    },
     "Restore Defaults": {
       "localizations": {
         "zh-Hans": {
@@ -5686,6 +5972,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "存储为…"
+          }
+        }
+      }
+    },
+    "Scale": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缩放"
           }
         }
       }
@@ -6300,6 +6596,16 @@
         }
       }
     },
+    "Start see-through, or with a white or black Background layer. Click to switch.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以透明开始，或使用白色／黑色背景图层。点按可切换。"
+          }
+        }
+      }
+    },
     "Strength": {
       "localizations": {
         "zh-Hans": {
@@ -6690,6 +6996,16 @@
         }
       }
     },
+    "Transparent canvas": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "透明画布"
+          }
+        }
+      }
+    },
     "Trim": {
       "localizations": {
         "zh-Hans": {
@@ -6790,12 +7106,42 @@
         }
       }
     },
+    "Units: pixels, inches, centimeters or millimeters. Click to switch.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单位：像素、英寸、厘米或毫米。点按可切换。"
+          }
+        }
+      }
+    },
     "Unsaved changes": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "未存储的更改"
+          }
+        }
+      }
+    },
+    "Untitled": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未命名"
+          }
+        }
+      }
+    },
+    "Untitled %lld": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未命名 %lld"
           }
         }
       }
@@ -6990,6 +7336,16 @@
         }
       }
     },
+    "White canvas": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "白色画布"
+          }
+        }
+      }
+    },
     "White · Reveal": {
       "localizations": {
         "zh-Hans": {
@@ -7150,6 +7506,16 @@
         }
       }
     },
+    "circle": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "圆形"
+          }
+        }
+      }
+    },
     "pixels": {
       "localizations": {
         "zh-Hans": {
@@ -7182,6 +7548,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "sRGB · 透明"
+          }
+        }
+      }
+    },
+    "square": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正方形"
           }
         }
       }

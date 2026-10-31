@@ -30,7 +30,7 @@ final class ProjectWorkspace {
             && s.gradientEdit == nil && s.pixelMove == nil && s.colorPicker == nil
     }
     init() {
-        let first = ProjectTab(name: "Untitled")
+        let first = ProjectTab(name: String(localized: "Untitled"))
         defer { attach(first) }
         first.session.skipsInitialClipboardCanvasSize = true
         tabs = [first]; selectedID = first.id
@@ -38,10 +38,13 @@ final class ProjectWorkspace {
     }
     /// A new tab's name: "Untitled" if no tab shows it, otherwise the lowest "Untitled N" free, as Finder and Safari
     /// number them. Counting up for ever, closing the last tab made Untitled 2, then 3, and on.
+    /// The name is a label, not a filename — the save panel's suggestion stays ASCII — so it is translated, and the
+    /// numbering is done on the translated string so a Chinese tab reads 未命名, 未命名 2.
     private var freeUntitledName: String {
+        let base = String(localized: "Untitled")
         let taken = Set(tabs.map(\.title))
-        guard taken.contains("Untitled") else { return "Untitled" }
-        return (2...).lazy.map { "Untitled \($0)" }.first { !taken.contains($0) }!
+        guard taken.contains(base) else { return base }
+        return (2...).lazy.map { String(localized: "Untitled \($0)") }.first { !taken.contains($0) }!
     }
     /// Whether a tab can close: not the only one while it's empty, the blank start it would only be replaced with.
     func canClose(_ tab: ProjectTab) -> Bool {

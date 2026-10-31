@@ -6,8 +6,10 @@ import ImageIO
 nonisolated enum NewCanvasUnit: String, CaseIterable, Sendable {
     case pixels = "px", inches = "in", centimeters = "cm", millimeters = "mm"
 
-    /// The unit written out, for the summary line's pill.
-    var name: String {
+    /// The unit written out, for the summary line's pill. A `LocalizedStringKey` rather than a `String`: the pill
+    /// draws it with `Text(title)`, and `Text` only looks a key up when the argument is a key. Handed a `String`,
+    /// it draws verbatim, so "Pixels" stayed English in a Chinese interface.
+    var name: LocalizedStringKey {
         switch self {
         case .pixels: "Pixels"
         case .inches: "Inches"
@@ -44,7 +46,16 @@ nonisolated enum NewCanvasUnit: String, CaseIterable, Sendable {
 /// What a new canvas starts as: see-through, or a Background layer of white or black.
 nonisolated enum NewCanvasBackground: String, CaseIterable, Sendable {
     case transparent, white, black
-    var title: String { "\(rawValue.capitalized) canvas" }
+    /// Whole phrases, not `"\(rawValue.capitalized) canvas"`: building the sentence at run time made a `String`,
+    /// which `Text` draws verbatim, and it also put the enum's raw value in the middle of a sentence where no
+    /// translator can move it.
+    var title: LocalizedStringKey {
+        switch self {
+        case .transparent: "Transparent canvas"
+        case .white: "White canvas"
+        case .black: "Black canvas"
+        }
+    }
     var next: NewCanvasBackground { Self.allCases[(Self.allCases.firstIndex(of: self)! + 1) % Self.allCases.count] }
     var color: CGColor? {
         switch self {
@@ -72,9 +83,14 @@ struct NewCanvasSheet: View {
     private var pixelWidth: Int? { unit.pixels(width, resolution: resolution) }
     private var pixelHeight: Int? { unit.pixels(height, resolution: resolution) }
     private var valid: Bool { pixelWidth != nil && pixelHeight != nil }
-    private var resolutionHelp: String {
-        let size = unit != .pixels ? pixelWidth.flatMap { w in pixelHeight.map { h in " · \(Int(resolution)) DPI: \(w) × \(h) pixels" } } : nil
-        return "Resolution: 72 for screens, 300 for print. Click to switch." + (size ?? "")
+    /// The hover text for the DPI pill. Two whole sentences rather than one sentence plus a tail glued on: the
+    /// tail was a `String`, so no translator ever saw it.
+    private var resolutionHelp: LocalizedStringKey {
+        if unit != .pixels, let w = pixelWidth, let h = pixelHeight {
+            "Resolution: 72 for screens, 300 for print. Click to switch. · \(Int(resolution)) DPI: \(w) × \(h) pixels"
+        } else {
+            "Resolution: 72 for screens, 300 for print. Click to switch."
+        }
     }
     /// Shows the sizes in another unit, the same canvas written differently.
     private func switchUnit(to new: NewCanvasUnit) {
@@ -122,9 +138,9 @@ struct NewCanvasSheet: View {
                 }
             }
             HStack(spacing: 16) {
-                dimension("Width", text: $width, field: .width)
+                dimension("Width", field: .width, text: $width)
                 Image(systemName: "multiply").foregroundStyle(.tertiary).padding(.top, 20)
-                dimension("Height", text: $height, field: .height)
+                dimension("Height", field: .height, text: $height)
             }
             // The settings are pills, each changed the same way: click to step to the next choice.
             HStack(spacing: 4) {
@@ -200,13 +216,15 @@ struct NewCanvasSheet: View {
         }
         return nil
     }
-    private func dimension(_ title: String, text: Binding<String>, field: Field) -> some View {
+    /// `title` is a key, not a `String`: it labels the field and prompts the text box, and both are drawn, so a
+    /// `String` here is the difference between 宽度 and Width.
+    private func dimension(_ title: LocalizedStringKey, field: Field, text: Binding<String>) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title).font(.callout.weight(.medium))
             HStack {
                 TextField(title, text: text).textFieldStyle(.plain)
                     .focused($focusedField, equals: field)
-                    .accessibilityIdentifier(title.lowercased() + "Input")
+                    .accessibilityIdentifier(field == .width ? "widthInput" : "heightInput")
                 Text(unit.rawValue).foregroundStyle(.secondary)
             }
             .padding(12).background(.quaternary.opacity(0.5), in: RoundedRectangle(cornerRadius: 7))
@@ -215,12 +233,13 @@ struct NewCanvasSheet: View {
 }
 
 /// A setting that steps through its few values when clicked, shown as plain text that gains a soft pill on hover.
+/// Both strings are keys: the pill is drawn and the hover text is shown, so `String` here would draw verbatim.
 private struct CyclePill: View {
-    let title: String
-    let help: String
+    let title: LocalizedStringKey
+    let help: LocalizedStringKey
     let action: () -> Void
     @State private var hovering = false
-    init(_ title: String, help: String, action: @escaping () -> Void) { self.title = title; self.help = help; self.action = action }
+    init(_ title: LocalizedStringKey, help: LocalizedStringKey, action: @escaping () -> Void) { self.title = title; self.help = help; self.action = action }
     var body: some View {
         Button(action: action) {
             Text(title).foregroundStyle(.secondary).monospacedDigit()

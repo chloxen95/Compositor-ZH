@@ -204,7 +204,7 @@ python3 scripts/l10n/make_catalog.py            # ③ TM → Localizable.xcstrin
 
 ### 闸门会拦什么
 
-`lint.py` 现在对 731 条键是 0 ERROR / 0 WARN。它拦的是：
+`lint.py` 现在对 770 条键是 0 ERROR / 0 WARN。它拦的是：
 
 - **E1 覆盖率**：有 key 没译文（上游加了新句子时必然触发）；
 - **E2 占位符**：`%@`、`%lld`、`%1$lld` 的数量或位置对不上——这条最要命，
@@ -342,16 +342,39 @@ xcodebuild test -project Compositor.xcodeproj -scheme Compositor -destination 'p
 前五条都能在命令行跑，退出码即结论。第六条只能在 Xcode 图形界面里跑，
 因为注入测试包要靠 `DYLD_INSERT_LIBRARIES`，而受限会话的环境策略会把它丢掉。
 
-### 截图验证在本会话也不可用
+### 截图验证：现在可用（2026-10-31 起）
 
-`screencapture` 报 `could not create image from display`（没有「屏幕录制」权限），
-`System Events` 取菜单报权限违例。所以界面是否真的变中文，本会话用两条**可复跑**的证据代替：
+`screencapture` 已可用（`CGPreflightScreenCaptureAccess() == true`）。
+`System Events` 仍然权限违例（`AXIsProcessTrusted() == false`），所以**能看不能点**：
+菜单、弹出面板这类需要点击才露出的界面拿不到视觉证据。
 
 ```bash
-APP=~/Library/Caches/CompositorZH/Build/Products/Release/Compositor.app
-plutil -convert json -o - "$APP/Contents/Resources/zh-Hans.lproj/Localizable.strings" | head
+screencapture -x -o -l<窗口id> win.png   # 按窗口抓，不受遮挡、原生 2x
 ```
 
-资源表里 632 条译文齐备（`shouldTranslate: false` 的 17 条按设计不出现），
-且 App 以中文偏好启动后进程稳定存活。肉眼看一眼仍然值得做一次。
+窗口 id 用 `CGWindowListCopyWindowInfo` 取（不需要辅助功能）。
+注意 `sips --cropOffset` 是相对**居中**裁剪原点，裁剪坐标不可靠，要用 `CGImage.cropping` 精确裁。
+
+**验证另一种语言**：`open --args -AppleLanguages "(en)"` 对沙盒 App **无效**（对普通可执行文件有效）。
+可靠做法是拷一份 bundle、删掉 `zh-Hans.lproj`、`codesign --force --deep --sign -` 重签后启动。
+
+### 一条必须记住的规则：`String` 形参 = verbatim
+
+Xcode 只抽取两条路径上的文案：`LocalizedStringKey`（含 `Text("…")` 字面量）与
+`String(localized:)`。凡是形参声明成 `String` 的入口，字面量传进去就**既不进翻译表、
+也不会被任何闸门发现**，而且英文界面下看起来完全正常。
+
+| 陷阱 | 例子 | 后果 |
+|---|---|---|
+| 形参 `String` | `dimension(_ title: String)` → `Text(title)` | 表里有「宽度」，界面仍显示 Width |
+| `switch` 返回 `String` | `"\(rawValue.capitalized) canvas"` | 整句英文，且语序不可译 |
+| **链里有一处 `+`** | `("Drag to paint") + " · [ ] size…"` | **整条三元表达式统一成 `String`，20 多句一起失效** |
+| AppKit 赋值 | `alert.messageText = "…"`、`panel.title = "…"`、`toolTip = "…"` | 对话框、面板标题、hover 提示全英文 |
+
+所以：**写界面文案时，类型就是契约**。拿不准就写整句字面量交给 `Text`，或用
+`String(localized:)` 显式取。不要拼接、不要先拼成 `String` 再传。
+
+这条闸门查不出来——覆盖率闸门的分母就是 Xcode 抽到的那些键，没抽到的它不知道。
+唯一可靠的检查是**截图逐字读**：把屏幕上的英文与译文表对照，分两类处理——
+「表里有」说明走错路径，「表里没有」说明从未抽取。
 
