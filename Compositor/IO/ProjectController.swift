@@ -70,7 +70,7 @@ final class ProjectController {
             let chosen: (data: Data, format: ExportFormat)? = await withCheckedContinuation { continuation in
                 let sheet = NSWindow()
                 sheet.styleMask = [.titled, .fullSizeContentView]
-                sheet.title = "Export As"
+                sheet.title = String(localized: "Export As")
                 sheet.contentViewController = NSHostingController(rootView: ExportAsSheet(
                     raster: raster, deepRaster: deepRaster, hdrRaster: hdrRaster, snapshot: snapshot, session: session,
                     format: start ?? lastExportFormat) { chosen in
@@ -100,7 +100,7 @@ final class ProjectController {
         panel.allowedContentTypes = [format.type]
         panel.canCreateDirectories = true
         panel.isExtensionHidden = false
-        panel.title = "Export " + format.rawValue
+        panel.title = String(localized: "Export \(format.rawValue)")
         panel.nameFieldStringValue = (session.projectURL?.deletingPathExtension().lastPathComponent ?? "Untitled")
             + "." + (format.type.preferredFilenameExtension ?? format.rawValue.lowercased())
         let response: NSApplication.ModalResponse
@@ -114,7 +114,7 @@ final class ProjectController {
         let options: CanvasSizeOptions? = await withCheckedContinuation { continuation in
             let sheet = NSWindow()
             sheet.styleMask = [.titled, .fullSizeContentView]
-            sheet.title = "Canvas Size"
+            sheet.title = String(localized: "Canvas Size")
             sheet.contentViewController = NSHostingController(rootView: CanvasSizeSheet(document: document, session: session) { options in
                 window.endSheet(sheet)
                 sheet.orderOut(nil)
@@ -136,7 +136,7 @@ final class ProjectController {
         let options: ImageSizeOptions? = await withCheckedContinuation { continuation in
             let sheet = NSWindow()
             sheet.styleMask = [.titled, .fullSizeContentView]
-            sheet.title = "Image Size"
+            sheet.title = String(localized: "Image Size")
             sheet.contentViewController = NSHostingController(rootView: ImageSizeSheet(document: document) { options in
                 window.endSheet(sheet)
                 sheet.orderOut(nil)
@@ -158,7 +158,7 @@ final class ProjectController {
         let options: TrimOptions? = await withCheckedContinuation { continuation in
             let sheet = NSWindow()
             sheet.styleMask = [.titled, .fullSizeContentView]
-            sheet.title = "Trim"
+            sheet.title = String(localized: "Trim")
             sheet.contentViewController = NSHostingController(rootView: TrimSheet { options in
                 window.endSheet(sheet)
                 sheet.orderOut(nil)
@@ -185,7 +185,7 @@ final class ProjectController {
         let settings: (LayoutGrid, GridAppearance)? = await withCheckedContinuation { continuation in
             let sheet = NSWindow()
             sheet.styleMask = [.titled, .fullSizeContentView]
-            sheet.title = "Grid"
+            sheet.title = String(localized: "Grid")
             sheet.contentViewController = NSHostingController(rootView: GridSettingsSheet(
                 session: session, grid: original.grid, appearance: original.appearance,
                 preview: { [session] grid, appearance in
@@ -273,7 +273,7 @@ final class ProjectController {
             panel.allowsMultipleSelection = false
             panel.canChooseDirectories = false
             panel.treatsFilePackagesAsDirectories = false
-            panel.title = "Open Project"
+            panel.title = String(localized: "Open Project")
             let response: NSApplication.ModalResponse
             if let window { response = await panel.beginSheetModal(for: window) }
             else { response = await panel.begin() }
@@ -343,11 +343,12 @@ final class ProjectController {
         await finishWriting()
         guard session.isModified, session.document != nil else { return true }
         let alert = NSAlert()
-        alert.messageText = "Save changes to \(session.projectURL?.lastPathComponent ?? "Untitled")?"
-        alert.informativeText = "Your changes will be lost if you don’t save them."
-        alert.addButton(withTitle: "Save")
-        alert.addButton(withTitle: "Cancel")
-        alert.addButton(withTitle: "Don’t Save")
+        let name = session.projectURL?.lastPathComponent ?? String(localized: "Untitled")
+        alert.messageText = String(localized: "Save changes to \(name)?")
+        alert.informativeText = String(localized: "Your changes will be lost if you don’t save them.")
+        alert.addButton(withTitle: String(localized: "Save"))
+        alert.addButton(withTitle: String(localized: "Cancel"))
+        alert.addButton(withTitle: String(localized: "Don’t Save"))
         let response = await show(alert)
         if response == .alertFirstButtonReturn { return await saveCurrent() }
         return response == .alertThirdButtonReturn
@@ -358,7 +359,7 @@ final class ProjectController {
         alert.alertStyle = .warning
         alert.messageText = title
         alert.informativeText = error.localizedDescription
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: String(localized: "OK"))
         _ = await show(alert)
     }
 

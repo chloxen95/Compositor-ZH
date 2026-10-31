@@ -100,7 +100,27 @@ enum NavigationTool: String, CaseIterable {
     /// Tools that draw and edit selections, sharing modifiers, moving, and nudging.
     var isSelectionTool: Bool { self == .marquee || self == .lasso || self == .wand }
     var symbol: String { self == .type ? "textformat" : self == .eyedropper ? "eyedropper" : self == .marquee ? "rectangle.dashed" : self == .lasso ? "lasso" : self == .wand ? "wand.and.stars" : self == .brush ? "paintbrush.pointed" : self == .spotHealing ? "bandage" : self == .cloneStamp ? "seal" : self == .blur ? "drop" : self == .gradient ? "square.bottomhalf.filled" : self == .shape ? "square.on.circle" : self == .crop ? "crop" : self == .move ? "arrow.up.left.and.arrow.down.right" : self == .hand ? "hand.raised" : "magnifyingglass" }
-    var label: String { self == .type ? "Type (T)" : self == .eyedropper ? "Eyedropper (I)" : self == .marquee ? "Marquee (M)" : self == .lasso ? "Lasso (L)" : self == .wand ? "Magic (W) · Tab switches Wand and Object" : self == .brush ? "Brush (B) · Eraser (E)" : self == .spotHealing ? "Spot Healing Brush (J)" : self == .cloneStamp ? "Clone Stamp (S) · Option-click sets the source" : self == .blur ? "Smear (R)" : self == .gradient ? "Gradient (G)" : self == .shape ? "Shape (U) · Shift-U switches Rectangle/Ellipse" : self == .crop ? "Crop (C)" : self == .move ? "Move / Transform (V)" : self == .hand ? "Hand (H)" : "Zoom (Z)" }
+    /// 工具栏按钮的提示与读屏标签。返回 key 而不是 `String`：三元链的每个分支都是
+    /// 字面量，但整体推断成 `String`，`Text`/`.help` 拿到 `String` 就只画原文。
+    var label: LocalizedStringKey {
+        switch self {
+        case .move: "Move / Transform (V)"
+        case .marquee: "Marquee (M)"
+        case .lasso: "Lasso (L)"
+        case .wand: "Magic (W) · Tab switches Wand and Object"
+        case .crop: "Crop (C)"
+        case .brush: "Brush (B) · Eraser (E)"
+        case .spotHealing: "Spot Healing Brush (J)"
+        case .cloneStamp: "Clone Stamp (S) · Option-click sets the source"
+        case .blur: "Smear (R)"
+        case .gradient: "Gradient (G)"
+        case .shape: "Shape (U) · Shift-U switches Rectangle/Ellipse"
+        case .type: "Type (T)"
+        case .eyedropper: "Eyedropper (I)"
+        case .hand: "Hand (H)"
+        default: "Zoom (Z)"
+        }
+    }
 }
 
 private struct GIFLayerTimelineState {

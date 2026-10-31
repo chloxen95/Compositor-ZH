@@ -27,7 +27,7 @@ struct MaskAloneBadge: NSViewRepresentable {
                        closeHelp: "Show the image again (or Option-click the mask thumbnail)") { [session] in session.viewsMaskAlone = false }
     }
     func updateNSView(_ view: CanvasPillView, context: Context) {
-        view.title = "Layer Mask"
+        view.title = String(localized: "Layer Mask")
         view.detail = layer.name
     }
 }

@@ -7,28 +7,25 @@
     "%": {
       "shouldTranslate": false
     },
-    "%1$lld ms · %2$@ fps": {
+    "%@ %@ is now available — you have %@. Would you like to download it now?": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$lld 毫秒 · %2$@ fps"
+            "value": "%1$@ %2$@ 现已可用，当前版本为 %3$@。要现在下载吗？"
           }
         }
       }
     },
-    "%1$lld × %2$lld px": {
+    "%@ %@ is ready to install — you have %@.": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$lld × %2$lld 像素"
+            "value": "%1$@ %2$@ 已可安装，当前版本为 %3$@。"
           }
         }
       }
-    },
-    "%1$lld°  %2$lld": {
-      "shouldTranslate": false
     },
     "%@ color": {
       "localizations": {
@@ -96,7 +93,30 @@
         }
       }
     },
+    "%lld ms · %@ fps": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld 毫秒 · %2$@ fps"
+          }
+        }
+      }
+    },
+    "%lld × %lld px": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld × %2$lld 像素"
+          }
+        }
+      }
+    },
     "%lld%%": {
+      "shouldTranslate": false
+    },
+    "%lld°  %lld": {
       "shouldTranslate": false
     },
     "100%": {
@@ -124,6 +144,16 @@
     },
     "45°": {
       "shouldTranslate": false
+    },
+    "A new version of %@ is available!": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 有新版本可用！"
+          }
+        }
+      }
     },
     "A subdivision every %@ pixels.": {
       "localizations": {
@@ -365,6 +395,16 @@
         }
       }
     },
+    "Another app changed this project. You can revert to the version on disk, losing your unsaved changes, or keep what you have.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "另一个应用更改了这个项目。你可以恢复到磁盘上的版本（未存储的更改会丢失），或保留当前内容。"
+          }
+        }
+      }
+    },
     "Anti-alias": {
       "localizations": {
         "zh-Hans": {
@@ -455,12 +495,42 @@
         }
       }
     },
+    "Automatically download and install updates in the future": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以后自动下载并安装更新"
+          }
+        }
+      }
+    },
     "Background": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "背景"
+          }
+        }
+      }
+    },
+    "Bake and Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "烘焙并删除"
+          }
+        }
+      }
+    },
+    "Bake keeps the current masked appearance in the dependent layers’ pixels. Remove Links reveals their pixels. You can undo either choice.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「烘焙」会把当前的蒙版效果写入相关图层的像素；「移除链接」会露出它们的原始像素。两种选择都可以撤销。"
           }
         }
       }
@@ -635,6 +705,36 @@
         }
       }
     },
+    "Bottom center": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下中"
+          }
+        }
+      }
+    },
+    "Bottom left": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左下"
+          }
+        }
+      }
+    },
+    "Bottom right": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右下"
+          }
+        }
+      }
+    },
     "Break the lines into beads where the picture is darker than this, blending into solid lines where it's brighter": {
       "localizations": {
         "zh-Hans": {
@@ -671,6 +771,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "画笔"
+          }
+        }
+      }
+    },
+    "Brush (B) · Eraser (E)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画笔 (B) · 橡皮擦 (E)"
           }
         }
       }
@@ -724,6 +834,16 @@
         }
       }
     },
+    "Canvas": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画布"
+          }
+        }
+      }
+    },
     "Canvas Size": {
       "localizations": {
         "zh-Hans": {
@@ -754,6 +874,16 @@
         }
       }
     },
+    "Canvas text": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画布文字"
+          }
+        }
+      }
+    },
     "Cap": {
       "localizations": {
         "zh-Hans": {
@@ -770,6 +900,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "猫眼"
+          }
+        }
+      }
+    },
+    "Center": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "居中"
           }
         }
       }
@@ -1124,6 +1264,16 @@
         }
       }
     },
+    "Clone Stamp (S) · Option-click sets the source": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仿制图章 (S) · 按住 Option 点按设定源点"
+          }
+        }
+      }
+    },
     "Close %@": {
       "localizations": {
         "zh-Hans": {
@@ -1467,6 +1617,16 @@
         }
       }
     },
+    "Crop (C)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "裁剪 (C)"
+          }
+        }
+      }
+    },
     "Crops empty edges after the transform and fits the result back into the frame.": {
       "localizations": {
         "zh-Hans": {
@@ -1477,7 +1637,7 @@
         }
       }
     },
-    "Current: %1$lld × %2$lld pixels": {
+    "Current: %lld × %lld pixels": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -1873,6 +2033,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "完成"
+          }
+        }
+      }
+    },
+    "Don’t Save": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不存储"
           }
         }
       }
@@ -2337,7 +2507,7 @@
         }
       }
     },
-    "Encoding frame %1$lld of %2$lld…": {
+    "Encoding frame %lld of %lld…": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -2430,6 +2600,16 @@
         }
       }
     },
+    "Export %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导出 %@"
+          }
+        }
+      }
+    },
     "Export As": {
       "localizations": {
         "zh-Hans": {
@@ -2506,6 +2686,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "吸管"
+          }
+        }
+      }
+    },
+    "Eyedropper (I)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "吸管 (I)"
           }
         }
       }
@@ -2800,12 +2990,32 @@
         }
       }
     },
+    "Font": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "字体"
+          }
+        }
+      }
+    },
     "Font face, including bold and italic variants": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "字体系列，包含粗体与斜体变体"
+          }
+        }
+      }
+    },
+    "Foreground": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前景色"
           }
         }
       }
@@ -2936,6 +3146,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "渐变"
+          }
+        }
+      }
+    },
+    "Gradient (G)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "渐变 (G)"
           }
         }
       }
@@ -3076,6 +3296,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "HSL 列出所有颜色；颜色只编辑一个色系；点颜色用于调整拾取到的单个颜色。"
+          }
+        }
+      }
+    },
+    "Hand (H)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "抓手 (H)"
           }
         }
       }
@@ -3750,7 +3980,7 @@
         }
       }
     },
-    "In %1$lld   Out %2$lld": {
+    "In %lld   Out %lld": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -3790,7 +4020,7 @@
         }
       }
     },
-    "Input %1$lld · Output %2$lld": {
+    "Input %lld · Output %lld": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -3816,6 +4046,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "内部"
+          }
+        }
+      }
+    },
+    "Install Update": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安装更新"
+          }
+        }
+      }
+    },
+    "Install and Relaunch": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安装并重新启动"
           }
         }
       }
@@ -3846,6 +4096,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "反相蒙版"
+          }
+        }
+      }
+    },
+    "Keep Mine": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留我的"
           }
         }
       }
@@ -3920,6 +4180,16 @@
         }
       }
     },
+    "Lasso (L)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "套索 (L)"
+          }
+        }
+      }
+    },
     "Last Filter": {
       "localizations": {
         "zh-Hans": {
@@ -3966,6 +4236,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "图层 1"
+          }
+        }
+      }
+    },
+    "Layer Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "图层蒙版"
           }
         }
       }
@@ -4430,6 +4710,16 @@
         }
       }
     },
+    "Magic (W) · Tab switches Wand and Object": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "魔棒 (W) · Tab 切换魔棒与对象"
+          }
+        }
+      }
+    },
     "Make each dithered pixel this many pixels across, for a chunky old-screen look": {
       "localizations": {
         "zh-Hans": {
@@ -4466,6 +4756,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "选框"
+          }
+        }
+      }
+    },
+    "Marquee (M)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选框 (M)"
           }
         }
       }
@@ -4570,6 +4870,26 @@
         }
       }
     },
+    "Middle left": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左中"
+          }
+        }
+      }
+    },
+    "Middle right": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右中"
+          }
+        }
+      }
+    },
     "Midtones": {
       "localizations": {
         "zh-Hans": {
@@ -4666,6 +4986,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "动感模糊"
+          }
+        }
+      }
+    },
+    "Move / Transform (V)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移动／变换 (V)"
           }
         }
       }
@@ -4880,7 +5210,7 @@
         }
       }
     },
-    "New: %1$lld × %2$lld pixels · %3$@ uncompressed": {
+    "New: %lld × %lld pixels · %@ uncompressed": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -5036,6 +5366,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "不透明度百分比"
+          }
+        }
+      }
+    },
+    "Open Project": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开项目"
           }
         }
       }
@@ -5296,6 +5636,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "压感控制大小：轻按画出更细的线"
+          }
+        }
+      }
+    },
+    "Percent": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "百分比"
           }
         }
       }
@@ -5873,6 +6223,16 @@
         }
       }
     },
+    "Remind Me Later": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "稍后提醒我"
+          }
+        }
+      }
+    },
     "Remove %@": {
       "localizations": {
         "zh-Hans": {
@@ -5899,6 +6259,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除色差"
+          }
+        }
+      }
+    },
+    "Remove Links and Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除链接并删除"
           }
         }
       }
@@ -6063,7 +6433,7 @@
         }
       }
     },
-    "Resolution: 72 for screens, 300 for print. Click to switch. · %1$lld DPI: %2$lld × %3$lld pixels": {
+    "Resolution: 72 for screens, 300 for print. Click to switch. · %lld DPI: %lld × %lld pixels": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -6083,7 +6453,7 @@
         }
       }
     },
-    "Result: %1$lld × %2$lld pixels": {
+    "Result: %lld × %lld pixels": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -6099,6 +6469,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "反转"
+          }
+        }
+      }
+    },
+    "Revert": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复"
           }
         }
       }
@@ -6259,6 +6639,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "存储为…"
+          }
+        }
+      }
+    },
+    "Save changes to %@?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要存储对 %@ 的更改吗？"
           }
         }
       }
@@ -6533,6 +6923,16 @@
         }
       }
     },
+    "Shape (U) · Shift-U switches Rectangle/Ellipse": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "形状 (U) · Shift-U 切换矩形／椭圆"
+          }
+        }
+      }
+    },
     "Shapes": {
       "localizations": {
         "zh-Hans": {
@@ -6743,12 +7143,32 @@
         }
       }
     },
+    "Skip This Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳过此版本"
+          }
+        }
+      }
+    },
     "Smear": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "涂抹"
+          }
+        }
+      }
+    },
+    "Smear (R)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "涂抹 (R)"
           }
         }
       }
@@ -6919,6 +7339,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "污点修复"
+          }
+        }
+      }
+    },
+    "Spot Healing Brush (J)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "污点修复画笔 (J)"
           }
         }
       }
@@ -7193,6 +7623,16 @@
         }
       }
     },
+    "These layers supply live masks": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这些图层提供了实时蒙版"
+          }
+        }
+      }
+    },
     "This Layer": {
       "localizations": {
         "zh-Hans": {
@@ -7209,6 +7649,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "此文件没有镜头配置文件"
+          }
+        }
+      }
+    },
+    "This layer supplies a live mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此图层提供了实时蒙版"
           }
         }
       }
@@ -7293,6 +7743,36 @@
         }
       }
     },
+    "Top center": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上中"
+          }
+        }
+      }
+    },
+    "Top left": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左上"
+          }
+        }
+      }
+    },
+    "Top right": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右上"
+          }
+        }
+      }
+    },
     "Tracking": {
       "localizations": {
         "zh-Hans": {
@@ -7363,6 +7843,16 @@
         }
       }
     },
+    "Transparent": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "透明"
+          }
+        }
+      }
+    },
     "Transparent canvas": {
       "localizations": {
         "zh-Hans": {
@@ -7409,6 +7899,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "类型"
+          }
+        }
+      }
+    },
+    "Type (T)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字 (T)"
           }
         }
       }
@@ -7563,7 +8063,7 @@
         }
       }
     },
-    "Use 1–%1$@ pixels per side, up to %2$lld megapixels, and 1–9,600 pixels/inch.": {
+    "Use 1–%@ pixels per side, up to %lld megapixels, and 1–9,600 pixels/inch.": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -7583,7 +8083,7 @@
         }
       }
     },
-    "Use gridlines every %1$lld–%2$@ pixels and %3$lld–%4$lld subdivisions, no more than the pixels between gridlines.": {
+    "Use gridlines every %lld–%@ pixels and %lld–%lld subdivisions, no more than the pixels between gridlines.": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
@@ -7803,12 +8303,32 @@
         }
       }
     },
+    "Your changes will be lost if you don’t save them.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果不存储，你的更改将会丢失。"
+          }
+        }
+      }
+    },
     "Zoom": {
       "localizations": {
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "缩放"
+          }
+        }
+      }
+    },
+    "Zoom (Z)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缩放 (Z)"
           }
         }
       }
@@ -7954,6 +8474,16 @@
     },
     "×": {
       "shouldTranslate": false
+    },
+    "“%@” was changed on disk.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”已在磁盘上被更改。"
+          }
+        }
+      }
     }
   },
   "version": "1.0"

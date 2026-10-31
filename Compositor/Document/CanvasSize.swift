@@ -1,6 +1,12 @@
 import Foundation
 import CoreGraphics
 
+/// 画布扩展时新区域填什么。原来是 `[String]` 数组 + 用字符串当身份，
+/// 中文界面里必然显示英文；改成枚举，身份与显示分开。
+nonisolated enum CanvasExtension: String, CaseIterable, Sendable {
+    case transparent, foreground, background, white, black, custom
+}
+
 nonisolated enum CanvasUnit: String, CaseIterable, Sendable {
     case pixels = "Pixels", percent = "Percent", inches = "Inches", centimeters = "Centimeters"
 }

@@ -72,3 +72,28 @@ extension LayerSampling {
         }
     }
 }
+
+extension CanvasUnit {
+    /// 「画布大小」「图像大小」的单位下拉。`rawValue` 是身份，不是文案。
+    nonisolated var displayName: String {
+        switch self {
+        case .pixels: String(localized: "Pixels", comment: "Canvas unit")
+        case .percent: String(localized: "Percent", comment: "Canvas unit")
+        case .inches: String(localized: "Inches", comment: "Canvas unit")
+        case .centimeters: String(localized: "Centimeters", comment: "Canvas unit")
+        }
+    }
+}
+
+extension CanvasExtension {
+    nonisolated var displayName: String {
+        switch self {
+        case .transparent: String(localized: "Transparent", comment: "Canvas extension")
+        case .foreground: String(localized: "Foreground", comment: "Canvas extension")
+        case .background: String(localized: "Background", comment: "Canvas extension")
+        case .white: String(localized: "White", comment: "Canvas extension")
+        case .black: String(localized: "Black", comment: "Canvas extension")
+        case .custom: String(localized: "Custom", comment: "Canvas extension")
+        }
+    }
+}

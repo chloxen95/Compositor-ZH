@@ -192,6 +192,17 @@
     "auto": "Auto"
    }
   },
+  "CanvasExtension": {
+   "file": "Compositor/Document/CanvasSize.swift",
+   "rawValues": {
+    "transparent": "transparent",
+    "foreground": "foreground",
+    "background": "background",
+    "white": "white",
+    "black": "black",
+    "custom": "custom"
+   }
+  },
   "CanvasGuide.Axis": {
    "file": "Compositor/Document/Guides.swift",
    "rawValues": {

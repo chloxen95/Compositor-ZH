@@ -25,6 +25,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import glob
+import re
 import json
 import os
 import plistlib
@@ -68,6 +69,25 @@ def run_export(derived_data: Path, out_dir: Path) -> Path:
     return found[0] / "Localized Contents" / f"{found[0].stem}.xliff"
 
 
+POSITIONAL = re.compile(r"%(\d+)\$([-+ 0#]*[\d.]*(?:hh|h|ll|l|L|z|j|t)?[@dDfFuUxXoOsScCpaAeEgG])")
+
+
+def plain_key(key: str) -> str:
+    r"""把 `%1$lld × %2$lld` 还原成 `%lld × %lld`。
+
+    xliff 里是**定位符**，而编译器在运行时查的是**非定位符**：实测 `Text("... \(a) × \(b) ...")`
+    只认 `Current: %lld × %lld pixels`，把 `%1$lld` 形式的译文放进 catalog 一条都查不到
+    （界面照旧英文，覆盖率闸门却显示 100%）。所以键在入库时就统一成运行时真正用的形式。
+
+    只在编号恰好是 1,2,3… 时才改写；重排过参数顺序的语句无法用非定位符表达，
+    保持原样并留给 lint 报出来。
+    """
+    numbers = [int(m.group(1)) for m in POSITIONAL.finditer(key)]
+    if not numbers or numbers != list(range(1, len(numbers) + 1)):
+        return key
+    return POSITIONAL.sub(lambda m: "%" + m.group(2), key)
+
+
 def parse_xliff(path: Path) -> tuple[list[str], list[str]]:
     root = ET.parse(path).getroot()
     localizable: list[str] = []
@@ -79,7 +99,7 @@ def parse_xliff(path: Path) -> tuple[list[str], list[str]]:
             src = unit.find("x:source", XLIFF_NS)
             text = (src.text or "") if src is not None else ""
             if text.strip():
-                bucket.append(text)
+                bucket.append(plain_key(text))
     return sorted(set(localizable)), sorted(set(infoplist))
 
 
@@ -99,6 +119,7 @@ def parse_stringsdata(derived_data: Path) -> dict[str, list[dict]]:
                 key = entry.get("key")
                 if not key:
                     continue
+                key = plain_key(key)
                 line = (entry.get("location") or {}).get("startingLine")
                 sites.setdefault(key, []).append({"file": f"Compositor/{rel}", "line": line})
     for value in sites.values():
