@@ -342,21 +342,38 @@ xcodebuild test -project Compositor.xcodeproj -scheme Compositor -destination 'p
 前五条都能在命令行跑，退出码即结论。第六条只能在 Xcode 图形界面里跑，
 因为注入测试包要靠 `DYLD_INSERT_LIBRARIES`，而受限会话的环境策略会把它丢掉。
 
-### 截图验证：现在可用（2026-10-31 起）
+### 界面验证：截图 + 控件树（2026-10-31 起两项权限都有）
 
-`screencapture` 已可用（`CGPreflightScreenCaptureAccess() == true`）。
-`System Events` 仍然权限违例（`AXIsProcessTrusted() == false`），所以**能看不能点**：
-菜单、弹出面板这类需要点击才露出的界面拿不到视觉证据。
+| 权限 | 能做什么 |
+|---|---|
+| 屏幕录制 | 按窗口截图、区域放大读字 |
+| 辅助功能 | 读控件树、点按钮、点菜单项（`scripts/l10n/ax.swift`） |
 
 ```bash
-screencapture -x -o -l<窗口id> win.png   # 按窗口抓，不受遮挡、原生 2x
+./scripts/l10n/shot.swift list                       # 窗口 id
+./scripts/l10n/shot.swift capture <id> win.png       # 按窗口抓，不受遮挡、原生 2x
+./scripts/l10n/shot.swift crop win.png r.png x y w h  # 精确裁剪
+
+./scripts/l10n/ax.swift menu <pid>                   # 菜单栏全量（含快捷键与禁用状态）
+./scripts/l10n/ax.swift tree <pid> 12                # 控件树（角色 / 文字 / 无障碍标识符）
+./scripts/l10n/ax.swift button <pid> "创建画布"      # 点按钮
+./scripts/l10n/ax.swift press <pid> Compositor 语言 English   # 点菜单项（支持多级）
 ```
 
-窗口 id 用 `CGWindowListCopyWindowInfo` 取（不需要辅助功能）。
-注意 `sips --cropOffset` 是相对**居中**裁剪原点，裁剪坐标不可靠，要用 `CGImage.cropping` 精确裁。
+**不要用 System Events**：那需要「自动化」权限（与辅助功能是两项独立的 TCC），
+没给会报 −10004，看着像辅助功能没生效，其实不是。直接用 AX API 不需要它。
 
-**验证另一种语言**：`open --args -AppleLanguages "(en)"` 对沙盒 App **无效**（对普通可执行文件有效）。
-可靠做法是拷一份 bundle、删掉 `zh-Hans.lproj`、`codesign --force --deep --sign -` 重签后启动。
+四个坑：
+1. `sips --cropOffset` 的偏移相对**居中**裁剪原点，坐标不可靠，要用 `CGImage.cropping`。
+2. 窗口可能开在**屏幕外**（见过 x=−1752），`optionOnScreenOnly` 看不到 → 误判「没有窗口」。
+3. `kAXWindowsAttribute` 偶尔为空，要退回扫 app 子元素。
+4. SwiftUI 的 `NSPopUpButton` 弹出菜单是**独立窗口**（CGWindowList 里 layer=101），不进 AX 树：
+   要读就截那个窗口，要选就发方向键 + 回车。
+
+**语言切换的端到端验证**：`open --args -AppleLanguages "(en)"` 对沙盒 App **无效**
+（对普通可执行文件有效），`defaults write` 也会被容器保护挡住。正路是用应用自己的菜单：
+`./scripts/l10n/ax.swift press <pid> Compositor 语言 English`，重启后界面即为英文；
+再 `press <pid> Compositor Language 简体中文` 切回。往返已实测通过。
 
 ### 一条必须记住的规则：`String` 形参 = verbatim
 

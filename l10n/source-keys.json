@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T04:51:49+00:00",
+ "generatedAt": "2026-10-31T05:18:25+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-fpobtqf_/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-thyjr2at/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -103,7 +103,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1251
+     "line": 1263
     }
    ]
   },
@@ -147,27 +147,6 @@
    ]
   },
   {
-   "key": "%@…",
-   "sites": [
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 12
-    },
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 12
-    },
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 332
-    },
-    {
-     "file": "Compositor/CompositorApp.swift",
-     "line": 332
-    }
-   ]
-  },
-  {
    "key": "%lld",
    "sites": [
     {
@@ -191,6 +170,10 @@
   {
    "key": "%lld DPI",
    "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 159
+    },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 159
@@ -266,8 +249,21 @@
    ]
   },
   {
+   "key": "16-bit layer: keeps 16 bits a channel",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1072
+    }
+   ]
+  },
+  {
    "key": "45°",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 393
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 393
@@ -349,6 +345,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 13
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 13
     }
    ]
   },
@@ -405,6 +409,15 @@
    ]
   },
   {
+   "key": "Adjustment · Double-click to edit",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1067
+    }
+   ]
+  },
+  {
    "key": "Adjustments",
    "sites": [
     {
@@ -422,19 +435,19 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 425
+     "line": 426
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 425
+     "line": 426
     },
     {
      "file": "Compositor/UI/TransformInspector.swift",
-     "line": 176
+     "line": 179
     },
     {
      "file": "Compositor/UI/TransformInspector.swift",
-     "line": 176
+     "line": 179
     }
    ]
   },
@@ -601,6 +614,15 @@
    ]
   },
   {
+   "key": "Animated GIF: select it to show its frames under the canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1070
+    }
+   ]
+  },
+  {
    "key": "Anti-alias",
    "sites": [
     {
@@ -753,6 +775,22 @@
    "key": "Background",
    "sites": [
     {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1306
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1306
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1307
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1307
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 234
     },
@@ -811,12 +849,24 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 17
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 30
     }
    ]
   },
   {
    "key": "Black canvas",
    "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 56
+    },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 56
@@ -858,6 +908,19 @@
    ]
   },
   {
+   "key": "Blend mode",
+   "sites": [
+    {
+     "file": "Compositor/UI/BlendModePicker.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/BlendModePicker.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
    "key": "Blend the chosen color into the edges while keeping the center unchanged",
    "sites": [
     {
@@ -880,6 +943,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 20
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 15
     }
    ]
   },
@@ -1086,6 +1157,19 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 243
+    }
+   ]
+  },
+  {
+   "key": "Camera Raw Filter",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 23
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 23
     }
    ]
   },
@@ -1359,6 +1443,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 16
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 16
     }
    ]
   },
@@ -1616,6 +1704,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 352
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 352
     }
    ]
   },
@@ -1635,6 +1727,10 @@
   {
    "key": "Click corners · Click start, double-click or Enter to close · Delete removes corner · Escape cancel",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 357
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 357
@@ -1764,6 +1860,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 353
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 353
     }
    ]
   },
@@ -1776,7 +1876,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1248
+     "line": 1260
     }
    ]
   },
@@ -1786,6 +1886,36 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 387
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 387
+    }
+   ]
+  },
+  {
+   "key": "Clipped to %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1077
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1100
+    }
+   ]
+  },
+  {
+   "key": "Clipping mask based on %@. Option-click the bottom of its row to release.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1078
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1101
     }
    ]
   },
@@ -1933,6 +2063,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 18
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 31
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 31
     }
    ]
   },
@@ -2130,6 +2268,19 @@
    ]
   },
   {
+   "key": "Content-Aware Fill",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
    "key": "Content-Aware Fill…",
    "sites": [
     {
@@ -2277,11 +2428,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 393
+     "line": 394
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 393
+     "line": 394
     }
    ]
   },
@@ -2303,7 +2454,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 158
+     "line": 174
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -2364,6 +2515,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 9
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 26
     }
    ]
   },
@@ -2393,7 +2552,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 101
+     "line": 117
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -2557,11 +2716,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 439
+     "line": 440
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 439
+     "line": 440
     }
    ]
   },
@@ -2575,6 +2734,79 @@
     {
      "file": "Compositor/UI/GIFTimeline.swift",
      "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Delete Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 146
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 146
+    }
+   ]
+  },
+  {
+   "key": "Delete Layer Mask",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    }
+   ]
+  },
+  {
+   "key": "Delete Layers",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 440
+    }
+   ]
+  },
+  {
+   "key": "Delete Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 142
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 142
+    }
+   ]
+  },
+  {
+   "key": "Delete Selected Layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 144
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 144
     }
    ]
   },
@@ -2774,11 +3006,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 431
+     "line": 432
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 431
+     "line": 432
     }
    ]
   },
@@ -2800,6 +3032,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Dither",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 16
     }
    ]
   },
@@ -2887,6 +3132,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 349
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 349
     }
    ]
   },
@@ -2896,12 +3145,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 373
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 373
     }
    ]
   },
   {
    "key": "Drag an ellipse · Shift add · Option subtract · Shift again mid-drag circle · Drag inside to move · Delete clears · ⌘D deselect",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 348
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 348
@@ -2940,12 +3197,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 371
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 371
     }
    ]
   },
   {
    "key": "Drag to crop · Enter apply · Escape cancel · Space to pan",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 379
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 379
@@ -2958,12 +3223,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 375
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 375
     }
    ]
   },
   {
    "key": "Drag to draw · Drag ends to adjust · Shift 45° · 1–0 opacity · Enter apply · Escape cancel",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 377
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 377
@@ -2976,12 +3249,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 360
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 360
     }
    ]
   },
   {
    "key": "Drag to move · Handles to resize · Circle to rotate · 1–0 layer opacity · Space to pan",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 381
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 381
@@ -2994,12 +3275,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 361
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 361
     }
    ]
   },
   {
    "key": "Drag to pan · Pinch to zoom",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 383
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 383
@@ -3012,6 +3301,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 367
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 367
     }
    ]
   },
@@ -3020,7 +3313,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 383
+     "line": 440
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -3031,6 +3324,10 @@
   {
    "key": "Drag to select · Drag inside to move · Shift add · Option subtract · Delete clears · ⌥⌫/⌘⌫ fill · ⌘D deselect",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 356
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 356
@@ -3056,12 +3353,20 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 366
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 366
     }
    ]
   },
   {
    "key": "Drag to soften · [ ] size · Shift-[ ] hardness · 1–0 strength · Space to pan",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 364
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 364
@@ -3211,11 +3516,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 391
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 391
     }
    ]
   },
@@ -3297,11 +3602,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 384
+     "line": 385
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 384
+     "line": 385
     }
    ]
   },
@@ -3315,6 +3620,15 @@
     {
      "file": "Compositor/UI/TypeControls.swift",
      "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Editable text layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1053
     }
    ]
   },
@@ -3439,7 +3753,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 151
+     "line": 167
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -3465,7 +3779,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 150
+     "line": 166
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -3587,6 +3901,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 10
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 27
     }
    ]
   },
@@ -3944,11 +4266,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 421
+     "line": 422
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 421
+     "line": 422
     }
    ]
   },
@@ -3957,11 +4279,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 423
+     "line": 424
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 423
+     "line": 424
     }
    ]
   },
@@ -3983,6 +4305,15 @@
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Folder",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1068
     }
    ]
   },
@@ -4189,6 +4520,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 14
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 9
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 9
     }
    ]
   },
@@ -4228,6 +4567,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 11
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 28
     }
    ]
   },
@@ -4254,6 +4601,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 12
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 29
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 29
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
@@ -4380,11 +4735,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 399
+     "line": 400
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 399
+     "line": 400
     }
    ]
   },
@@ -4419,6 +4774,15 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 208
+    }
+   ]
+  },
+  {
+   "key": "HDR layer: keeps light brighter than white, shown as white",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1071
     }
    ]
   },
@@ -4520,6 +4884,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 143
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 143
     }
    ]
   },
@@ -4596,11 +4964,15 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1234
+     "line": 1082
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1234
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1246
     }
    ]
   },
@@ -4635,11 +5007,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 409
+     "line": 410
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 409
+     "line": 410
     }
    ]
   },
@@ -5280,7 +5652,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 156
+     "line": 172
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -5340,7 +5712,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 355
+     "line": 412
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -5381,6 +5753,10 @@
   {
    "key": "Inches",
    "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 15
+    },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 15
@@ -5622,15 +5998,83 @@
    ]
   },
   {
+   "key": "Last Filter",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 361
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 361
+    }
+   ]
+  },
+  {
+   "key": "Last Filter: %@",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 361
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 361
+    }
+   ]
+  },
+  {
    "key": "Layer",
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 373
+     "line": 374
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 373
+     "line": 374
+    }
+   ]
+  },
+  {
+   "key": "Layer %lld",
+   "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 825
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 825
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 826
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 826
+    }
+   ]
+  },
+  {
+   "key": "Layer 1",
+   "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1301
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1301
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1305
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1305
     }
    ]
   },
@@ -5652,11 +6096,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 391
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 390
+     "line": 391
     }
    ]
   },
@@ -5732,6 +6176,14 @@
    "key": "Lens Correction",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 22
+    },
+    {
      "file": "Compositor/UI/RawDevelopSheet.swift",
      "line": 51
     },
@@ -5751,6 +6203,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 23
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 19
     }
    ]
   },
@@ -5957,11 +6417,11 @@
    "sites": [
     {
      "file": "Compositor/UI/TransformInspector.swift",
-     "line": 178
+     "line": 181
     },
     {
      "file": "Compositor/UI/TransformInspector.swift",
-     "line": 178
+     "line": 181
     }
    ]
   },
@@ -6082,6 +6542,24 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 118
+    }
+   ]
+  },
+  {
+   "key": "Link layer and mask so they move together",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1047
+    }
+   ]
+  },
+  {
+   "key": "Link mask: %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1050
     }
    ]
   },
@@ -6422,6 +6900,53 @@
    ]
   },
   {
+   "key": "Merge Down",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "Merge Group",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 22
+    }
+   ]
+  },
+  {
+   "key": "Merge Layers",
+   "sites": [
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/Document/LayerMerge.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
    "key": "Midtones",
    "sites": [
     {
@@ -6440,6 +6965,19 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 17
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Missing source",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1076
     }
    ]
   },
@@ -6555,6 +7093,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 15
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 10
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 10
     }
    ]
   },
@@ -6563,11 +7109,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 415
+     "line": 416
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 415
+     "line": 416
     }
    ]
   },
@@ -6576,11 +7122,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 413
+     "line": 414
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 413
+     "line": 414
     }
    ]
   },
@@ -6589,11 +7135,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 403
+     "line": 404
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 403
+     "line": 404
     }
    ]
   },
@@ -6693,11 +7239,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 374
+     "line": 375
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 374
+     "line": 375
     }
    ]
   },
@@ -6706,11 +7252,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 405
+     "line": 406
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 405
+     "line": 406
     }
    ]
   },
@@ -6779,7 +7325,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 96
+     "line": 112
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -6898,6 +7444,10 @@
   {
    "key": "No tool selected · Press a tool's key to pick one · Space to pan",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 385
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 385
@@ -7230,7 +7780,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 155
+     "line": 171
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -7267,6 +7817,10 @@
   {
    "key": "Option-click to set the source · Drag to clone · [ ] size · Shift-[ ] hardness · 1–0 opacity · Space to pan",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 369
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 369
@@ -7586,6 +8140,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 14
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 14
     }
    ]
   },
@@ -7732,7 +8290,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 121
+     "line": 137
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -7745,7 +8303,7 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 120
+     "line": 136
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -7917,6 +8475,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 19
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 11
     }
    ]
   },
@@ -8071,6 +8637,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 21
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 18
     }
    ]
   },
@@ -8228,7 +8802,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 348
+     "line": 405
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -8374,11 +8948,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 393
+     "line": 394
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 393
+     "line": 394
     }
    ]
   },
@@ -8392,6 +8966,19 @@
     {
      "file": "Compositor/Document/LayerEffects.swift",
      "line": 383
+    }
+   ]
+  },
+  {
+   "key": "Remove Background",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 24
     }
    ]
   },
@@ -8478,11 +9065,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 407
+     "line": 408
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 407
+     "line": 408
     }
    ]
   },
@@ -8633,6 +9220,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 92
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 92
     }
    ]
   },
@@ -8696,6 +9287,19 @@
     {
      "file": "Compositor/UI/TrimSheet.swift",
      "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Rim Light",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 21
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 21
     }
    ]
   },
@@ -8935,6 +9539,10 @@
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 31
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 31
     }
    ]
   },
@@ -8961,6 +9569,19 @@
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Scanlines",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 17
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 17
     }
    ]
   },
@@ -9082,6 +9703,42 @@
    ]
   },
   {
+   "key": "Select image pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1054
+    }
+   ]
+  },
+  {
+   "key": "Select image: %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1059
+    }
+   ]
+  },
+  {
+   "key": "Select layer mask; Option-click to view it alone; Shift-click to enable/disable; Cmd-click to select its black areas (Cmd-Shift adds, Cmd-Option subtracts)",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1055
+    }
+   ]
+  },
+  {
+   "key": "Select layer; Cmd-click to select its pixels (Cmd-Shift adds, Cmd-Option subtracts)",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 908
+    }
+   ]
+  },
+  {
    "key": "Select layers by clicking the canvas. Hold Command to turn it the other way while you click.",
    "sites": [
     {
@@ -9095,6 +9752,15 @@
    ]
   },
   {
+   "key": "Select mask: %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1060
+    }
+   ]
+  },
+  {
    "key": "Select only similar pixels connected to the one you click; off selects them everywhere",
    "sites": [
     {
@@ -9104,6 +9770,15 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Select text: %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1058
     }
    ]
   },
@@ -9309,6 +9984,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 25
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 12
     }
    ]
   },
@@ -9385,11 +10068,15 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1235
+     "line": 1083
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1235
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1247
     }
    ]
   },
@@ -9437,11 +10124,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 409
+     "line": 410
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 409
+     "line": 410
     }
    ]
   },
@@ -9578,7 +10265,7 @@
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 100
+     "line": 116
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -9881,6 +10568,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 147
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 147
     }
    ]
   },
@@ -10173,6 +10864,15 @@
    ]
   },
   {
+   "key": "Text · Double-click to edit",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1066
+    }
+   ]
+  },
+  {
    "key": "The aperture's shape: round wide open, a hexagon of blades, an anamorphic oval, or a cat's eye toward the edges",
    "sites": [
     {
@@ -10362,6 +11062,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 24
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 20
     }
    ]
   },
@@ -10443,11 +11151,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 388
+     "line": 389
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 388
+     "line": 389
     }
    ]
   },
@@ -10469,11 +11177,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 388
+     "line": 389
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 388
+     "line": 389
     }
    ]
   },
@@ -10506,6 +11214,10 @@
   {
    "key": "Transparent canvas",
    "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 54
+    },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 54
@@ -10624,11 +11336,11 @@
    "sites": [
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 401
+     "line": 402
     },
     {
      "file": "Compositor/CompositorApp.swift",
-     "line": 401
+     "line": 402
     }
    ]
   },
@@ -10672,6 +11384,28 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 152
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 152
+    }
+   ]
+  },
+  {
+   "key": "Unlink layer and mask to move or transform them separately",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1048
+    }
+   ]
+  },
+  {
+   "key": "Unlink mask: %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1051
     }
    ]
   },
@@ -10696,8 +11430,20 @@
      "line": 206
     },
     {
+     "file": "Compositor/ContentView.swift",
+     "line": 206
+    },
+    {
      "file": "Compositor/Document/ProjectWorkspace.swift",
      "line": 33
+    },
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 44
     },
     {
      "file": "Compositor/Document/ProjectWorkspace.swift",
@@ -10708,6 +11454,10 @@
   {
    "key": "Untitled %lld",
    "sites": [
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 47
+    },
     {
      "file": "Compositor/Document/ProjectWorkspace.swift",
      "line": 47
@@ -10847,6 +11597,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 22
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/L10n/Names+Filters.swift",
+     "line": 14
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
@@ -10989,6 +11747,10 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 55
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 55
     }
    ]
   },
@@ -11047,6 +11809,10 @@
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 117
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 141
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -11114,7 +11880,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 352
+     "line": 409
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -11274,6 +12040,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 395
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 395
     }
    ]
   },
@@ -11334,7 +12104,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 347
+     "line": 404
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -11348,6 +12118,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 394
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 394
     }
    ]
   },
@@ -11356,15 +12130,15 @@
    "sites": [
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 135
-    },
-    {
-     "file": "Compositor/UI/NewCanvasSheet.swift",
-     "line": 140
+     "line": 151
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 151
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 156
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",

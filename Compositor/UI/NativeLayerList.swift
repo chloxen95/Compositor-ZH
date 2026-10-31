@@ -139,11 +139,11 @@ struct NativeLayerList: NSViewRepresentable {
             // 3. Delete Layer / Delete Selected Layers
             let deleteTitle: String
             if session.isMaskSelected, let layer = session.activeLayer, session.selectedMask(for: layer) != nil {
-                deleteTitle = "Delete Mask"
+                deleteTitle = String(localized: "Delete Mask")
             } else if session.selectedLayerIDs.count > 1 {
-                deleteTitle = "Delete Selected Layers"
+                deleteTitle = String(localized: "Delete Selected Layers")
             } else {
-                deleteTitle = "Delete Layer"
+                deleteTitle = String(localized: "Delete Layer")
             }
             let deleteItem = NSMenuItem(title: deleteTitle, action: #selector(deleteLayerAction), keyEquivalent: "")
             deleteItem.target = self
@@ -905,7 +905,7 @@ private final class LayerCell: NSTableCellView, NSTextFieldDelegate {
         maskThumbnail.action = #selector(selectMask)
         maskThumbnail.isMaskTarget = true
         thumbnail.loadsSelection = true
-        thumbnail.toolTip = "Select layer; Cmd-click to select its pixels (Cmd-Shift adds, Cmd-Option subtracts)"
+        thumbnail.toolTip = String(localized: "Select layer; Cmd-click to select its pixels (Cmd-Shift adds, Cmd-Option subtracts)")
         maskThumbnail.imageScaling = .scaleProportionallyUpOrDown
         linkButton.isBordered = false
         linkButton.title = ""
@@ -1043,32 +1043,44 @@ private final class LayerCell: NSTableCellView, NSTextFieldDelegate {
         linkButton.isHidden = !linkable
         linkButton.image = layer.mask?.isLinked == false ? nil : Self.linkImage
         linkButton.isEnabled = thumbnail.isEnabled
-        linkButton.toolTip = layer.mask?.isLinked == false ? "Link layer and mask so they move together"
-            : "Unlink layer and mask to move or transform them separately"
-        linkButton.setAccessibilityLabel(layer.mask?.isLinked == false ? "Link mask: \(layer.name)" : "Unlink mask: \(layer.name)")
-        thumbnail.toolTip = editableText ? "Editable text layer" : "Select image pixels"
-        maskThumbnail.toolTip = "Select layer mask; Option-click to view it alone; Shift-click to enable/disable; Cmd-click to select its black areas (Cmd-Shift adds, Cmd-Option subtracts)"
-        thumbnail.setAccessibilityLabel("Select \(editableText ? "text" : "image"): \(layer.name)")
-        maskThumbnail.setAccessibilityLabel("Select mask: \(layer.name)")
+        linkButton.toolTip = layer.mask?.isLinked == false
+            ? String(localized: "Link layer and mask so they move together")
+            : String(localized: "Unlink layer and mask to move or transform them separately")
+        linkButton.setAccessibilityLabel(layer.mask?.isLinked == false
+            ? String(localized: "Link mask: \(layer.name)")
+            : String(localized: "Unlink mask: \(layer.name)"))
+        thumbnail.toolTip = editableText
+            ? String(localized: "Editable text layer")
+            : String(localized: "Select image pixels")
+        maskThumbnail.toolTip = String(localized: "Select layer mask; Option-click to view it alone; Shift-click to enable/disable; Cmd-click to select its black areas (Cmd-Shift adds, Cmd-Option subtracts)")
+        // 两个状态各一个整句键：把 "text"/"image" 当片段插进去，中文里既没语序也不好译。
+        thumbnail.setAccessibilityLabel(editableText
+            ? String(localized: "Select text: \(layer.name)")
+            : String(localized: "Select image: \(layer.name)"))
+        maskThumbnail.setAccessibilityLabel(String(localized: "Select mask: \(layer.name)"))
         updateTarget()
         layerName = layer.name
         // A reused cell must not carry another row's half-finished rename.
         if renaming, layerID != layer.id { restoreLabel() }
         if !renaming { nameLabel.stringValue = (layer.maskSourceID == nil ? "" : "↳ ") + layer.name }
-        dimensions.stringValue = layer.liveText != nil ? "Text · Double-click to edit" : layer.adjustment != nil ? "Adjustment · Double-click to edit" : layer.isGroup ? "Folder" : layer.sizeLabel
+        dimensions.stringValue = layer.liveText != nil ? String(localized: "Text · Double-click to edit")
+            : layer.adjustment != nil ? String(localized: "Adjustment · Double-click to edit")
+            : layer.isGroup ? String(localized: "Folder") : layer.sizeLabel
         depthTag.text = layer.depthLabel ?? ""
-        depthTag.toolTip = layer.gifAnimation != nil ? "Animated GIF: select it to show its frames under the canvas"
-            : layer.asset?.isHDR == true ? "HDR layer: keeps light brighter than white, shown as white"
-            : "16-bit layer: keeps 16 bits a channel"
+        depthTag.toolTip = layer.gifAnimation != nil ? String(localized: "Animated GIF: select it to show its frames under the canvas")
+            : layer.asset?.isHDR == true ? String(localized: "HDR layer: keeps light brighter than white, shown as white")
+            : String(localized: "16-bit layer: keeps 16 bits a channel")
         depthTag.isHidden = layer.depthLabel == nil || layer.maskSourceID != nil
         depthTagFits.isActive = !depthTag.isHidden
         if let source = layer.maskSourceID {
-            let sourceName = session.document?.layers.first(where: { $0.id == source })?.name ?? "Missing source"
-            dimensions.stringValue = "Clipped to \(sourceName)"
-            dimensions.toolTip = "Clipping mask based on \(sourceName). Option-click the bottom of its row to release."
+            let sourceName = session.document?.layers.first(where: { $0.id == source })?.name ?? String(localized: "Missing source")
+            dimensions.stringValue = String(localized: "Clipped to \(sourceName)")
+            dimensions.toolTip = String(localized: "Clipping mask based on \(sourceName). Option-click the bottom of its row to release.")
         } else { dimensions.toolTip = nil }
         eye.image = NSImage(systemSymbolName: layer.isVisible ? "eye" : "eye.slash", accessibilityDescription: nil)
-        eye.setAccessibilityLabel("\(layer.isVisible ? "Hide" : "Show") \(layer.name)")
+        eye.setAccessibilityLabel(layer.isVisible
+            ? String(localized: "Hide \(layer.name)")
+            : String(localized: "Show \(layer.name)"))
         eye.isEnabled = enabled
         eye.layerID = layer.id
         eye.session = session
@@ -1085,8 +1097,8 @@ private final class LayerCell: NSTableCellView, NSTextFieldDelegate {
         if let layer = session?.document?.layers.first(where: { $0.id == layerID }),
            let sourceID = layer.maskSourceID,
            let source = session?.document?.layers.first(where: { $0.id == sourceID }) {
-            dimensions.stringValue = "Clipped to \(source.name)"
-            dimensions.toolTip = "Clipping mask based on \(source.name). Option-click the bottom of its row to release."
+            dimensions.stringValue = String(localized: "Clipped to \(source.name)")
+            dimensions.toolTip = String(localized: "Clipping mask based on \(source.name). Option-click the bottom of its row to release.")
         }
         let active = session?.activeLayerID == layerID && session?.selectedLayerIDs.count == 1
         let mask = session?.isMaskSelected == true

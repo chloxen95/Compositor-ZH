@@ -28,7 +28,7 @@ struct TransformInspector: View {
                 Toggle(isOn: Binding(get: { session.locksTransformRatio != held.contains(.shift) },
                                      set: { session.locksTransformRatio = $0 != held.contains(.shift) })) { Image(systemName: "link") }
                     .toggleStyle(.button).help("Lock aspect ratio. Hold Shift while dragging a handle to turn it the other way.")
-                TransformValueField(label: String(localized: "Scale"), suffix: "%", fieldWidth: Self.shortField, value: value.scalePercent(pixelSize: pixelSize), range: 0.1...30_000, finish: finish) { number in
+                TransformValueField(label: String(localized: "Scale"), identifier: "transformScale", suffix: "%", fieldWidth: Self.shortField, value: value.scalePercent(pixelSize: pixelSize), range: 0.1...30_000, finish: finish) { number in
                     change { value in
                         guard number > 0 else { return }
                         value = value.scaled(toPercent: number, pixelSize: pixelSize)
@@ -120,6 +120,9 @@ struct TransformInspector: View {
 
 struct TransformValueField: View {
     let label: String
+    /// 无障碍标识符用的稳定 ASCII 名。`label` 现在会被翻译，拿它拼标识符会让
+    /// `transformScale` 变成 `transform缩放`——UI 测试与自动化脚本全都找不到控件。
+    var identifier: String? = nil
     var suffix: String? = nil
     /// The text box's own width, when it's narrower than the space it's given: Scale and rotation take four digits.
     var fieldWidth: CGFloat? = nil
@@ -141,7 +144,7 @@ struct TransformValueField: View {
             TextField(label, text: $text)
                 .textFieldStyle(.roundedBorder).focused($focused)
                 .frame(width: fieldWidth)
-                .accessibilityIdentifier("transform\(label)")
+                .accessibilityIdentifier(identifier ?? "transform\(label)")
                 .onAppear { sync() }
                 .onChange(of: value) { if !focused { sync() } }
                 .onChange(of: focused) { if !focused { finish(); sync() } }

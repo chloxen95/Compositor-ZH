@@ -818,12 +818,18 @@ final class EditorSession {
         return selectionAmountOperation == nil && colorRange == nil && textDraft == nil && document != nil && brushStroke == nil && warpStroke == nil && !isProjectBusy && !isImporting && !showsNewDocument && !showsImporter && renamingLayerID == nil && cropRect == nil && gradientEdit == nil && pixelMove == nil && hueSaturation == nil && levels == nil && filterEdit == nil && adjustmentEditingID == nil
     }
 
+    /// 「图层 1」「图层 2」…，按当前语言取词并跳过已用过的名字。
+    /// 查重与生成必须用**同一个**本地化字符串，否则中文文档里会出现两个「图层 1」。
+    static func nextLayerName(among names: Set<String>) -> String {
+        var number = 1
+        while names.contains(String(localized: "Layer \(number)")) { number += 1 }
+        return String(localized: "Layer \(number)")
+    }
+
     func addBlankLayer() {
         guard canEditLayers, let document else { return }
         let names = Set(document.layers.map(\.name))
-        var number = 1
-        while names.contains("Layer \(number)") { number += 1 }
-        var layer = ImageLayer(name: "Layer \(number)", blankSize: document.size)
+        var layer = ImageLayer(name: Self.nextLayerName(among: names), blankSize: document.size)
         layer.parentID = activeLayer?.isGroup == true ? activeLayerID : activeLayer?.parentID
         if let parent = layer.parentID { collapsedGroupIDs.remove(parent) }
         var insertion = document.layers.firstIndex { $0.id == activeLayerID }.map { $0 + 1 } ?? document.layers.count
@@ -1292,13 +1298,13 @@ final class EditorSession {
     /// every pixel's detail.
     private static func firstLayer(size: CGSize, background: CGColor?) -> ImageLayer {
         guard let background, let context = try? BrushRaster.context(width: Int(size.width), height: Int(size.height), mask: false)
-        else { return ImageLayer(name: "Layer 1", blankSize: size) }
+        else { return ImageLayer(name: String(localized: "Layer 1"), blankSize: size) }
         context.setFillColor(background)
         context.fill(CGRect(origin: .zero, size: size))
         guard let image = context.makeImage(), let thumbnail = try? PixelAdjust.thumbnail(of: image)
-        else { return ImageLayer(name: "Layer 1", blankSize: size) }
-        var layer = ImageLayer(name: "Background", blankSize: size)
-        layer.asset = ImportedImage(image: image, thumbnail: thumbnail, name: "Background")
+        else { return ImageLayer(name: String(localized: "Layer 1"), blankSize: size) }
+        var layer = ImageLayer(name: String(localized: "Background"), blankSize: size)
+        layer.asset = ImportedImage(image: image, thumbnail: thumbnail, name: String(localized: "Background"))
         return layer
     }
 
