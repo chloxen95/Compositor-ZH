@@ -12,7 +12,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$@ %2$@ 现已可用，当前版本为 %3$@。要现在下载吗？"
+            "value": "%@ %@ 现已可用，当前版本为 %@。要现在下载吗？"
           }
         }
       }
@@ -22,7 +22,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$@ %2$@ 已可安装，当前版本为 %3$@。"
+            "value": "%@ %@ 已可安装，当前版本为 %@。"
           }
         }
       }
@@ -98,7 +98,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$lld 毫秒 · %2$@ fps"
+            "value": "%lld 毫秒 · %@ fps"
           }
         }
       }
@@ -108,7 +108,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$lld × %2$lld 像素"
+            "value": "%lld × %lld 像素"
           }
         }
       }
@@ -601,6 +601,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "背景"
+          }
+        }
+      }
+    },
+    "Background color": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "背景色"
           }
         }
       }
@@ -1952,7 +1962,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "当前：%1$lld × %2$lld 像素"
+            "value": "当前：%lld × %lld 像素"
           }
         }
       }
@@ -2053,6 +2063,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "深"
+          }
+        }
+      }
+    },
+    "Dark Color": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暗色"
           }
         }
       }
@@ -2952,7 +2972,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "正在编码第 %1$lld 帧，共 %2$lld 帧…"
+            "value": "正在编码第 %lld 帧，共 %lld 帧…"
           }
         }
       }
@@ -4628,7 +4648,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "输入 %1$lld   输出 %2$lld"
+            "value": "输入 %lld   输出 %lld"
           }
         }
       }
@@ -4668,7 +4688,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "输入 %1$lld · 输出 %2$lld"
+            "value": "输入 %lld · 输出 %lld"
           }
         }
       }
@@ -5028,7 +5048,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "浅"
+            "value": "亮光"
           }
         }
       }
@@ -5049,6 +5069,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "浅蓝"
+          }
+        }
+      }
+    },
+    "Light Color": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "亮色"
           }
         }
       }
@@ -6128,7 +6158,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "新：%1$lld × %2$lld 像素 · 未压缩 %3$@"
+            "value": "新：%lld × %lld 像素 · 未压缩 %@"
           }
         }
       }
@@ -7541,7 +7571,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "72 用于屏幕，300 用于印刷。点按可切换。· 在 %1$lld DPI 下为 %2$lld × %3$lld 像素"
+            "value": "72 用于屏幕，300 用于印刷。点按可切换。· 在 %lld DPI 下为 %lld × %lld 像素"
           }
         }
       }
@@ -7561,7 +7591,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "结果：%1$lld × %2$lld 像素"
+            "value": "结果：%lld × %lld 像素"
           }
         }
       }
@@ -9531,7 +9561,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "每边 1–%1$@ 像素，总计不超过 %2$lld 百万像素，分辨率 1–9,600 像素/英寸。"
+            "value": "每边 1–%@ 像素，总计不超过 %lld 百万像素，分辨率 1–9,600 像素/英寸。"
           }
         }
       }
@@ -9551,7 +9581,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "网格线间隔 %1$lld–%2$@ 像素，细分 %3$lld–%4$lld，且不大于网格线之间的像素数。"
+            "value": "网格线间隔 %lld–%@ 像素，细分 %lld–%lld，且不大于网格线之间的像素数。"
           }
         }
       }

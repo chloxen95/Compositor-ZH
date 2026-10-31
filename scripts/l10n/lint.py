@@ -13,6 +13,7 @@
     E5 省略号      原文以 … 结尾的，译文也须以 … 结尾
     E6 不译名      原文出现的 PNG/JPEG/Camera Raw 等在译文中必须保留
     E7 状态         status=translated 但译文为空，或译文等于英文原文（未译却标已译）
+    E8 定位符       译文里出现 %1$lld 这类定位符（运行时会格式化失败、退回英文）
     W1 空白        首尾空白与原文不一致（仅提示，常见于刻意的排版）
     W2 长度        超过 glossary.rules.menuLength 的菜单项（仅提示）
 
@@ -79,6 +80,19 @@ class Findings:
         return dict(Counter(code for _l, code, _k, _m in self.items))
 
 
+POSITIONAL_SPLIT = re.compile(r"%(\d+)\$")
+
+
+def check_positional(value: str) -> bool:
+    """译文里出现 `%1$lld` 这类定位符即为错。
+
+    实测：SwiftUI 用带定位符的格式串去格式化会失败，然后退回格式化**键**，
+    界面显示成英文原文（`1920 × 1080 px`）——看起来像没翻译，其实是格式化失败。
+    键在入库时已归一为非定位符（harvest.plain_key），译文也必须一致。
+    """
+    return bool(POSITIONAL_SPLIT.search(value))
+
+
 def check(key: str, zh: str, status: str, glossary: dict, findings: Findings,
           menu_length: int, is_menu: bool = False) -> None:
     english = key
@@ -93,6 +107,11 @@ def check(key: str, zh: str, status: str, glossary: dict, findings: Findings,
     # E7 状态一致性（verbatim 是「专名不翻」的显式声明，与原文相同是正确结果）
     if status == "translated" and zh.strip() == english.strip() and interpolations == 0:
         findings.error("E7", key, "译文与英文原文完全相同，疑似未译却标为 translated")
+
+    # E8 定位符：译文里不能出现 %1$ 形式（见 check_positional 的说明）
+    if check_positional(zh):
+        findings.error("E8", key,
+                       "译文含定位符（%1$lld 之类）：运行时格式化会失败并回退显示英文原文，去掉编号即可")
 
     # E2 占位符
     zh_placeholders = len(PLACEHOLDER.findall(zh.replace("%%", "")))

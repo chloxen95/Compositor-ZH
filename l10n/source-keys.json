@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T08:31:31+00:00",
+ "generatedAt": "2026-10-31T14:59:23+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-qxxcz02s/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-35iuyhu9/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -275,7 +275,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 477
+     "line": 479
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -748,7 +748,19 @@
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 277
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
      "line": 295
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 295
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 12
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -937,6 +949,10 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 45
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 45
     }
    ]
   },
@@ -1054,6 +1070,15 @@
    ]
   },
   {
+   "key": "Background color",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 59
+    }
+   ]
+  },
+  {
    "key": "Bake and Delete",
    "sites": [
     {
@@ -1082,6 +1107,10 @@
   {
    "key": "Balance",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 454
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 454
@@ -1225,6 +1254,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 211
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 211
     }
    ]
   },
@@ -1270,6 +1303,10 @@
   {
    "key": "Blending",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 451
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 451
@@ -1538,7 +1575,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 481
+     "line": 483
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -1646,6 +1683,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 178
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 441
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 441
     }
    ]
   },
@@ -2161,6 +2210,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 256
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 256
     }
    ]
   },
@@ -2652,6 +2705,22 @@
      "line": 146
     },
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 146
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 433
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 433
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 31
+    },
+    {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 31
     },
@@ -2737,6 +2806,10 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 34
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 34
     }
    ]
   },
@@ -2759,6 +2832,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 162
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 162
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 434
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 434
     }
    ]
   },
@@ -2768,6 +2853,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 158
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 158
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 437
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 437
     }
    ]
   },
@@ -2821,6 +2918,10 @@
   {
    "key": "Color Smoothness",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 36
+    },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 36
@@ -3041,6 +3142,10 @@
   {
    "key": "Contrast",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 203
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 203
@@ -3277,6 +3382,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 154
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 154
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 436
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 436
     }
    ]
   },
@@ -3426,6 +3543,10 @@
   },
   {
    "key": "Dark",
+   "sites": []
+  },
+  {
+   "key": "Dark Color",
    "sites": [
     {
      "file": "Compositor/UI/FilterSheet.swift",
@@ -3487,6 +3608,10 @@
   {
    "key": "Darks",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 38
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 38
@@ -3561,6 +3686,10 @@
   {
    "key": "Dehaze",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 258
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 258
@@ -3792,6 +3921,22 @@
      "line": 166
     },
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 166
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 438
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 438
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 16
+    },
+    {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 16
     }
@@ -3889,6 +4034,14 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 100
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 106
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -4104,7 +4257,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 472
+     "line": 474
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -4286,7 +4439,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 534
+     "line": 536
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -4610,6 +4763,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 150
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 150
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 435
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 435
     }
    ]
   },
@@ -4696,15 +4861,15 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 174
-    },
-    {
-     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 176
+     "line": 177
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 177
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 179
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -4937,6 +5102,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 201
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 201
     }
    ]
   },
@@ -4995,6 +5164,10 @@
   {
    "key": "Feather",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 288
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 288
@@ -5449,6 +5622,10 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 134
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 59
     }
    ]
   },
@@ -5638,6 +5815,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 174
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 174
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 440
     }
    ]
   },
@@ -5664,6 +5853,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 260
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 261
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
@@ -5803,12 +5996,20 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 129
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 129
     }
    ]
   },
   {
    "key": "Green Hue",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 131
+    },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 131
@@ -6288,7 +6489,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 174
+     "line": 177
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -6378,11 +6579,27 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 446
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 446
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 205
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 205
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 290
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
@@ -6442,6 +6659,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 50
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 43
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
@@ -6902,12 +7123,28 @@
      "line": 290
     },
     {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 290
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 109
+    },
+    {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 109
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 112
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 115
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
@@ -6929,12 +7166,20 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 383
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 383
     }
    ]
   },
   {
    "key": "Hue Shift",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 377
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 377
@@ -6946,7 +7191,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 479
+     "line": 481
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -7823,20 +8068,16 @@
      "line": 142
     },
     {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 302
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 142
     },
     {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 302
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 432
     },
     {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 353
-    },
-    {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 353
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 432
     }
    ]
   },
@@ -7863,6 +8104,27 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 233
+    }
+   ]
+  },
+  {
+   "key": "Light Color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 353
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 353
     }
    ]
   },
@@ -7960,6 +8222,10 @@
   {
    "key": "Lights",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 37
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 37
@@ -8357,7 +8623,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 169
+     "line": 172
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -8381,6 +8647,14 @@
      "line": 292
     },
     {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 292
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 21
+    },
+    {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 21
     }
@@ -8389,6 +8663,10 @@
   {
    "key": "Luminance Contrast",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 26
+    },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 26
@@ -8401,6 +8679,10 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 24
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 24
     }
    ]
   },
@@ -8410,12 +8692,20 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 385
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 385
     }
    ]
   },
   {
    "key": "Luminance Shift",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 381
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 381
@@ -8709,6 +8999,10 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 18
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 18
     }
    ]
   },
@@ -8853,6 +9147,14 @@
      "line": 284
     },
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 284
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 135
+    },
+    {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 135
     }
@@ -8868,6 +9170,10 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 220
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 445
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -9660,12 +9966,20 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 47
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 47
     }
    ]
   },
   {
    "key": "Offset Y",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 48
+    },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 48
@@ -9856,6 +10170,18 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 170
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 439
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 439
     }
    ]
   },
@@ -10800,12 +11126,20 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 125
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 125
     }
    ]
   },
   {
    "key": "Purple Hue",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 127
+    },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 127
@@ -10983,6 +11317,10 @@
      "line": 14
     },
     {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 14
+    },
+    {
      "file": "Compositor/UI/ShapeControls.swift",
      "line": 64
     },
@@ -11003,6 +11341,10 @@
   {
    "key": "Range",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 268
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 268
@@ -11213,6 +11555,10 @@
   {
    "key": "Refine Saturation",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 55
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 55
@@ -11668,6 +12014,10 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 44
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 44
     }
    ]
   },
@@ -11716,6 +12066,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 299
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 299
     }
    ]
   },
@@ -11756,6 +12110,10 @@
   {
    "key": "Roundness",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 286
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 286
@@ -11896,6 +12254,14 @@
      "line": 291
     },
     {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 247
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 247
     },
@@ -11905,7 +12271,19 @@
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 113
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 116
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
@@ -11919,12 +12297,20 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 384
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 384
     }
    ]
   },
   {
    "key": "Saturation Shift",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 379
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 379
@@ -12002,6 +12388,10 @@
   {
    "key": "Scale",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 46
+    },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 46
@@ -12405,7 +12795,19 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 444
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 444
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 207
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
@@ -12934,6 +13336,10 @@
      "line": 297
     },
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 297
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 154
     },
@@ -13298,6 +13704,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 270
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 270
     }
    ]
   },
@@ -13353,15 +13763,15 @@
    "sites": [
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 169
-    },
-    {
-     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 171
+     "line": 172
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 172
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -13754,6 +14164,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 241
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 241
     }
    ]
   },
@@ -13820,6 +14234,10 @@
   {
    "key": "Texture",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 254
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 254
@@ -14004,6 +14422,14 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 243
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 243
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 107
     },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
@@ -14815,12 +15241,20 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 42
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 42
     }
    ]
   },
   {
    "key": "Vibrance",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 245
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 245
@@ -14862,6 +15296,14 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 102
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 102
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 133
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
@@ -14911,6 +15353,10 @@
   {
    "key": "Warmth",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 272
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 272
@@ -15087,6 +15533,10 @@
   {
    "key": "Whites",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 209
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 209

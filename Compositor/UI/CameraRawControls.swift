@@ -131,12 +131,12 @@ struct CameraRawControls: View {
                         Image(systemName: expanded.contains(section) ? "chevron.down" : "chevron.right")
                             .font(.caption.weight(.semibold))
                             .frame(width: 12)
-                        Text(section.rawValue).font(.headline)
+                        Text(section.displayName).font(.headline)
                     }
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(section.rawValue)
+                .accessibilityLabel(section.displayName)
                 Spacer(minLength: 0)
                 if section == .light, raw.adjustsLight {
                     eye(shown: session.filterEdit?.showsCameraRawLight ?? true, name: "Light", group: .light)
@@ -425,6 +425,22 @@ struct CameraRawControls: View {
         case geometry = "Geometry"
         case calibration = "Calibration"
         var id: String { rawValue }
+        /// 分区标题。`rawValue` 是身份，标题走这里——顺带解决 `Light` 的一词两义：
+        /// 这里是「亮光」，抖动滤镜里那对色板标签已改叫 Light Color / Dark Color。
+        var displayName: String {
+            switch self {
+            case .light: String(localized: "Light", comment: "Camera Raw section")
+            case .color: String(localized: "Color", comment: "Camera Raw section")
+            case .colorGrading: String(localized: "Color Grading", comment: "Camera Raw section")
+            case .effects: String(localized: "Effects", comment: "Camera Raw section")
+            case .curve: String(localized: "Curve", comment: "Camera Raw section")
+            case .colorMixer: String(localized: "Color Mixer", comment: "Camera Raw section")
+            case .detail: String(localized: "Detail", comment: "Camera Raw section")
+            case .optics: String(localized: "Optics", comment: "Camera Raw section")
+            case .geometry: String(localized: "Geometry", comment: "Camera Raw section")
+            case .calibration: String(localized: "Calibration", comment: "Camera Raw section")
+            }
+        }
         var group: CameraRawGroup {
             switch self {
             case .light: return .light

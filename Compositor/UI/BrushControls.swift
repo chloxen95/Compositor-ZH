@@ -131,7 +131,7 @@ struct BrushControls: View {
                             .buttonStyle(.plain)
                             .disabled(!session.canEditPalette)
                             .help("Foreground color")
-                            .accessibilityLabel("Foreground color")
+                            .accessibilityLabel(String(localized: "Foreground color"))
                         }
                     }
                     Spacer(minLength: 0)
