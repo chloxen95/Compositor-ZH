@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T05:39:08+00:00",
+ "generatedAt": "2026-10-31T08:31:31+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-mqty2k3u/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-qxxcz02s/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -139,7 +139,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 71
+     "line": 73
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -279,7 +279,7 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 477
+     "line": 479
     }
    ]
   },
@@ -388,6 +388,19 @@
    ]
   },
   {
+   "key": "Add",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
    "key": "Add %@",
    "sites": [
     {
@@ -487,6 +500,58 @@
    ]
   },
   {
+   "key": "Adds film grain, strongest in the middle tones.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 296
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 296
+    }
+   ]
+  },
+  {
+   "key": "Adds green or magenta to the darkest tones.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 107
+    }
+   ]
+  },
+  {
+   "key": "Adds or softens contrast along broader shapes.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 257
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 257
+    }
+   ]
+  },
+  {
+   "key": "Adds or softens small detail.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 255
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 255
+    }
+   ]
+  },
+  {
    "key": "Adjustment · Double-click to edit",
    "sites": [
     {
@@ -509,6 +574,45 @@
     {
      "file": "Compositor/UI/LayerSearchControls.swift",
      "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Adjusts the bright parts of the picture. Hold Option to see clipped highlights.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 206
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 206
+    }
+   ]
+  },
+  {
+   "key": "Adjusts the dark parts of the picture. Hold Option to see clipped shadows.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 208
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 208
+    }
+   ]
+  },
+  {
+   "key": "Advanced",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 33
     }
    ]
   },
@@ -639,6 +743,18 @@
    "key": "Amount",
    "sites": [
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 277
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 295
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 12
+    },
+    {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 212
     },
@@ -687,7 +803,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 101
+     "line": 103
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -816,8 +932,25 @@
    ]
   },
   {
+   "key": "Aspect",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 45
+    }
+   ]
+  },
+  {
    "key": "Auto",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 110
+    },
     {
      "file": "Compositor/UI/LevelsSheet.swift",
      "line": 61
@@ -888,11 +1021,7 @@
    "sites": [
     {
      "file": "Compositor/Document/EditorSession.swift",
-     "line": 1306
-    },
-    {
-     "file": "Compositor/Document/EditorSession.swift",
-     "line": 1307
+     "line": 1326
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
@@ -901,6 +1030,14 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 1327
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1327
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 93
     },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
@@ -943,6 +1080,15 @@
    ]
   },
   {
+   "key": "Balance",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 454
+    }
+   ]
+  },
+  {
    "key": "Based On",
    "sites": [
     {
@@ -952,6 +1098,19 @@
     {
      "file": "Compositor/UI/TrimSheet.swift",
      "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Basic",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 32
     }
    ]
   },
@@ -974,6 +1133,18 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 95
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 95
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 240
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 240
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
@@ -1003,6 +1174,14 @@
     {
      "file": "Compositor/L10n/Names+Filters.swift",
      "line": 30
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 13
     }
    ]
   },
@@ -1037,6 +1216,15 @@
     {
      "file": "Compositor/UI/ColorPaletteControls.swift",
      "line": 44
+    }
+   ]
+  },
+  {
+   "key": "Blacks",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 211
     }
    ]
   },
@@ -1080,6 +1268,28 @@
    ]
   },
   {
+   "key": "Blending",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 451
+    }
+   ]
+  },
+  {
+   "key": "Bloom",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 119
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 119
+    }
+   ]
+  },
+  {
    "key": "Bloom / Glow",
    "sites": [
     {
@@ -1110,6 +1320,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 37
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 190
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 190
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
@@ -1144,6 +1362,19 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Blur",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 88
     }
    ]
   },
@@ -1203,6 +1434,14 @@
    "key": "Bottom center",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -1212,6 +1451,14 @@
    "key": "Bottom left",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -1220,6 +1467,14 @@
   {
    "key": "Bottom right",
    "sites": [
+    {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
@@ -1240,6 +1495,32 @@
    ]
   },
   {
+   "key": "Brightens or darkens the corners to counter lens falloff.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 134
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 134
+    }
+   ]
+  },
+  {
+   "key": "Brightens or darkens the whole picture, in stops of light. Hold Option to see clipped highlights.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 202
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 202
+    }
+   ]
+  },
+  {
    "key": "Brighter than white kept · Transparency kept",
    "sites": [
     {
@@ -1249,6 +1530,19 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 242
+    }
+   ]
+  },
+  {
+   "key": "Brightness added by this wheel.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 481
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 483
     }
    ]
   },
@@ -1281,6 +1575,10 @@
   {
    "key": "Brush (B) · Eraser (E)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 112
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 112
@@ -1343,6 +1641,15 @@
    ]
   },
   {
+   "key": "Calibration",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 178
+    }
+   ]
+  },
+  {
    "key": "Camera Raw Filter",
    "sites": [
     {
@@ -1389,11 +1696,11 @@
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 136
+     "line": 140
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 138
+     "line": 140
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
@@ -1588,7 +1895,7 @@
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 69
+     "line": 71
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -1614,11 +1921,11 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 125
+     "line": 129
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 127
+     "line": 129
     }
    ]
   },
@@ -1673,6 +1980,14 @@
    "key": "Center",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -1681,6 +1996,10 @@
   {
    "key": "Centimeters",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 83
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 83
@@ -1811,6 +2130,19 @@
    ]
   },
   {
+   "key": "Chooses how bright an area must be to glow. Has no effect until Glow is raised.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 269
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 269
+    }
+   ]
+  },
+  {
    "key": "Chooses how strongly the calibration sliders below are applied. Version 6 is the current default.",
    "sites": [
     {
@@ -1820,6 +2152,15 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 100
+    }
+   ]
+  },
+  {
+   "key": "Clarity",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 256
     }
    ]
   },
@@ -1893,6 +2234,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Clears haze when raised, and adds haze when lowered.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 259
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 259
     }
    ]
   },
@@ -2199,6 +2553,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 114
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 114
     }
    ]
   },
@@ -2274,12 +2632,28 @@
      "line": 31
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 199
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 199
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
     },
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 146
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 31
     },
     {
      "file": "Compositor/UI/EffectsSheet.swift",
@@ -2358,6 +2732,15 @@
    ]
   },
   {
+   "key": "Color Detail",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
    "key": "Color Dodge",
    "sites": [
     {
@@ -2367,6 +2750,24 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Color Grading",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 162
+    }
+   ]
+  },
+  {
+   "key": "Color Mixer",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 158
     }
    ]
   },
@@ -2392,6 +2793,19 @@
    ]
   },
   {
+   "key": "Color Priority",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 129
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 129
+    }
+   ]
+  },
+  {
    "key": "Color Range…",
    "sites": [
     {
@@ -2405,15 +2819,24 @@
    ]
   },
   {
+   "key": "Color Smoothness",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
    "key": "Color for the added canvas",
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 132
+     "line": 136
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 134
+     "line": 136
     }
    ]
   },
@@ -2538,6 +2961,19 @@
    ]
   },
   {
+   "key": "Content-Aware",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 97
+    }
+   ]
+  },
+  {
    "key": "Content-Aware Fill",
    "sites": [
     {
@@ -2599,6 +3035,28 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 319
+    }
+   ]
+  },
+  {
+   "key": "Contrast",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 203
+    }
+   ]
+  },
+  {
+   "key": "Controls how strong the sharpening is.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 13
     }
    ]
   },
@@ -2707,6 +3165,19 @@
    ]
   },
   {
+   "key": "Create Texture",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 98
+    }
+   ]
+  },
+  {
    "key": "Create a canvas or import a file.",
    "sites": [
     {
@@ -2751,6 +3222,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 111
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 111
     }
    ]
   },
@@ -2772,7 +3247,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 70
+     "line": 72
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -2798,6 +3273,10 @@
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 15
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 154
     }
    ]
   },
@@ -2841,6 +3320,26 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 96
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 241
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 241
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
@@ -2900,6 +3399,19 @@
    ]
   },
   {
+   "key": "Cyan",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 239
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 239
+    }
+   ]
+  },
+  {
    "key": "Cyans",
    "sites": [
     {
@@ -2947,6 +3459,19 @@
    ]
   },
   {
+   "key": "Darkens or lightens the edges. The center does not change.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 278
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 278
+    }
+   ]
+  },
+  {
    "key": "Darker or lighter before the lines are drawn",
    "sites": [
     {
@@ -2960,6 +3485,15 @@
    ]
   },
   {
+   "key": "Darks",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
    "key": "Dashed",
    "sites": [
     {
@@ -2969,6 +3503,19 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Dashed Lines",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 250
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 250
     }
    ]
   },
@@ -3008,6 +3555,15 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Dehaze",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 258
     }
    ]
   },
@@ -3229,6 +3785,19 @@
    ]
   },
   {
+   "key": "Detail",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 166
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
    "key": "Develop “%@”",
    "sites": [
     {
@@ -3251,6 +3820,19 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Diffusion",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 118
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 118
     }
    ]
   },
@@ -3298,6 +3880,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 473
+    }
+   ]
+  },
+  {
+   "key": "Distortion",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 106
     }
    ]
   },
@@ -3401,6 +3996,32 @@
    ]
   },
   {
+   "key": "Dot",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Dots",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 251
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 251
+    }
+   ]
+  },
+  {
    "key": "Dotted",
    "sites": [
     {
@@ -3487,7 +4108,7 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 472
+     "line": 474
     }
    ]
   },
@@ -3501,6 +4122,19 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 28
+    }
+   ]
+  },
+  {
+   "key": "Drag on the picture to move the curve for the tone under the pointer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 58
     }
    ]
   },
@@ -3656,7 +4290,7 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 534
+     "line": 536
     }
    ]
   },
@@ -3971,6 +4605,15 @@
    ]
   },
   {
+   "key": "Effects",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 150
+    }
+   ]
+  },
+  {
    "key": "Ellipse",
    "sites": [
     {
@@ -3980,6 +4623,19 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 7
+    }
+   ]
+  },
+  {
+   "key": "Emphasizes fine texture over broader edges.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 17
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 17
     }
    ]
   },
@@ -4044,7 +4700,15 @@
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 174
+     "line": 176
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 177
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 179
     }
    ]
   },
@@ -4110,6 +4774,19 @@
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 166
+    }
+   ]
+  },
+  {
+   "key": "Erase",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 79
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 79
     }
    ]
   },
@@ -4256,6 +4933,10 @@
     {
      "file": "Compositor/L10n/Names+Filters.swift",
      "line": 27
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 201
     }
    ]
   },
@@ -4264,11 +4945,11 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 130
+     "line": 134
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 132
+     "line": 134
     }
    ]
   },
@@ -4291,6 +4972,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 119
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 119
     }
    ]
   },
@@ -4310,6 +4995,10 @@
   {
    "key": "Feather",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 288
+    },
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 64
@@ -4502,7 +5191,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 96
+     "line": 98
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -4735,6 +5424,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 92
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 92
     }
    ]
   },
@@ -4756,6 +5449,32 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 134
+    }
+   ]
+  },
+  {
+   "key": "Foreground to Background",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Foreground to Transparent",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 51
     }
    ]
   },
@@ -4914,6 +5633,28 @@
    ]
   },
   {
+   "key": "Geometry",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 174
+    }
+   ]
+  },
+  {
+   "key": "Global",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 222
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 222
+    }
+   ]
+  },
+  {
    "key": "Glow",
    "sites": [
     {
@@ -4923,6 +5664,10 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 260
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 261
     }
    ]
   },
@@ -4942,6 +5687,10 @@
   {
    "key": "Gradient (G)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 116
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 116
@@ -5023,12 +5772,46 @@
      "line": 36
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 235
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 235
+    },
+    {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Green Amount",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 129
+    }
+   ]
+  },
+  {
+   "key": "Green Hue",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 131
     }
    ]
   },
@@ -5156,6 +5939,19 @@
    ]
   },
   {
+   "key": "Guided",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 139
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 139
+    }
+   ]
+  },
+  {
    "key": "Guides",
    "sites": [
     {
@@ -5190,6 +5986,19 @@
    ]
   },
   {
+   "key": "HSL",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 198
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 198
+    }
+   ]
+  },
+  {
    "key": "HSL lists every color. Color edits one family. Point Color adjusts a color you pick.",
    "sites": [
     {
@@ -5203,8 +6012,25 @@
    ]
   },
   {
+   "key": "Halation",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 120
+    }
+   ]
+  },
+  {
    "key": "Hand (H)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 120
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 120
@@ -5263,15 +6089,15 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 83
-    },
-    {
-     "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 85
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 85
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 87
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -5466,7 +6292,7 @@
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 174
+     "line": 177
     }
    ]
   },
@@ -5493,6 +6319,19 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 82
+    }
+   ]
+  },
+  {
+   "key": "Highlight Priority",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 128
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 128
     }
    ]
   },
@@ -5526,6 +6365,30 @@
    "key": "Highlights",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 221
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 221
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 446
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 205
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 290
+    },
+    {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 58
     },
@@ -5538,6 +6401,14 @@
   {
    "key": "Histogram",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 169
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 169
+    },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 51
@@ -5571,6 +6442,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 50
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 43
     }
    ]
   },
@@ -5675,6 +6550,58 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 101
+    }
+   ]
+  },
+  {
+   "key": "How far from each edge the sharpening reaches, in pixels.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "How far in brightness the adjustment reaches.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 385
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 385
+    }
+   ]
+  },
+  {
+   "key": "How far in hue the adjustment reaches.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 383
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 383
+    }
+   ]
+  },
+  {
+   "key": "How far in saturation the adjustment reaches.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 384
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 384
     }
    ]
   },
@@ -5887,6 +6814,32 @@
    ]
   },
   {
+   "key": "How much of the profile distortion correction is applied.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 101
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 101
+    }
+   ]
+  },
+  {
+   "key": "How much of the profile vignetting correction is applied.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 103
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 103
+    }
+   ]
+  },
+  {
    "key": "How strongly edges and fine detail are brought out",
    "sites": [
     {
@@ -5937,12 +6890,54 @@
      "line": 29
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 208
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 208
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 290
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 115
+    },
+    {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 95
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 95
+    }
+   ]
+  },
+  {
+   "key": "Hue Range",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 383
+    }
+   ]
+  },
+  {
+   "key": "Hue Shift",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 377
     }
    ]
   },
@@ -5955,7 +6950,7 @@
     },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
-     "line": 479
+     "line": 481
     }
    ]
   },
@@ -5969,6 +6964,32 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 56
+    }
+   ]
+  },
+  {
+   "key": "Hue range where green defringe runs.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 132
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 132
+    }
+   ]
+  },
+  {
+   "key": "Hue range where purple defringe runs.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 128
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 128
     }
    ]
   },
@@ -6186,6 +7207,10 @@
   {
    "key": "Inches",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 82
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 82
@@ -6423,11 +7448,24 @@
    ]
   },
   {
+   "key": "Keeps local contrast after luminance smoothing.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 27
+    }
+   ]
+  },
+  {
    "key": "Keeps this point fixed. Artwork is not scaled; cropped content remains outside the canvas.",
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 121
+     "line": 123
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -6488,6 +7526,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 109
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 109
     }
    ]
   },
@@ -6535,15 +7577,15 @@
    "sites": [
     {
      "file": "Compositor/Document/EditorSession.swift",
-     "line": 825
-    },
-    {
-     "file": "Compositor/Document/EditorSession.swift",
-     "line": 826
+     "line": 845
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 845
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 846
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
@@ -6556,15 +7598,15 @@
    "sites": [
     {
      "file": "Compositor/Document/EditorSession.swift",
-     "line": 1301
-    },
-    {
-     "file": "Compositor/Document/EditorSession.swift",
-     "line": 1305
+     "line": 1321
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 1321
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1325
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
@@ -6777,6 +7819,10 @@
    "key": "Light",
    "sites": [
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 142
+    },
+    {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 302
     },
@@ -6804,6 +7850,45 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 382
+    }
+   ]
+  },
+  {
+   "key": "Light Blue",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 233
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 233
+    }
+   ]
+  },
+  {
+   "key": "Light Gray",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 232
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 232
+    }
+   ]
+  },
+  {
+   "key": "Light Red",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 234
     }
    ]
   },
@@ -6873,6 +7958,15 @@
    ]
   },
   {
+   "key": "Lights",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
    "key": "Limited to the selection",
    "sites": [
     {
@@ -6890,6 +7984,19 @@
     {
      "file": "Compositor/UI/HueSaturationSheet.swift",
      "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Limits sharpening to stronger edges. Hold Option to see the mask.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 19
     }
    ]
   },
@@ -6935,6 +8042,14 @@
   {
    "key": "Linear",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 41
+    },
     {
      "file": "Compositor/UI/CameraRawColorControls.swift",
      "line": 49
@@ -7053,6 +8168,19 @@
    ]
   },
   {
+   "key": "Lines",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 249
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 249
+    }
+   ]
+  },
+  {
    "key": "Link layer and mask so they move together",
    "sites": [
     {
@@ -7075,6 +8203,19 @@
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1050
+    }
+   ]
+  },
+  {
+   "key": "Liquify",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 87
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 87
     }
    ]
   },
@@ -7169,7 +8310,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 88
+     "line": 90
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -7220,7 +8361,64 @@
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 169
+     "line": 172
+    }
+   ]
+  },
+  {
+   "key": "Luminance",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 292
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 21
+    }
+   ]
+  },
+  {
+   "key": "Luminance Contrast",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 26
+    }
+   ]
+  },
+  {
+   "key": "Luminance Detail",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Luminance Range",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 385
+    }
+   ]
+  },
+  {
+   "key": "Luminance Shift",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 381
     }
    ]
   },
@@ -7234,6 +8432,19 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 32
+    }
+   ]
+  },
+  {
+   "key": "Magenta",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 238
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 238
     }
    ]
   },
@@ -7269,6 +8480,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 110
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 110
     }
    ]
   },
@@ -7295,6 +8510,97 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 337
+    }
+   ]
+  },
+  {
+   "key": "Makes light and dark tones more or less different, mostly around the middle.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 204
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 204
+    }
+   ]
+  },
+  {
+   "key": "Makes the color smoothing softer or tighter.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
+   "key": "Makes the grain coarser or finer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 298
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 298
+    }
+   ]
+  },
+  {
+   "key": "Makes the grain smoother or more uneven.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 300
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 300
+    }
+   ]
+  },
+  {
+   "key": "Makes the picked color lighter or darker.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 381
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 381
+    }
+   ]
+  },
+  {
+   "key": "Makes the picked color stronger or quieter.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 379
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 379
+    }
+   ]
+  },
+  {
+   "key": "Makes the vignette rounder or more square.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 287
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 287
     }
    ]
   },
@@ -7327,6 +8633,10 @@
   {
    "key": "Marquee (M)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 108
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 108
@@ -7394,6 +8704,15 @@
    ]
   },
   {
+   "key": "Masking",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 18
+    }
+   ]
+  },
+  {
    "key": "Master",
    "sites": [
     {
@@ -7416,6 +8735,19 @@
     {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Medium Blue",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 236
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 236
     }
    ]
   },
@@ -7483,6 +8815,14 @@
    "key": "Middle left",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -7492,14 +8832,47 @@
    "key": "Middle right",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
    ]
   },
   {
+   "key": "Midpoint",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 284
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 135
+    }
+   ]
+  },
+  {
    "key": "Midtones",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 220
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 220
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 445
+    },
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 54
@@ -7665,6 +9038,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 107
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 107
     }
    ]
   },
@@ -7717,6 +9094,45 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 339
+    }
+   ]
+  },
+  {
+   "key": "Moves the picture left or right.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 47
+    }
+   ]
+  },
+  {
+   "key": "Moves the picture up or down.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 48
+    }
+   ]
+  },
+  {
+   "key": "Moves the vignette correction inward or outward.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 136
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 136
     }
    ]
   },
@@ -7775,6 +9191,14 @@
   {
    "key": "New",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 68
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 68
+    },
     {
      "file": "Compositor/UI/ProjectTabs.swift",
      "line": 256
@@ -7954,7 +9378,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 93
+     "line": 95
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -8111,11 +9535,11 @@
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 138
+     "line": 142
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 140
+     "line": 142
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
@@ -8192,6 +9616,32 @@
    ]
   },
   {
+   "key": "Object",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
+   "key": "Off",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 138
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 138
+    }
+   ]
+  },
+  {
    "key": "Off leaves the picture as it is. Guided straightens from lines you draw on the picture.",
    "sites": [
     {
@@ -8201,6 +9651,24 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Offset X",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 47
+    }
+   ]
+  },
+  {
+   "key": "Offset Y",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 48
     }
    ]
   },
@@ -8383,6 +9851,15 @@
    ]
   },
   {
+   "key": "Optics",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 170
+    }
+   ]
+  },
+  {
    "key": "Option temporarily selects the eyedropper in painting tools. Shift constrains shapes/movement or adds to a selection; Option subtracts from selections or draws from center. Command-drag moves selected pixels; Command-Option-drag copies them. Option-drag duplicates layers/folders/effects; Option-click at a layer boundary toggles clipping. Command-click a thumbnail loads its selection. Control bypasses snapping. Right-drag adjusts brush size. Modifier-and-mouse gestures are fixed.",
    "sites": [
     {
@@ -8418,6 +9895,19 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 369
+    }
+   ]
+  },
+  {
+   "key": "Original",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 15
     }
    ]
   },
@@ -8550,12 +10040,33 @@
    "key": "Paint",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 78
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 115
     },
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Paint Overlay",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 130
     }
    ]
   },
@@ -8582,6 +10093,19 @@
     {
      "file": "Compositor/UI/NavigationToolHeader.swift",
      "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Parametric",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 178
     }
    ]
   },
@@ -8682,6 +10206,23 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 81
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Perspective",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 147
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 147
     }
    ]
   },
@@ -8745,6 +10286,10 @@
      "line": 80
     },
     {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 80
+    },
+    {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 14
     },
@@ -8790,6 +10335,32 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 116
+    }
+   ]
+  },
+  {
+   "key": "Point",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 179
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 179
+    }
+   ]
+  },
+  {
+   "key": "Point Color",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 200
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 200
     }
    ]
   },
@@ -8876,6 +10447,32 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 90
+    }
+   ]
+  },
+  {
+   "key": "Preserves colored edges while color noise is reduced.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Preserves fine texture while luminance noise is reduced.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 25
     }
    ]
   },
@@ -9146,6 +10743,32 @@
    ]
   },
   {
+   "key": "Protects bright pixels while a dark vignette is applied. Used by Highlight Priority.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 291
+    }
+   ]
+  },
+  {
+   "key": "Proximity Match",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 99
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 99
+    }
+   ]
+  },
+  {
    "key": "Pull the mask onto the image's own edges, which recovers hair and fur",
    "sites": [
     {
@@ -9168,6 +10791,24 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Purple Amount",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Purple Hue",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 127
     }
    ]
   },
@@ -9215,6 +10856,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 34
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 187
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 187
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
@@ -9285,6 +10934,14 @@
    "key": "Radial",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 42
+    },
+    {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 99
     },
@@ -9322,6 +10979,10 @@
      "line": 92
     },
     {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 14
+    },
+    {
      "file": "Compositor/UI/ShapeControls.swift",
      "line": 64
     },
@@ -9342,6 +11003,10 @@
   {
    "key": "Range",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 268
+    },
     {
      "file": "Compositor/UI/HueSaturationSheet.swift",
      "line": 36
@@ -9431,6 +11096,19 @@
    ]
   },
   {
+   "key": "Rectilinear",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 148
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 148
+    }
+   ]
+  },
+  {
    "key": "Red",
    "sites": [
     {
@@ -9440,6 +11118,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 35
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 188
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 188
     },
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
@@ -9525,11 +11211,20 @@
    ]
   },
   {
+   "key": "Refine Saturation",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
    "key": "Relative to current dimensions",
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 87
+     "line": 89
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -9968,6 +11663,15 @@
    ]
   },
   {
+   "key": "Rotate",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 44
+    }
+   ]
+  },
+  {
    "key": "Rotate Canvas 90° Clockwise",
    "sites": [
     {
@@ -9990,6 +11694,28 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 351
+    }
+   ]
+  },
+  {
+   "key": "Rotates the picture around its center.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 44
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 44
+    }
+   ]
+  },
+  {
+   "key": "Roughness",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 299
     }
    ]
   },
@@ -10024,6 +11750,15 @@
     {
      "file": "Compositor/UI/ShapeControls.swift",
      "line": 76
+    }
+   ]
+  },
+  {
+   "key": "Roundness",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 286
     }
    ]
   },
@@ -10147,6 +11882,52 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 30
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 209
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 209
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 247
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 116
+    }
+   ]
+  },
+  {
+   "key": "Saturation Range",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 384
+    }
+   ]
+  },
+  {
+   "key": "Saturation Shift",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 379
     }
    ]
   },
@@ -10221,6 +12002,10 @@
   {
    "key": "Scale",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 46
+    },
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 31
@@ -10509,7 +12294,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 113
+     "line": 115
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -10539,6 +12324,58 @@
    ]
   },
   {
+   "key": "Sets how far the glow reaches. Has no effect until Glow is raised.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 271
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 271
+    }
+   ]
+  },
+  {
+   "key": "Sets the brightest point. Hold Option to see clipped highlights.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 210
+    }
+   ]
+  },
+  {
+   "key": "Sets the darkest point. Hold Option to see clipped shadows.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 212
+    }
+   ]
+  },
+  {
+   "key": "Sets where the vignette begins, from the center outward.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 285
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 285
+    }
+   ]
+  },
+  {
    "key": "Shadow Clipping Indicator",
    "sites": [
     {
@@ -10554,6 +12391,26 @@
   {
    "key": "Shadows",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 219
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 219
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 444
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 207
+    },
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 106
@@ -10663,6 +12520,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 117
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 117
     }
    ]
   },
@@ -10749,6 +12610,97 @@
     {
      "file": "Compositor/UI/ColorRangeSheet.swift",
      "line": 23
+    }
+   ]
+  },
+  {
+   "key": "Shifts how blue is interpreted.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 115
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Shifts how green is interpreted.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 112
+    }
+   ]
+  },
+  {
+   "key": "Shifts how red is interpreted.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Shifts the glow from cool to warm. Halation stays red. Has no effect until Glow is raised.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 273
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 273
+    }
+   ]
+  },
+  {
+   "key": "Shifts the picked color around the color wheel.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 377
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 377
+    }
+   ]
+  },
+  {
+   "key": "Shifts the picture from blue to yellow.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 242
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 242
+    }
+   ]
+  },
+  {
+   "key": "Shifts the picture from green to mauve.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 244
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 244
     }
    ]
   },
@@ -10978,6 +12930,10 @@
      "line": 42
     },
     {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 297
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 154
     },
@@ -11032,6 +12988,10 @@
   {
    "key": "Smear (R)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 115
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 115
@@ -11125,6 +13085,32 @@
    ]
   },
   {
+   "key": "Smooths colored speckles.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 32
+    }
+   ]
+  },
+  {
+   "key": "Smooths grain and noise in brightness.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 22
+    }
+   ]
+  },
+  {
    "key": "Smooths grain, at the cost of fine detail",
    "sites": [
     {
@@ -11134,6 +13120,19 @@
     {
      "file": "Compositor/UI/RawDevelopSheet.swift",
      "line": 48
+    }
+   ]
+  },
+  {
+   "key": "Smudge",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 89
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 89
     }
    ]
   },
@@ -11186,6 +13185,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 468
+    }
+   ]
+  },
+  {
+   "key": "Softens the edge of the vignette.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 289
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 289
     }
    ]
   },
@@ -11273,6 +13285,32 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 113
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 113
+    }
+   ]
+  },
+  {
+   "key": "Spread",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 270
+    }
+   ]
+  },
+  {
+   "key": "Spreads a glow from the bright areas.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 262
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 262
     }
    ]
   },
@@ -11286,6 +13324,14 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 27
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 23
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 23
     }
    ]
   },
@@ -11311,7 +13357,15 @@
     },
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
-     "line": 169
+     "line": 171
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 172
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
     }
    ]
   },
@@ -11329,6 +13383,45 @@
    ]
   },
   {
+   "key": "Straightens barrel or pincushion bending.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 107
+    }
+   ]
+  },
+  {
+   "key": "Straightens horizontal lines toward the center.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 43
+    }
+   ]
+  },
+  {
+   "key": "Straightens vertical lines toward the center.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 42
+    }
+   ]
+  },
+  {
    "key": "Strength",
    "sites": [
     {
@@ -11338,6 +13431,84 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Strengthens or weakens every color by the same amount.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 248
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 248
+    }
+   ]
+  },
+  {
+   "key": "Strengthens or weakens the blue primary.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 116
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 116
+    }
+   ]
+  },
+  {
+   "key": "Strengthens or weakens the green primary.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 113
+    }
+   ]
+  },
+  {
+   "key": "Strengthens or weakens the red primary.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 110
+    }
+   ]
+  },
+  {
+   "key": "Strengthens quiet colors more than colors that are already strong, and protects skin tones.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 246
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 246
+    }
+   ]
+  },
+  {
+   "key": "Stretches width relative to height.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 45
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 45
     }
    ]
   },
@@ -11480,6 +13651,14 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 27
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 70
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 70
     }
    ]
   },
@@ -11570,6 +13749,15 @@
    ]
   },
   {
+   "key": "Temperature",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 241
+    }
+   ]
+  },
+  {
    "key": "Text",
    "sites": [
     {
@@ -11626,6 +13814,15 @@
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 1066
+    }
+   ]
+  },
+  {
+   "key": "Texture",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 254
     }
    ]
   },
@@ -11776,6 +13973,19 @@
    ]
   },
   {
+   "key": "Three-Way",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 218
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 218
+    }
+   ]
+  },
+  {
    "key": "Three-Way shows shadows, midtones, and highlights. The other choices show one wheel.",
    "sites": [
     {
@@ -11791,6 +14001,14 @@
   {
    "key": "Tint",
    "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 243
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 107
+    },
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 39
@@ -11899,6 +14117,14 @@
    "key": "Top center",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -11908,6 +14134,14 @@
    "key": "Top left",
    "sites": [
     {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
+    {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
     }
@@ -11916,6 +14150,14 @@
   {
    "key": "Top right",
    "sites": [
+    {
+     "file": "Compositor/App/AppRelaunch.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": null
+    },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 14
@@ -12027,6 +14269,10 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 91
+    },
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 91
     }
    ]
   },
@@ -12091,6 +14337,19 @@
    ]
   },
   {
+   "key": "Two Colors",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
    "key": "Type",
    "sites": [
     {
@@ -12114,6 +14373,10 @@
   {
    "key": "Type (T)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 118
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 118
@@ -12198,7 +14461,7 @@
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 74
+     "line": 76
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -12435,6 +14698,14 @@
    "key": "Vectorscope",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 170
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 52
     },
@@ -12453,6 +14724,84 @@
    ]
   },
   {
+   "key": "Version 1",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 156
+    }
+   ]
+  },
+  {
+   "key": "Version 2",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 157
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 157
+    }
+   ]
+  },
+  {
+   "key": "Version 3",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 158
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 158
+    }
+   ]
+  },
+  {
+   "key": "Version 4",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 159
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 159
+    }
+   ]
+  },
+  {
+   "key": "Version 5",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 160
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 160
+    }
+   ]
+  },
+  {
+   "key": "Version 6",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 161
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 161
+    }
+   ]
+  },
+  {
    "key": "Vertical",
    "sites": [
     {
@@ -12462,6 +14811,19 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 51
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 42
+    }
+   ]
+  },
+  {
+   "key": "Vibrance",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 245
     }
    ]
   },
@@ -12495,6 +14857,19 @@
    ]
   },
   {
+   "key": "Vignetting",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 102
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 133
+    }
+   ]
+  },
+  {
    "key": "Visualize Range",
    "sites": [
     {
@@ -12517,6 +14892,54 @@
     {
      "file": "Compositor/L10n/Names+Blend.swift",
      "line": 21
+    }
+   ]
+  },
+  {
+   "key": "Wand",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 59
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 59
+    }
+   ]
+  },
+  {
+   "key": "Warmth",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 272
+    }
+   ]
+  },
+  {
+   "key": "Weakens green fringes inside the green hue range.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 130
+    }
+   ]
+  },
+  {
+   "key": "Weakens purple fringes inside the purple hue range.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 126
     }
    ]
   },
@@ -12575,6 +14998,10 @@
   {
    "key": "White",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Canvas.swift",
+     "line": 94
+    },
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 94
@@ -12658,19 +15085,28 @@
    ]
   },
   {
+   "key": "Whites",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 209
+    }
+   ]
+  },
+  {
    "key": "Width",
    "sites": [
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
-     "line": 78
-    },
-    {
-     "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 80
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 80
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 82
     },
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
@@ -12779,6 +15215,19 @@
    ]
   },
   {
+   "key": "Yellow",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 237
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 237
+    }
+   ]
+  },
+  {
    "key": "Yellows",
    "sites": [
     {
@@ -12828,6 +15277,10 @@
   {
    "key": "Zoom (Z)",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 121
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 121
@@ -12935,6 +15388,19 @@
     {
      "file": "Compositor/UI/NavigationToolHeader.swift",
      "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Zooms the transformed picture within the frame.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 46
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 46
     }
    ]
   },

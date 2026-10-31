@@ -213,6 +213,8 @@
     "Light blooming around the lines, like a CRT's phosphors": "CRT 荧光粉的 blooming 就是「光晕/辉光」，与泛光滤镜无关。",
     "Grid Settings…": "本应用的网格对话框，不是 macOS 首选项（Preferences）。「设置」在这里是 Settings 的本义。",
     "Hide Compositor": "产品名不能缩短，13 字已是极限。",
-    "Relaunch Compositor": "「重新启动」单独出现会有歧义（像在说重启语言），带上产品名才准确；13 字的上限本来就不适用于含产品名的命令。"
+    "Relaunch Compositor": "「重新启动」单独出现会有歧义（像在说重启语言），带上产品名才准确；13 字的上限本来就不适用于含产品名的命令。",
+    "Halation": "Lightroom 的 Glow 面板里 Bloom 与 Halation 是两个并列效果：Bloom 是「泛光」，Halation 是「光晕」（胶片乳剂层反射形成的红色光环）。术语表把 Bloom / Glow 整条定为「泛光」，那条说的是滤镜名，不是这里的单个选项。",
+    "Shifts the glow from cool to warm. Halation stays red. Has no effect until Glow is raised.": "同上：句中的 Halation 是分项名称，译作「光晕」。"
   }
 }
