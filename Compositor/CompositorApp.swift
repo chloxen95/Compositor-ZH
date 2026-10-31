@@ -6,6 +6,7 @@ import Sparkle
 struct CompositorApp: App {
     @NSApplicationDelegateAdaptor(CompositorApplicationDelegate.self) private var applicationDelegate
     @AppStorage("navigator.visible") private var showsNavigator = false
+    @StateObject private var languagePreference = LanguagePreference()
     private var session: EditorSession { applicationDelegate.session }
     private func filterMenuItem(_ kind: FilterKind) -> some View {
         Button("\(kind.rawValue)…") { session.beginFilter(kind) }
@@ -112,6 +113,24 @@ struct CompositorApp: App {
                 Group {
                     CommandGroup(after: .appInfo) {
                         Button("Check for Updates…") { applicationDelegate.updater.checkForUpdates() }
+                        Divider()
+                        // 语言子菜单。这里只做三件事：显示当前选择、写偏好、提示重启；
+                        // 判断逻辑全在 LanguagePreference 里，可以脱离界面单独测。
+                        Menu("Language") {
+                            ForEach(AppLanguage.allCases) { language in
+                                Toggle(isOn: Binding(get: { languagePreference.current == language },
+                                                    set: { _ in languagePreference.apply(language) })) {
+                                    switch language {
+                                    case .system: Text("Follow System")
+                                    case .english: Text("English")
+                                    case .simplifiedChinese: Text("Simplified Chinese")
+                                    }
+                                }
+                            }
+                            Divider()
+                            Button("Relaunch Compositor") { AppRelaunch.now() }
+                                .disabled(!languagePreference.pendingRelaunch)
+                        }
                     }
                     CommandGroup(after: .toolbar) {
                         Button("Search Commands…") {

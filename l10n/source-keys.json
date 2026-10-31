@@ -1,0 +1,9765 @@
+{
+ "generatedAt": "2026-10-31T04:06:31+00:00",
+ "tool": "scripts/l10n/harvest.py",
+ "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-l6aen1nx/en.xcloc/Localized Contents/en.xliff",
+ "infoPlistKeys": [
+  "Adobe Photoshop Document",
+  "Adobe Photoshop Large Document",
+  "Compositor",
+  "Compositor Layer",
+  "Compositor Project"
+ ],
+ "keys": [
+  {
+   "key": "#",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 113
+    }
+   ]
+  },
+  {
+   "key": "%",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "%1$lld ms · %2$@ fps",
+   "sites": []
+  },
+  {
+   "key": "%1$lld × %2$lld px",
+   "sites": []
+  },
+  {
+   "key": "%1$lld°  %2$lld",
+   "sites": []
+  },
+  {
+   "key": "%@ color",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 587
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 587
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 91
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 91
+    }
+   ]
+  },
+  {
+   "key": "%@ the selection by this many pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 156
+    }
+   ]
+  },
+  {
+   "key": "%@ uncompressed RGBA canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 71
+    }
+   ]
+  },
+  {
+   "key": "%@ · Original",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 114
+    }
+   ]
+  },
+  {
+   "key": "%@…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 313
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 332
+    }
+   ]
+  },
+  {
+   "key": "%lld",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 449
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 449
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 97
+    }
+   ]
+  },
+  {
+   "key": "%lld degrees",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 96
+    }
+   ]
+  },
+  {
+   "key": "%lld%%",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 160
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 160
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 162
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 162
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 173
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 173
+    }
+   ]
+  },
+  {
+   "key": "100%",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 234
+    }
+   ]
+  },
+  {
+   "key": "16 bits per channel",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 180
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 180
+    }
+   ]
+  },
+  {
+   "key": "A subdivision every %@ pixels.",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 92
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 92
+    }
+   ]
+  },
+  {
+   "key": "Actual Pixels",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 132
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 151
+    }
+   ]
+  },
+  {
+   "key": "Actual pixels (⌘1)",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 234
+    }
+   ]
+  },
+  {
+   "key": "Add Light",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 414
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 414
+    }
+   ]
+  },
+  {
+   "key": "Add layer effect",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
+   "key": "Add layer mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
+   "key": "Add layer mask (Option-click for a black mask)",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Add layer mask revealing the selection (Option-click to hide it)",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/UI/LayerMaskMenu.swift",
+     "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Adjustments",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Align",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 406
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 425
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 176
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 176
+    }
+   ]
+  },
+  {
+   "key": "Aligned",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 32
+    }
+   ]
+  },
+  {
+   "key": "All",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 270
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 289
+    }
+   ]
+  },
+  {
+   "key": "All Layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 122
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 122
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 150
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 150
+    }
+   ]
+  },
+  {
+   "key": "Amount",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 219
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 219
+    }
+   ]
+  },
+  {
+   "key": "Analyze the active layer only, or every visible layer as shown",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 125
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Anchor",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 101
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 101
+    }
+   ]
+  },
+  {
+   "key": "Anti-alias",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Applies generic profile strength when camera metadata is not available.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 96
+    }
+   ]
+  },
+  {
+   "key": "Apply",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Apply Crop",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Apply outside this range instead",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Applying…",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 223
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 223
+    }
+   ]
+  },
+  {
+   "key": "Auto",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 61
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 61
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 83
+    }
+   ]
+  },
+  {
+   "key": "Auto Select",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
+   "key": "Auto balances the average color. Custom follows Temperature and Tint.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 220
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 220
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 225
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 225
+    }
+   ]
+  },
+  {
+   "key": "Background",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 234
+    }
+   ]
+  },
+  {
+   "key": "Based On",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Basic is quick; Advanced refines the mask against the layer's own detail, for hair and fur",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 76
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 76
+    }
+   ]
+  },
+  {
+   "key": "Black",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 417
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 417
+    }
+   ]
+  },
+  {
+   "key": "Black · Hide",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 116
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 116
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 44
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 44
+    }
+   ]
+  },
+  {
+   "key": "Blend",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Blend the chosen color into the edges while keeping the center unchanged",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 171
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 171
+    }
+   ]
+  },
+  {
+   "key": "Blue",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Blue Primary",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Blur only the colors, keeping the layer's outline and transparency as they are",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 91
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 91
+    }
+   ]
+  },
+  {
+   "key": "Both Ways",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 475
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 475
+    }
+   ]
+  },
+  {
+   "key": "Bottom",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Break the lines into beads where the picture is darker than this, blending into solid lines where it's brighter",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 329
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 329
+    }
+   ]
+  },
+  {
+   "key": "Brighter than white kept · Transparency kept",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 242
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 242
+    }
+   ]
+  },
+  {
+   "key": "Brings back detail in bright areas the camera partly clipped",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 57
+    }
+   ]
+  },
+  {
+   "key": "Brush",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
+   "key": "CMYK",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 154
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 173
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 380
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 380
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 382
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 382
+    }
+   ]
+  },
+  {
+   "key": "CMYK writes a printer's inks through the profile in View › CMYK › Profile",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 385
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 385
+    }
+   ]
+  },
+  {
+   "key": "CMYK – %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 243
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 243
+    }
+   ]
+  },
+  {
+   "key": "Camera Raw…",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 67
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 67
+    }
+   ]
+  },
+  {
+   "key": "Cancel",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 136
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 136
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 253
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 253
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 206
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 206
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 161
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 161
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 322
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 322
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 229
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 229
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 79
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 79
+    },
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 67
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 67
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 91
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 91
+    }
+   ]
+  },
+  {
+   "key": "Canvas Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Canvas Size…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 320
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 339
+    }
+   ]
+  },
+  {
+   "key": "Canvas extension",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 125
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Cap",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Channel",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 10
+    },
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 10
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
+   "key": "Characters",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 275
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 275
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 276
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 276
+    }
+   ]
+  },
+  {
+   "key": "Check for Updates…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Choose a custom grid color",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 62
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Choose the %@ color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 586
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 586
+    }
+   ]
+  },
+  {
+   "key": "Choose the vignette color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 167
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 167
+    }
+   ]
+  },
+  {
+   "key": "Choose this light's color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 394
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 394
+    }
+   ]
+  },
+  {
+   "key": "Chooses how strongly the calibration sliders below are applied. Version 6 is the current default.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 100
+    }
+   ]
+  },
+  {
+   "key": "Clear All",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Clear Guides",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 202
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 221
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 32
+    }
+   ]
+  },
+  {
+   "key": "Clear Menu",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 79
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 80
+    }
+   ]
+  },
+  {
+   "key": "Clear Selection Pixels",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 261
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 280
+    }
+   ]
+  },
+  {
+   "key": "Clear the haze that leaves background showing through thin areas",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 81
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Click a pixel that should be neutral.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 234
+    }
+   ]
+  },
+  {
+   "key": "Click a purple or green fringe to set its hue range.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 110
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 119
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 119
+    }
+   ]
+  },
+  {
+   "key": "Click a shortcut, then press its new key combination, or ⊗ to remove it. Changes apply when you save.",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 273
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 273
+    }
+   ]
+  },
+  {
+   "key": "Click and drag two points on canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 93
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 93
+    }
+   ]
+  },
+  {
+   "key": "Click or drag on the canvas to move the center",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 121
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 121
+    }
+   ]
+  },
+  {
+   "key": "Click or drag to move the view",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigatorMinimap.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/NavigatorMinimap.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Click the canvas to sample",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Click the fringe on the layer. Click the eyedropper again to stop.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 122
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 122
+    }
+   ]
+  },
+  {
+   "key": "Click the image to pick the color to select.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Click the original layer to set %@. Click the eyedropper again to stop.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 57
+    }
+   ]
+  },
+  {
+   "key": "Click the original layer. Click the eyedropper again to stop.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 238
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 238
+    }
+   ]
+  },
+  {
+   "key": "Click the picture to save a color. Up to eight colors.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 363
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 363
+    }
+   ]
+  },
+  {
+   "key": "Click to add a point. Drag to adjust.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 56
+    },
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 56
+    }
+   ]
+  },
+  {
+   "key": "Clone Stamp",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
+   "key": "Close %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 372
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 372
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 373
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 373
+    }
+   ]
+  },
+  {
+   "key": "Close Project",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Close search",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 124
+    }
+   ]
+  },
+  {
+   "key": "Close the search",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 123
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 123
+    }
+   ]
+  },
+  {
+   "key": "Color",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 122
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 122
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 186
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 186
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 58
+    }
+   ]
+  },
+  {
+   "key": "Color Overlay",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 86
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 86
+    }
+   ]
+  },
+  {
+   "key": "Color Range…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 310
+    }
+   ]
+  },
+  {
+   "key": "Color for the added canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 132
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 132
+    }
+   ]
+  },
+  {
+   "key": "Color that fills transparent areas",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 236
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 236
+    }
+   ]
+  },
+  {
+   "key": "Color the result while keeping its tones, for a sepia or a cyanotype",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Colorize",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Colors",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 294
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 294
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 345
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 345
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 17
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Component",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 282
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 282
+    }
+   ]
+  },
+  {
+   "key": "Compositor",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Compositor will convert these Photoshop features. Nothing is applied until you continue.",
+   "sites": [
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 28
+    }
+   ]
+  },
+  {
+   "key": "Constrain Crop",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 49
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 49
+    }
+   ]
+  },
+  {
+   "key": "Content-Aware Fill…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 263
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 282
+    }
+   ]
+  },
+  {
+   "key": "Contextual keys & mouse gestures",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 307
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 307
+    }
+   ]
+  },
+  {
+   "key": "Contiguous",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 113
+    }
+   ]
+  },
+  {
+   "key": "Contract…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 300
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 319
+    }
+   ]
+  },
+  {
+   "key": "Copies to one side of the picture, or out to both",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 478
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 478
+    }
+   ]
+  },
+  {
+   "key": "Copy",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 226
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 245
+    }
+   ]
+  },
+  {
+   "key": "Copy Merged",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 232
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 251
+    }
+   ]
+  },
+  {
+   "key": "Copy from the active layer only, or from every visible layer as shown",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Couldn’t crop",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 327
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 327
+    }
+   ]
+  },
+  {
+   "key": "Couldn’t paint",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 323
+    }
+   ]
+  },
+  {
+   "key": "Create Clipping Mask",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 374
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 393
+    }
+   ]
+  },
+  {
+   "key": "Create a canvas or import a file.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 31
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 31
+    }
+   ]
+  },
+  {
+   "key": "Create canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 158
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 158
+    }
+   ]
+  },
+  {
+   "key": "Crop",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
+   "key": "Crops empty edges after the transform and fits the result back into the frame.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Current: %1$lld × %2$lld pixels",
+   "sites": []
+  },
+  {
+   "key": "Curve",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Curves…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 306
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 325
+    }
+   ]
+  },
+  {
+   "key": "Custom",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 101
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 101
+    }
+   ]
+  },
+  {
+   "key": "Custom ratio",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 29
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 29
+    }
+   ]
+  },
+  {
+   "key": "Custom…",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Cut",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 220
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 239
+    }
+   ]
+  },
+  {
+   "key": "Dark",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 300
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 300
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 351
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 351
+    }
+   ]
+  },
+  {
+   "key": "Darker or lighter before the lines are drawn",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 341
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 341
+    }
+   ]
+  },
+  {
+   "key": "Default colors",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Default colors (D)",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Defringe",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Delete Frame",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Delete layer mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    }
+   ]
+  },
+  {
+   "key": "Delete selected effect",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    }
+   ]
+  },
+  {
+   "key": "Delete selected layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    }
+   ]
+  },
+  {
+   "key": "Delete selected layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 65
+    }
+   ]
+  },
+  {
+   "key": "Depth",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 179
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 179
+    }
+   ]
+  },
+  {
+   "key": "Deselect",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 298
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 82
+    }
+   ]
+  },
+  {
+   "key": "Develop “%@”",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 22
+    }
+   ]
+  },
+  {
+   "key": "Diffusion is soft and wide, Bloom is tighter, and Halation is a red fringe.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 266
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 266
+    }
+   ]
+  },
+  {
+   "key": "Dims the picture outside this color's range. It is not kept when you press OK.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 388
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 388
+    }
+   ]
+  },
+  {
+   "key": "Direction",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 472
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 472
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 473
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 473
+    }
+   ]
+  },
+  {
+   "key": "Distribute",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 412
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 431
+    }
+   ]
+  },
+  {
+   "key": "Distribution",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 142
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 142
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 143
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Document Bounds",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 195
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 214
+    }
+   ]
+  },
+  {
+   "key": "Done",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 92
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 92
+    }
+   ]
+  },
+  {
+   "key": "Drag a color in the picture. Nearby color families move together.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 302
+    }
+   ]
+  },
+  {
+   "key": "Drag a point. Click to add one. Double-click a point to remove it.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "Drag inside the wheel. Angle sets hue, distance sets saturation.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 472
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 472
+    }
+   ]
+  },
+  {
+   "key": "Drag on the layer to place a guide. Draw at least two lines.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 28
+    }
+   ]
+  },
+  {
+   "key": "Drag to resize the panel",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 383
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 383
+    }
+   ]
+  },
+  {
+   "key": "Drag to set hue and saturation. Double-click to reset this wheel.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 534
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 534
+    }
+   ]
+  },
+  {
+   "key": "Drag up or down to lift or lower those tones. Drag a divider along the bottom to change which tones each region covers.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Draw Guides",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 23
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 23
+    }
+   ]
+  },
+  {
+   "key": "Draw each chunky pixel as a solid square, or as a round dot like a dot-matrix screen",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 312
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 312
+    }
+   ]
+  },
+  {
+   "key": "Draw no line where the picture is darker than this, leaving the screen dark",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 335
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 335
+    }
+   ]
+  },
+  {
+   "key": "Draw the marks for the light tones on the dark color, like a glowing screen",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 316
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 316
+    }
+   ]
+  },
+  {
+   "key": "Draw two or more lines on the preview that should be level or vertical.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Drop Shadow",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 63
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 63
+    }
+   ]
+  },
+  {
+   "key": "Drop into new canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 265
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 265
+    }
+   ]
+  },
+  {
+   "key": "Drop to open in a new canvas",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 264
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 264
+    }
+   ]
+  },
+  {
+   "key": "Duplicate Frame",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 105
+    }
+   ]
+  },
+  {
+   "key": "Duplicate Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 371
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 390
+    }
+   ]
+  },
+  {
+   "key": "Each channel from a layer, read as grayscale · PNG",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 241
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 241
+    }
+   ]
+  },
+  {
+   "key": "Edge",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 127
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 127
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 128
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 128
+    }
+   ]
+  },
+  {
+   "key": "Edit %@.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 351
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 351
+    }
+   ]
+  },
+  {
+   "key": "Edit Adjustment…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 365
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 384
+    }
+   ]
+  },
+  {
+   "key": "Edit Text",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 94
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Effect",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 424
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 424
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 425
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 425
+    }
+   ]
+  },
+  {
+   "key": "Empty selection",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 81
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Enable Lens Profile Corrections",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 95
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 95
+    }
+   ]
+  },
+  {
+   "key": "Enabled masks apply here, as on the canvas. Drag or scroll to move around; double-click switches between Fit and 100%.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 139
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 139
+    }
+   ]
+  },
+  {
+   "key": "Encoding frame %1$lld of %2$lld…",
+   "sites": []
+  },
+  {
+   "key": "End of the hue range, in degrees.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
+    }
+   ]
+  },
+  {
+   "key": "English",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Enter a positive ratio within the document size limits.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Enter a size up to %@ pixels at this DPI.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 151
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 151
+    }
+   ]
+  },
+  {
+   "key": "Enter a whole number from 1 to %lld px.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 224
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 224
+    }
+   ]
+  },
+  {
+   "key": "Enter whole numbers from 1 to %@ pixels.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 150
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 150
+    }
+   ]
+  },
+  {
+   "key": "Eraser",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
+   "key": "Expand…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 298
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 317
+    }
+   ]
+  },
+  {
+   "key": "Export As",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 105
+    }
+   ]
+  },
+  {
+   "key": "Export As…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 101
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 102
+    }
+   ]
+  },
+  {
+   "key": "Export JPEG…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 94
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 95
+    }
+   ]
+  },
+  {
+   "key": "Export PNG…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 98
+    }
+   ]
+  },
+  {
+   "key": "Export…",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 254
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 254
+    }
+   ]
+  },
+  {
+   "key": "Extension color",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 130
+    }
+   ]
+  },
+  {
+   "key": "Eyedropper",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
+   "key": "Fade the edge of the selection by this many pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 66
+    }
+   ]
+  },
+  {
+   "key": "Feather",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 67
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 67
+    }
+   ]
+  },
+  {
+   "key": "Feather…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 321
+    }
+   ]
+  },
+  {
+   "key": "Fill color",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Fill the selection using surrounding pixels from this layer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 86
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 86
+    }
+   ]
+  },
+  {
+   "key": "Fill with Background Color",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 255
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 274
+    }
+   ]
+  },
+  {
+   "key": "Fill with Foreground Color",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 249
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 268
+    }
+   ]
+  },
+  {
+   "key": "Filter",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 340
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 359
+    }
+   ]
+  },
+  {
+   "key": "Filter the layer list",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 130
+    }
+   ]
+  },
+  {
+   "key": "Filter to adjustment layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
+   "key": "Filter to folder layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Filter to image layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Filter to shape layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "Filter to text layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Filter to the selected layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
+   "key": "Final dimensions must be 1–%@ pixels per side.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 96
+    }
+   ]
+  },
+  {
+   "key": "Finding the subject…",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 228
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 228
+    }
+   ]
+  },
+  {
+   "key": "Fit",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 229
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 229
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 119
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 119
+    }
+   ]
+  },
+  {
+   "key": "Fit Canvas",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 129
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 148
+    }
+   ]
+  },
+  {
+   "key": "Fit canvas in window (⌘0)",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 229
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 229
+    }
+   ]
+  },
+  {
+   "key": "Flip Canvas Horizontal",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 334
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 353
+    }
+   ]
+  },
+  {
+   "key": "Flip Canvas Vertical",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 336
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 355
+    }
+   ]
+  },
+  {
+   "key": "Flip Horizontal",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 48
+    }
+   ]
+  },
+  {
+   "key": "Flip Layer Horizontal",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 402
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 421
+    }
+   ]
+  },
+  {
+   "key": "Flip Layer Vertical",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 404
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 423
+    }
+   ]
+  },
+  {
+   "key": "Flip Vertical",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Folders",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Follow System",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 124
+    }
+   ]
+  },
+  {
+   "key": "Font face, including bold and italic variants",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Foreground color",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 133
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 133
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 134
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 134
+    }
+   ]
+  },
+  {
+   "key": "Forever",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 216
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 216
+    }
+   ]
+  },
+  {
+   "key": "Format",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 142
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 142
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 146
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 146
+    }
+   ]
+  },
+  {
+   "key": "Frame %lld",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Frames",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 227
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 227
+    }
+   ]
+  },
+  {
+   "key": "Fuzziness",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "GIF keeps fully transparent or opaque pixels; soft edges use a 50% threshold.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 224
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 224
+    }
+   ]
+  },
+  {
+   "key": "Gamut Warning",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 158
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 177
+    }
+   ]
+  },
+  {
+   "key": "Gaussian",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 145
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 145
+    }
+   ]
+  },
+  {
+   "key": "Glow",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 260
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 260
+    }
+   ]
+  },
+  {
+   "key": "Gradient",
+   "sites": [
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 8
+    }
+   ]
+  },
+  {
+   "key": "Grading",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 435
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 435
+    }
+   ]
+  },
+  {
+   "key": "Grain",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 294
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 294
+    }
+   ]
+  },
+  {
+   "key": "Green",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Green Primary",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 111
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 111
+    }
+   ]
+  },
+  {
+   "key": "Grid",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 176
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 191
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 195
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
+   "key": "Grid Settings…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 181
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 200
+    }
+   ]
+  },
+  {
+   "key": "Gridline every",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 84
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 84
+    }
+   ]
+  },
+  {
+   "key": "Group Selected Layers",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 380
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 399
+    }
+   ]
+  },
+  {
+   "key": "Group selected layers (⌘G)",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 41
+    }
+   ]
+  },
+  {
+   "key": "Guides",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 197
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 208
+    }
+   ]
+  },
+  {
+   "key": "HSL lists every color. Color edits one family. Point Color adjusts a color you pick.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 279
+    }
+   ]
+  },
+  {
+   "key": "Hardness",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 62
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Height",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 85
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 85
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 124
+    }
+   ]
+  },
+  {
+   "key": "Height in pixels; the width follows, keeping the proportions",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 158
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 158
+    }
+   ]
+  },
+  {
+   "key": "Hex",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Hex color",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 119
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 119
+    }
+   ]
+  },
+  {
+   "key": "Hide %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 324
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 324
+    }
+   ]
+  },
+  {
+   "key": "Hide %@ in the preview",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 323
+    }
+   ]
+  },
+  {
+   "key": "Hide Compositor",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 209
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 228
+    }
+   ]
+  },
+  {
+   "key": "Hide Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 390
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 409
+    }
+   ]
+  },
+  {
+   "key": "Hide Others",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 229
+    }
+   ]
+  },
+  {
+   "key": "Hide the background behind a layer mask, keeping the foreground subjects. The pixels stay, so the background can be painted back at any time.",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "High",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 174
+    }
+   ]
+  },
+  {
+   "key": "Highlight Clipping Indicator",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 82
+    }
+   ]
+  },
+  {
+   "key": "Highlight Priority protects bright edges. Color Priority also reduces color. Paint Overlay covers the edges evenly.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 282
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 282
+    }
+   ]
+  },
+  {
+   "key": "Highlight Recovery",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
+   "key": "Highlights",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 58
+    }
+   ]
+  },
+  {
+   "key": "Histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 51
+    }
+   ]
+  },
+  {
+   "key": "Hold Shift to add or Option to subtract for one outline",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 47
+    }
+   ]
+  },
+  {
+   "key": "How bright a light has to be to flare; near 100, only the biggest, brightest spots",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 436
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 436
+    }
+   ]
+  },
+  {
+   "key": "How bright a light has to be to sparkle; near 100, only the biggest, brightest spots",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 444
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 444
+    }
+   ]
+  },
+  {
+   "key": "How bright the lines are where the picture is black, so they show even over black",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 344
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 344
+    }
+   ]
+  },
+  {
+   "key": "How brightly lights open into discs",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 484
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 484
+    }
+   ]
+  },
+  {
+   "key": "How far a color may be from the picked ones and still be selected",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "How far apart the copies are",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 464
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 464
+    }
+   ]
+  },
+  {
+   "key": "How far apart the screen's lines are",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 323
+    }
+   ]
+  },
+  {
+   "key": "How far each color channel (0–255) can differ from the clicked color and still be selected",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 101
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 101
+    }
+   ]
+  },
+  {
+   "key": "How far out of focus: the size of each disc",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 482
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 482
+    }
+   ]
+  },
+  {
+   "key": "How far the blur softens, in pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 98
+    }
+   ]
+  },
+  {
+   "key": "How far the brightness is smoothed before it displaces the lines, from sharp ridges to rounded hills",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 333
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 333
+    }
+   ]
+  },
+  {
+   "key": "How far the colors spread apart, red one way and blue the other",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 125
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "How far the lens's coatings turn each streak blue along its length; none keeps the light's own color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 438
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 438
+    }
+   ]
+  },
+  {
+   "key": "How far the light spreads",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 458
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 458
+    }
+   ]
+  },
+  {
+   "key": "How far the light wraps around the subject's edges",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 409
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 409
+    }
+   ]
+  },
+  {
+   "key": "How far the spikes reach",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 442
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 442
+    }
+   ]
+  },
+  {
+   "key": "How far the streaks reach across the picture",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 434
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 434
+    }
+   ]
+  },
+  {
+   "key": "How fine the detail it sharpens: small for crisp texture, larger for a punchier look",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 181
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 181
+    }
+   ]
+  },
+  {
+   "key": "How long each frame shows",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 45
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 45
+    }
+   ]
+  },
+  {
+   "key": "How many spikes each light has, as the lens's aperture blades make them",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 452
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 452
+    }
+   ]
+  },
+  {
+   "key": "How many times the picture echoes, each fainter",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 462
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 462
+    }
+   ]
+  },
+  {
+   "key": "How much light scatters: a soft halo around bright areas, and gently lifted shadows",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 456
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 456
+    }
+   ]
+  },
+  {
+   "key": "How much of each pixel's error spreads to its neighbors. Less gives flatter areas",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 287
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 287
+    }
+   ]
+  },
+  {
+   "key": "How much of the gap a bright line fills; dimmer parts draw it thinner",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 325
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 325
+    }
+   ]
+  },
+  {
+   "key": "How strongly edges and fine detail are brought out",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 179
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 179
+    }
+   ]
+  },
+  {
+   "key": "How the light ends on the inside: low feathers it off softly from the edge, high holds it bright and ends it crisply",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 411
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 411
+    }
+   ]
+  },
+  {
+   "key": "How the line's ends, and each of its dashes and dots, are finished",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
+   "key": "Hue",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 95
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 95
+    }
+   ]
+  },
+  {
+   "key": "Hue and saturation of this wheel.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 479
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 479
+    }
+   ]
+  },
+  {
+   "key": "Hue around the wheel, saturation outward from the center. Control-click to show the histogram.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 56
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 56
+    }
+   ]
+  },
+  {
+   "key": "Hue shifts the color, Saturation its strength, and Luminance its brightness.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 286
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 286
+    }
+   ]
+  },
+  {
+   "key": "Hue/Saturation…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 310
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 329
+    }
+   ]
+  },
+  {
+   "key": "Image",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 305
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 324
+    }
+   ]
+  },
+  {
+   "key": "Image Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 107
+    }
+   ]
+  },
+  {
+   "key": "Image Size…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 342
+    }
+   ]
+  },
+  {
+   "key": "Images",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Import",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Import a file or add a blank layer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 31
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 31
+    }
+   ]
+  },
+  {
+   "key": "Import couldn’t finish",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 318
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 318
+    }
+   ]
+  },
+  {
+   "key": "Import, then open the Camera Raw Filter",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 68
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 68
+    }
+   ]
+  },
+  {
+   "key": "Importing images…",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 355
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 355
+    }
+   ]
+  },
+  {
+   "key": "Importing…",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "Import…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 84
+    }
+   ]
+  },
+  {
+   "key": "In %1$lld   Out %2$lld",
+   "sites": []
+  },
+  {
+   "key": "Inner Glow",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 140
+    }
+   ]
+  },
+  {
+   "key": "Inner Shadow",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 100
+    }
+   ]
+  },
+  {
+   "key": "Input %1$lld · Output %2$lld",
+   "sites": []
+  },
+  {
+   "key": "Input and output of the selected curve point.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 45
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 45
+    }
+   ]
+  },
+  {
+   "key": "Inside",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 41
+    }
+   ]
+  },
+  {
+   "key": "Inverse",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 281
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 300
+    }
+   ]
+  },
+  {
+   "key": "Invert",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 316
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 335
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 108
+    }
+   ]
+  },
+  {
+   "key": "Invert Mask",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 316
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 335
+    }
+   ]
+  },
+  {
+   "key": "Keep the 16-bit layers' full precision, in a file about twice the size",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 181
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 181
+    }
+   ]
+  },
+  {
+   "key": "Keep the source moving with the brush between strokes; off starts every stroke at the source point",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Keep transparent areas",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 223
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 223
+    }
+   ]
+  },
+  {
+   "key": "Keeps this point fixed. Artwork is not scaled; cropped content remains outside the canvas.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 121
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 121
+    }
+   ]
+  },
+  {
+   "key": "Keyboard Shortcuts…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 247
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 266
+    }
+   ]
+  },
+  {
+   "key": "Language",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 119
+    }
+   ]
+  },
+  {
+   "key": "Lasso",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 32
+    }
+   ]
+  },
+  {
+   "key": "Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 354
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 373
+    }
+   ]
+  },
+  {
+   "key": "Layer effects",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
+   "key": "Layer via Copy",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 371
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 390
+    }
+   ]
+  },
+  {
+   "key": "Layer's Pixels",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 284
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 303
+    }
+   ]
+  },
+  {
+   "key": "Layers",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 193
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 115
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Leading",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 77
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 77
+    }
+   ]
+  },
+  {
+   "key": "Left",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
+   "key": "Lens Correction",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 51
+    }
+   ]
+  },
+  {
+   "key": "Let the lights glow in the air around the subject, blending them into the background",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 378
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 378
+    }
+   ]
+  },
+  {
+   "key": "Levels…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 308
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 327
+    }
+   ]
+  },
+  {
+   "key": "Lift the lines where the picture is bright, or lower them when negative, so they swell into its shapes",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 331
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 331
+    }
+   ]
+  },
+  {
+   "key": "Light",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 302
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 353
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 353
+    }
+   ]
+  },
+  {
+   "key": "Light %lld",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 382
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 382
+    }
+   ]
+  },
+  {
+   "key": "Light blooming around the lines, like a CRT's phosphors",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 327
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 327
+    }
+   ]
+  },
+  {
+   "key": "Light gathered at each disc's rim, as some lenses draw it",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 486
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 486
+    }
+   ]
+  },
+  {
+   "key": "Light on Dark",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 315
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 315
+    }
+   ]
+  },
+  {
+   "key": "Light the subject from another side as well",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 418
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 418
+    }
+   ]
+  },
+  {
+   "key": "Limited to the selection",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 202
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 202
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 62
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Line height, baseline to baseline. Empty or 0 is Auto: 120% of the font size.",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 87
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 87
+    }
+   ]
+  },
+  {
+   "key": "Line layers up with each other, the selection, or the canvas when one is selected",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 178
+    }
+   ]
+  },
+  {
+   "key": "Linear",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 49
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 49
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Linear blurs along the line; Radial keeps the start sharp and blurs outwards",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 102
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 102
+    }
+   ]
+  },
+  {
+   "key": "Linear histogram with automatic vertical scaling. Tall spikes may extend beyond the graph; all tones from 0 to 255 remain included.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 113
+    }
+   ]
+  },
+  {
+   "key": "Linear runs along the line; Radial spreads out from the start point",
+   "sites": [
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Linear splits along one direction; Radial splits outwards from a center, sharp there",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 118
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 118
+    }
+   ]
+  },
+  {
+   "key": "Liquify pushes pixels · Blur softens · Smudge drags color along",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 22
+    }
+   ]
+  },
+  {
+   "key": "Load Profile…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 192
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 192
+    }
+   ]
+  },
+  {
+   "key": "Loading histogram…",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Lock Guides",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 200
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 219
+    }
+   ]
+  },
+  {
+   "key": "Lock aspect ratio",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 126
+    }
+   ]
+  },
+  {
+   "key": "Lock aspect ratio. Hold Shift while dragging a handle to turn it the other way.",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "Lock original aspect ratio",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 88
+    }
+   ]
+  },
+  {
+   "key": "Loop",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 214
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 214
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 215
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 215
+    }
+   ]
+  },
+  {
+   "key": "Low",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 169
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 169
+    }
+   ]
+  },
+  {
+   "key": "Magic",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    }
+   ]
+  },
+  {
+   "key": "Make each dithered pixel this many pixels across, for a chunky old-screen look",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 261
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 261
+    }
+   ]
+  },
+  {
+   "key": "Make the lines waver sideways down the screen, like a CRT losing sync",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 337
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 337
+    }
+   ]
+  },
+  {
+   "key": "Manual",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 105
+    }
+   ]
+  },
+  {
+   "key": "Marquee",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 8
+    }
+   ]
+  },
+  {
+   "key": "Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 141
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 141
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Mask background",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 42
+    }
+   ]
+  },
+  {
+   "key": "Mask foreground",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 42
+    }
+   ]
+  },
+  {
+   "key": "Mask's Black Areas",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 293
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 312
+    }
+   ]
+  },
+  {
+   "key": "Match the clicked pixel, or the average of the pixels around it",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Medium Contrast",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Midtones",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 54
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Mixer",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 274
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 274
+    }
+   ]
+  },
+  {
+   "key": "Mode",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 42
+    }
+   ]
+  },
+  {
+   "key": "Monochromatic",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 149
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 149
+    }
+   ]
+  },
+  {
+   "key": "More formats",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 403
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 403
+    }
+   ]
+  },
+  {
+   "key": "More ink (darker) or less before dithering",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 290
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 290
+    }
+   ]
+  },
+  {
+   "key": "Move Layer Down",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 396
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 415
+    }
+   ]
+  },
+  {
+   "key": "Move Layer Up",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 394
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 413
+    }
+   ]
+  },
+  {
+   "key": "Move Out of Folder",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 384
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 403
+    }
+   ]
+  },
+  {
+   "key": "Move the red and blue apart, for colored fringes on the lines",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 339
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 339
+    }
+   ]
+  },
+  {
+   "key": "Navigator",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigatorMinimap.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/NavigatorMinimap.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Navigator (300% and above)",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 145
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 164
+    }
+   ]
+  },
+  {
+   "key": "New",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 256
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 256
+    }
+   ]
+  },
+  {
+   "key": "New Adjustment Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 355
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 374
+    }
+   ]
+  },
+  {
+   "key": "New Blank Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 386
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 405
+    }
+   ]
+  },
+  {
+   "key": "New Canvas…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 61
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "New adjustment layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "New blank layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
+   "key": "New blank layer (⇧⌘N)",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
+   "key": "New canvas",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 209
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 209
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 96
+    }
+   ]
+  },
+  {
+   "key": "New canvas (⌘N)",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 210
+    }
+   ]
+  },
+  {
+   "key": "New canvas (⌘N) · Drop images here for new tabs",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 391
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 391
+    }
+   ]
+  },
+  {
+   "key": "New color",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 104
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 104
+    }
+   ]
+  },
+  {
+   "key": "New folder",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 41
+    }
+   ]
+  },
+  {
+   "key": "New: %1$lld × %2$lld pixels · %3$@ uncompressed",
+   "sites": []
+  },
+  {
+   "key": "No commands match",
+   "sites": [
+    {
+     "file": "Compositor/UI/CommandPaletteView.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/CommandPaletteView.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "No layers match the filter.",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
+   "key": "No layers yet",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/LayersPanel.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "No lens metadata on this layer. Profile sliders set generic correction strength.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 98
+    }
+   ]
+  },
+  {
+   "key": "Noise Reduction",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Not available for this camera",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 49
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 49
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 58
+    }
+   ]
+  },
+  {
+   "key": "OK",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 321
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 321
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 325
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 325
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 329
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 329
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 138
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 138
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 230
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 230
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 68
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 68
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 232
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 232
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Off leaves the picture as it is. Guided straightens from lines you draw on the picture.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 17
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Once",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 217
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 217
+    }
+   ]
+  },
+  {
+   "key": "One Way",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 474
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 474
+    }
+   ]
+  },
+  {
+   "key": "Only print dimensions and resolution change. Pixels stay unchanged.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 155
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 155
+    }
+   ]
+  },
+  {
+   "key": "Opacity",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 72
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 72
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 22
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Opacity percent",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/UI/LayerAppearanceControls.swift",
+     "line": 26
+    }
+   ]
+  },
+  {
+   "key": "Open Project…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 67
+    }
+   ]
+  },
+  {
+   "key": "Open Recent",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 72
+    }
+   ]
+  },
+  {
+   "key": "Open in a new project tab",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 391
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 391
+    }
+   ]
+  },
+  {
+   "key": "Open project",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 155
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 155
+    }
+   ]
+  },
+  {
+   "key": "Option temporarily selects the eyedropper in painting tools. Shift constrains shapes/movement or adds to a selection; Option subtracts from selections or draws from center. Command-drag moves selected pixels; Command-Option-drag copies them. Option-drag duplicates layers/folders/effects; Option-click at a layer boundary toggles clipping. Command-click a thumbnail loads its selection. Control bypasses snapping. Right-drag adjusts brush size. Modifier-and-mouse gestures are fixed.",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 309
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 309
+    }
+   ]
+  },
+  {
+   "key": "Option-click to set the source",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 139
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 139
+    }
+   ]
+  },
+  {
+   "key": "Original %@ histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 112
+    }
+   ]
+  },
+  {
+   "key": "Original pixels · alpha-weighted histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    }
+   ]
+  },
+  {
+   "key": "Original pixels · selection and alpha-weighted histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    }
+   ]
+  },
+  {
+   "key": "Other formats: TIFF, PDF and GIF%@, and Channel Pack for game textures",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 409
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 409
+    }
+   ]
+  },
+  {
+   "key": "Outer Glow",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 123
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 123
+    }
+   ]
+  },
+  {
+   "key": "Outside",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Page",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 208
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 208
+    }
+   ]
+  },
+  {
+   "key": "Paint",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 115
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Paint with the foreground color (B), or erase pixels away (E)",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Pan",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Parametric lifts tonal regions. Point places anchors on the curve.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 20
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Paste",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 234
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 253
+    }
+   ]
+  },
+  {
+   "key": "Pause",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
+   "key": "Pause animation preview",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 117
+    }
+   ]
+  },
+  {
+   "key": "Pause the animation preview.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 116
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 116
+    }
+   ]
+  },
+  {
+   "key": "Pen pressure sets the opacity: a light touch paints fainter, up to the brush’s Opacity",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 83
+    }
+   ]
+  },
+  {
+   "key": "Pen pressure sets the size: a light touch paints a thinner line",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 57
+    }
+   ]
+  },
+  {
+   "key": "Perspective allows stronger keystone. Rectilinear keeps the warp gentler.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 41
+    }
+   ]
+  },
+  {
+   "key": "Pixel Grid (800% and above)",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 146
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 165
+    }
+   ]
+  },
+  {
+   "key": "Pixel Shape",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 308
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 308
+    }
+   ]
+  },
+  {
+   "key": "Play",
+   "sites": [
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/GIFTimeline.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
+   "key": "Play animation preview",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 117
+    }
+   ]
+  },
+  {
+   "key": "Play the animation preview.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 116
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 116
+    }
+   ]
+  },
+  {
+   "key": "Points",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 447
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 447
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 448
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 448
+    }
+   ]
+  },
+  {
+   "key": "Position",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 37
+    }
+   ]
+  },
+  {
+   "key": "Positive straightens lines that bow outward (barrel); negative, lines that bow inward (pincushion).",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 193
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 193
+    }
+   ]
+  },
+  {
+   "key": "Positive values tighten the detected mask inward; negative values expand it outward",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 139
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 139
+    }
+   ]
+  },
+  {
+   "key": "Preserve Luminosity",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 62
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Preserve Transparency",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 90
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 90
+    }
+   ]
+  },
+  {
+   "key": "Preset",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 47
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 47
+    }
+   ]
+  },
+  {
+   "key": "Preset sizes",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 121
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 121
+    }
+   ]
+  },
+  {
+   "key": "Preset sizes for screens and common formats",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 120
+    }
+   ]
+  },
+  {
+   "key": "Press 1–9 for 10–90%, 0 for 100%",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "Press L to switch between Freehand and Polygonal",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Press M to switch between Rectangle and Ellipse",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
+   "key": "Press Tab to switch between Wand and Object",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 29
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 29
+    }
+   ]
+  },
+  {
+   "key": "Pressure for opacity",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 84
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 84
+    }
+   ]
+  },
+  {
+   "key": "Pressure for size",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 58
+    }
+   ]
+  },
+  {
+   "key": "Preview",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 196
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 196
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Process",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 97
+    }
+   ]
+  },
+  {
+   "key": "Profile",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 163
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 182
+    }
+   ]
+  },
+  {
+   "key": "Project tabs",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 124
+    }
+   ]
+  },
+  {
+   "key": "Projection",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 38
+    }
+   ]
+  },
+  {
+   "key": "Proof Colors",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 155
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 174
+    }
+   ]
+  },
+  {
+   "key": "Protect bright areas near the edge",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 176
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 176
+    }
+   ]
+  },
+  {
+   "key": "Pull the mask onto the image's own edges, which recovers hair and fur",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 79
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 79
+    }
+   ]
+  },
+  {
+   "key": "Pulls red and blue fringes apart toward the center to reduce color edging.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 94
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Put each pixel's brightness back afterwards, so only the color moves",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 63
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 63
+    }
+   ]
+  },
+  {
+   "key": "Quality",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 71
+    }
+   ]
+  },
+  {
+   "key": "RGB",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 380
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 380
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 381
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 381
+    }
+   ]
+  },
+  {
+   "key": "RGB changes brightness. Red, green, and blue also shift the color.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 27
+    }
+   ]
+  },
+  {
+   "key": "RGB histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 108
+    }
+   ]
+  },
+  {
+   "key": "Radial",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 99
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 99
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 115
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 115
+    }
+   ]
+  },
+  {
+   "key": "Radius",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 92
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 92
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 64
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 68
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 68
+    }
+   ]
+  },
+  {
+   "key": "Range",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Ratio",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Read colors from the active layer only, or from every visible layer as shown",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 112
+    }
+   ]
+  },
+  {
+   "key": "Reading the Photoshop file…",
+   "sites": [
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Reading the file to see what needs converting.",
+   "sites": [
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/PSDConversionSheet.swift",
+     "line": 27
+    }
+   ]
+  },
+  {
+   "key": "Ready when you are",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 348
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 348
+    }
+   ]
+  },
+  {
+   "key": "Red",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 143
+    }
+   ]
+  },
+  {
+   "key": "Red Primary",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 108
+    }
+   ]
+  },
+  {
+   "key": "Red, green, and blue of the pixel under the pointer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
+   "key": "Redo",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Redo %@",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Relative to current dimensions",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 87
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 87
+    }
+   ]
+  },
+  {
+   "key": "Relaunch Compositor",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 131
+    }
+   ]
+  },
+  {
+   "key": "Release Clipping Mask",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 374
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 393
+    }
+   ]
+  },
+  {
+   "key": "Remove Chromatic Aberration",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 93
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 93
+    }
+   ]
+  },
+  {
+   "key": "Remove every guide line.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Remove point",
+   "sites": [
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 62
+    },
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 62
+    }
+   ]
+  },
+  {
+   "key": "Remove this light",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 402
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 402
+    }
+   ]
+  },
+  {
+   "key": "Remove this shortcut",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 300
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 300
+    }
+   ]
+  },
+  {
+   "key": "Removes the lens's distortion and vignetting",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Rename Layer…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 388
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 407
+    }
+   ]
+  },
+  {
+   "key": "Replaces this curve with a straight line or a contrast curve.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Resample",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 140
+    }
+   ]
+  },
+  {
+   "key": "Reset",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 58
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 73
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 73
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 63
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 63
+    }
+   ]
+  },
+  {
+   "key": "Reset %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 335
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 335
+    }
+   ]
+  },
+  {
+   "key": "Reset %@ to its defaults",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 334
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 334
+    }
+   ]
+  },
+  {
+   "key": "Reset curve",
+   "sites": [
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/CurvesControls.swift",
+     "line": 66
+    }
+   ]
+  },
+  {
+   "key": "Resize",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 163
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 163
+    }
+   ]
+  },
+  {
+   "key": "Resizes layer pixels and applies existing transforms. Undo restores the originals.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 152
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 152
+    }
+   ]
+  },
+  {
+   "key": "Resolution",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 128
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 128
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 129
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 129
+    }
+   ]
+  },
+  {
+   "key": "Restore Defaults",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 98
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 320
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 320
+    }
+   ]
+  },
+  {
+   "key": "Result: %1$lld × %2$lld pixels",
+   "sites": []
+  },
+  {
+   "key": "Reverse",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 568
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 568
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 21
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 21
+    }
+   ]
+  },
+  {
+   "key": "Right",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Rotate Canvas 90° Clockwise",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 330
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 349
+    }
+   ]
+  },
+  {
+   "key": "Rotate Canvas 90° Counterclockwise",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 332
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 351
+    }
+   ]
+  },
+  {
+   "key": "Round the rectangle's corners by this many pixels; 0 keeps them square",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 76
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 76
+    }
+   ]
+  },
+  {
+   "key": "Rulers",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 183
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 202
+    }
+   ]
+  },
+  {
+   "key": "Sample",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 46
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 46
+    }
+   ]
+  },
+  {
+   "key": "Sample Ring",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 56
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 56
+    }
+   ]
+  },
+  {
+   "key": "Sample Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 102
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 102
+    }
+   ]
+  },
+  {
+   "key": "Sampling",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 149
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 149
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Saturation and brightness",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/ColorPickerSheet.swift",
+     "line": 71
+    }
+   ]
+  },
+  {
+   "key": "Save",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 87
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 323
+    }
+   ]
+  },
+  {
+   "key": "Save As…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 89
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 90
+    }
+   ]
+  },
+  {
+   "key": "Scale the export: the document stays as it is",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 165
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 165
+    }
+   ]
+  },
+  {
+   "key": "Scale width and height together, about the center",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Search Commands…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 136
+    }
+   ]
+  },
+  {
+   "key": "Search commands and tools",
+   "sites": [
+    {
+     "file": "Compositor/UI/CommandPaletteView.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/UI/CommandPaletteView.swift",
+     "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Search layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 124
+    }
+   ]
+  },
+  {
+   "key": "Search layers by name",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 123
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 123
+    }
+   ]
+  },
+  {
+   "key": "Search shortcuts",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 275
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 275
+    }
+   ]
+  },
+  {
+   "key": "Select",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 266
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 285
+    }
+   ]
+  },
+  {
+   "key": "Select a tool",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 72
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 72
+    }
+   ]
+  },
+  {
+   "key": "Select everything except those colors, such as all but a green screen",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 35
+    }
+   ]
+  },
+  {
+   "key": "Select layers by clicking the canvas. Hold Command to turn it the other way while you click.",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Select only similar pixels connected to the one you click; off selects them everywhere",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 114
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 114
+    }
+   ]
+  },
+  {
+   "key": "Select this picked color.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 373
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 373
+    }
+   ]
+  },
+  {
+   "key": "Selected",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 17
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Set a radius above 0 to use smooth corners.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 82
+    }
+   ]
+  },
+  {
+   "key": "Shadow Clipping Indicator",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 82
+    }
+   ]
+  },
+  {
+   "key": "Shadows",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Shape",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 96
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 97
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 488
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 488
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 489
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 489
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/GradientControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 8
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 9
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 9
+    }
+   ]
+  },
+  {
+   "key": "Shapes",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 13
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Shapes fill with the foreground color; click to change it",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Sharpening",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 11
+    }
+   ]
+  },
+  {
+   "key": "Shift-U (or Tab) steps through Rectangle, Ellipse and Line",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 16
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 16
+    }
+   ]
+  },
+  {
+   "key": "Shift-click adds a color, Option-click takes one away.",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 23
+    },
+    {
+     "file": "Compositor/UI/ColorRangeSheet.swift",
+     "line": 23
+    }
+   ]
+  },
+  {
+   "key": "Show",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 175
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 194
+    }
+   ]
+  },
+  {
+   "key": "Show %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 324
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 324
+    }
+   ]
+  },
+  {
+   "key": "Show %@ in the preview",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 323
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 323
+    }
+   ]
+  },
+  {
+   "key": "Show All",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 231
+    }
+   ]
+  },
+  {
+   "key": "Show Controls",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Show Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 390
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 409
+    }
+   ]
+  },
+  {
+   "key": "Show Transform Controls",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 148
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 167
+    }
+   ]
+  },
+  {
+   "key": "Show clipped highlights in red on the preview.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 81
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Show clipped shadows in blue on the preview.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 81
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 81
+    }
+   ]
+  },
+  {
+   "key": "Show only some kinds of layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 130
+    }
+   ]
+  },
+  {
+   "key": "Show the transform box and handles (⌘H). When hidden, drag anywhere to move the layer.",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 19
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 19
+    }
+   ]
+  },
+  {
+   "key": "Show the whole image (⌘0)",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 120
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 120
+    }
+   ]
+  },
+  {
+   "key": "Shrink the mask to drop the rim of background color around the subject, or grow it",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 83
+    }
+   ]
+  },
+  {
+   "key": "Simplified Chinese",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 126
+    }
+   ]
+  },
+  {
+   "key": "Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 154
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 154
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 100
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 40
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 40
+    }
+   ]
+  },
+  {
+   "key": "Smear",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
+   "key": "Smear the split into streaks along its direction",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 127
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 127
+    }
+   ]
+  },
+  {
+   "key": "Smooth Corners",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 77
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 77
+    }
+   ]
+  },
+  {
+   "key": "Smooth selection edges; turn off for hard pixel edges",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Smooth the detected object outline; turn off for the raw pixel mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 53
+    }
+   ]
+  },
+  {
+   "key": "Smoothing",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 103
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 103
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Smooths grain, at the cost of fine detail",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 48
+    }
+   ]
+  },
+  {
+   "key": "Snap",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 186
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 205
+    }
+   ]
+  },
+  {
+   "key": "Snap To",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 188
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 207
+    }
+   ]
+  },
+  {
+   "key": "Soften the copies, more the farther they're pushed",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 468
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 468
+    }
+   ]
+  },
+  {
+   "key": "Solid, dashed or dotted; dashes grow with the line's width",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 50
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 50
+    }
+   ]
+  },
+  {
+   "key": "Split each copy's red and blue apart, as glass does; 0 keeps the copies crisp",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 470
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 470
+    }
+   ]
+  },
+  {
+   "key": "Split the layer's original channels into four grayscale layers, Red, Green, Blue and Alpha, for Export As › Channel Pack. Color under fully transparent pixels can't be recovered",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 214
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 214
+    }
+   ]
+  },
+  {
+   "key": "Split to Layers",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 210
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 210
+    }
+   ]
+  },
+  {
+   "key": "Spot Healing",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 7
+    }
+   ]
+  },
+  {
+   "key": "Start of the hue range, in degrees.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 169
+    },
+    {
+     "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+     "line": 169
+    }
+   ]
+  },
+  {
+   "key": "Strength",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 69
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "key": "Stroke",
+   "sites": [
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/EffectsSheet.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "Strong Contrast",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 51
+    }
+   ]
+  },
+  {
+   "key": "Style",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 263
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 263
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 253
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 253
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 43
+    }
+   ]
+  },
+  {
+   "key": "Subdivisions",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 88
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 90
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 90
+    }
+   ]
+  },
+  {
+   "key": "Subject",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 288
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 307
+    }
+   ]
+  },
+  {
+   "key": "Swap From and To: blur the start and sharpen toward the end",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Swap colors",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "Swap foreground and background (X)",
+   "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Targeted Adjustment",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 231
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 231
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 299
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 299
+    }
+   ]
+  },
+  {
+   "key": "Targeted adjustment",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Targeted adjustment: drag on the image to change that color's saturation, or its hue with Command held",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 105
+    }
+   ]
+  },
+  {
+   "key": "Text",
+   "sites": [
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/UI/LayerSearchControls.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
+   "key": "Text color",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 51
+    }
+   ]
+  },
+  {
+   "key": "Text fields keep standard macOS editing keys. Dialogs share the Apply/Cancel assignments above. Numeric fields use Up/Down, with Shift for larger steps. Standard macOS commands include ⌘Q to quit and ⌃⌘F for full screen. The shortcut editor itself always uses Return to save and Esc to cancel when not recording.",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 308
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 308
+    }
+   ]
+  },
+  {
+   "key": "The aperture's shape: round wide open, a hexagon of blades, an anamorphic oval, or a cat's eye toward the edges",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 493
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 493
+    }
+   ]
+  },
+  {
+   "key": "The blur where the line ends, and past it",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 107
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 107
+    }
+   ]
+  },
+  {
+   "key": "The blur where the line starts",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 105
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 105
+    }
+   ]
+  },
+  {
+   "key": "The brush trails the pointer on a string this long, so a shaky hand still draws a smooth line",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 112
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 112
+    }
+   ]
+  },
+  {
+   "key": "The characters to draw with, in any order: each spot gets the one whose ink best matches its tone",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 279
+    }
+   ]
+  },
+  {
+   "key": "The height of each line of characters",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 265
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 265
+    }
+   ]
+  },
+  {
+   "key": "This Layer",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 121
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 121
+    }
+   ]
+  },
+  {
+   "key": "This file has no lens profile",
+   "sites": [
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 54
+    },
+    {
+     "file": "Compositor/UI/RawDevelopSheet.swift",
+     "line": 54
+    }
+   ]
+  },
+  {
+   "key": "Three-Way shows shadows, midtones, and highlights. The other choices show one wheel.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 441
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 441
+    }
+   ]
+  },
+  {
+   "key": "Tint",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 39
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 39
+    }
+   ]
+  },
+  {
+   "key": "Toggle Fullscreen",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 123
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 142
+    }
+   ]
+  },
+  {
+   "key": "Tolerance",
+   "sites": [
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 93
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 93
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 94
+    },
+    {
+     "file": "Compositor/UI/LassoControls.swift",
+     "line": 94
+    }
+   ]
+  },
+  {
+   "key": "Tones from black on the left to white on the right: blacks, shadows, midtones, highlights, whites. Control-click to show the vectorscope.",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 55
+    }
+   ]
+  },
+  {
+   "key": "Tones per channel: 2 is pure black and white",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 283
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 283
+    }
+   ]
+  },
+  {
+   "key": "Top",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 34
+    }
+   ]
+  },
+  {
+   "key": "Tracking",
+   "sites": [
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 71
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 72
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 72
+    }
+   ]
+  },
+  {
+   "key": "Transform",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 11
+    }
+   ]
+  },
+  {
+   "key": "Transform Layer",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 369
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 388
+    }
+   ]
+  },
+  {
+   "key": "Transform Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 11
+    }
+   ]
+  },
+  {
+   "key": "Transform Selection",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 369
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 388
+    }
+   ]
+  },
+  {
+   "key": "Transparency",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 222
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 222
+    }
+   ]
+  },
+  {
+   "key": "Transparency kept · sRGB",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 244
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 244
+    }
+   ]
+  },
+  {
+   "key": "Trim",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 15
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 15
+    }
+   ]
+  },
+  {
+   "key": "Trim Away",
+   "sites": [
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 31
+    },
+    {
+     "file": "Compositor/UI/TrimSheet.swift",
+     "line": 31
+    }
+   ]
+  },
+  {
+   "key": "Trim…",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 326
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 345
+    }
+   ]
+  },
+  {
+   "key": "Type",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 18
+    },
+    {
+     "file": "Compositor/UI/TypeControls.swift",
+     "line": 18
+    }
+   ]
+  },
+  {
+   "key": "Underlying pixels · alpha-weighted histogram",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 75
+    }
+   ]
+  },
+  {
+   "key": "Undo",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 49
+    }
+   ]
+  },
+  {
+   "key": "Undo %@",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 48
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 49
+    }
+   ]
+  },
+  {
+   "key": "Ungroup Layers",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 382
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 401
+    }
+   ]
+  },
+  {
+   "key": "Uniform",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 144
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 144
+    }
+   ]
+  },
+  {
+   "key": "Units",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 74
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 74
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 109
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 109
+    }
+   ]
+  },
+  {
+   "key": "Unsaved changes",
+   "sites": [
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 348
+    },
+    {
+     "file": "Compositor/UI/ProjectTabs.swift",
+     "line": 348
+    }
+   ]
+  },
+  {
+   "key": "Up to 256 colors · sRGB",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 242
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 242
+    }
+   ]
+  },
+  {
+   "key": "Updating…",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 250
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 250
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 250
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 250
+    }
+   ]
+  },
+  {
+   "key": "Upright",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 11
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+     "line": 12
+    }
+   ]
+  },
+  {
+   "key": "Use 1–%1$@ pixels per side, up to %2$lld megapixels, and 1–9,600 pixels/inch.",
+   "sites": []
+  },
+  {
+   "key": "Use a CMYK ICC profile, such as the one your printer gave you",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 193
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 193
+    }
+   ]
+  },
+  {
+   "key": "Use gridlines every %1$lld–%2$@ pixels and %3$lld–%4$lld subdivisions, no more than the pixels between gridlines.",
+   "sites": []
+  },
+  {
+   "key": "Use smooth squircle corners at 60% smoothing, matching Figma's iOS setting",
+   "sites": [
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 83
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 83
+    }
+   ]
+  },
+  {
+   "key": "Vectorscope",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 108
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 108
+    }
+   ]
+  },
+  {
+   "key": "Vignette",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 276
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 276
+    }
+   ]
+  },
+  {
+   "key": "Visualize Range",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 386
+    },
+    {
+     "file": "Compositor/UI/CameraRawColorControls.swift",
+     "line": 386
+    }
+   ]
+  },
+  {
+   "key": "What fills the %@ channel: a layer or group read as grayscale, or solid black or white",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 425
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 425
+    }
+   ]
+  },
+  {
+   "key": "Where the light comes from, behind the subject: 0° from the right, 90° from above",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 406
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 406
+    }
+   ]
+  },
+  {
+   "key": "Which way the colors spread",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 130
+    }
+   ]
+  },
+  {
+   "key": "Which way the copies step",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 466
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 466
+    }
+   ]
+  },
+  {
+   "key": "White",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 418
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 418
+    }
+   ]
+  },
+  {
+   "key": "White Balance",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 219
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 219
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 221
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 221
+    }
+   ]
+  },
+  {
+   "key": "White Balance Selector",
+   "sites": [
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 235
+    },
+    {
+     "file": "Compositor/UI/CameraRawControls.swift",
+     "line": 235
+    }
+   ]
+  },
+  {
+   "key": "White · Reveal",
+   "sites": [
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/BrushControls.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 45
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 45
+    }
+   ]
+  },
+  {
+   "key": "Width",
+   "sites": [
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 80
+    },
+    {
+     "file": "Compositor/UI/CanvasSizeSheet.swift",
+     "line": 80
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 113
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 117
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 28
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/ShapeControls.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Width in pixels; the height follows, keeping the proportions",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 156
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 156
+    }
+   ]
+  },
+  {
+   "key": "Width:Height",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 30
+    }
+   ]
+  },
+  {
+   "key": "Width:height, such as 4:5 or 3:2",
+   "sites": [
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/CropControls.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Working…",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 352
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 352
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 223
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 223
+    }
+   ]
+  },
+  {
+   "key": "Zoom",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 12
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 14
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 14
+    }
+   ]
+  },
+  {
+   "key": "Zoom In",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 135
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 154
+    }
+   ]
+  },
+  {
+   "key": "Zoom Out",
+   "sites": [
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/CompositorApp.swift",
+     "line": 159
+    }
+   ]
+  },
+  {
+   "key": "Zoom in (⌘+)",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 242
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 242
+    }
+   ]
+  },
+  {
+   "key": "Zoom in (⌘+), now %@. At 100%% each pixel of the export is one pixel of the screen",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 123
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 123
+    }
+   ]
+  },
+  {
+   "key": "Zoom out (⌘−)",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 245
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 245
+    }
+   ]
+  },
+  {
+   "key": "Zoom out (⌘−), now %@",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 126
+    }
+   ]
+  },
+  {
+   "key": "Zoom percentage",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 24
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 24
+    }
+   ]
+  },
+  {
+   "key": "Zoom percentage (0.1–3200%). Press Return to apply.",
+   "sites": [
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/NavigationToolHeader.swift",
+     "line": 25
+    }
+   ]
+  },
+  {
+   "key": "pixels",
+   "sites": [
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 85
+    },
+    {
+     "file": "Compositor/UI/GridSettingsSheet.swift",
+     "line": 85
+    }
+   ]
+  },
+  {
+   "key": "pixels/inch",
+   "sites": [
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 138
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 138
+    }
+   ]
+  },
+  {
+   "key": "px",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 159
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 159
+    }
+   ]
+  },
+  {
+   "key": "sRGB",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 244
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 244
+    }
+   ]
+  },
+  {
+   "key": "sRGB · Transparent",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 347
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 347
+    }
+   ]
+  },
+  {
+   "key": "·",
+   "sites": [
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 135
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 135
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/UI/NewCanvasSheet.swift",
+     "line": 140
+    }
+   ]
+  },
+  {
+   "key": "×",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 157
+    },
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 157
+    }
+   ]
+  }
+ ]
+}

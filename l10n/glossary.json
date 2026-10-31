@@ -168,20 +168,24 @@
     "Luminosity": "明度"
   },
   "forbidden": {
-    "图层蒙板": "图层蒙版",
-    "蒙板": "蒙版",
-    "透明度": "不透明度",
-    "高斯模糊滤镜": "高斯模糊",
-    "撤销操作": "撤销",
-    "重做操作": "重做",
-    "确定按钮": "确定",
-    "保存": "存储",
-    "另存为": "存储为",
-    "设置": "首选项",
-    "选项": "首选项",
-    "光晕": "泛光",
-    "边缘光": "轮廓光",
-    "色调对比": "色调对比度"
+    "hard": {
+      "蒙板": "蒙版",
+      "高斯模糊滤镜": "高斯模糊",
+      "撤销操作": "撤销",
+      "重做操作": "重做",
+      "确定按钮": "确定",
+      "边缘光": "轮廓光",
+      "色调对比": "色调对比度"
+    },
+    "soft": {
+      "透明度": "不透明度",
+      "设置": "首选项",
+      "选项": "首选项",
+      "保存": "存储",
+      "另存为": "存储为",
+      "光晕": "泛光"
+    },
+    "note": "hard 在任何语境都算错，阻断；soft 依赖语境（Transparency 就是「透明度」，Grid Settings 就是「网格设置」），只提示。检查前先剔除正确写法，否则「不透明度」会被「透明度」规则误判。"
   },
   "needsCalibration": [
     "Bloom / Glow — Photoshop 无同名滤镜，暂用「泛光」，待与 Photoshop「光照效果」用词校准",
@@ -191,5 +195,24 @@
     "Rim Light — 暂用「轮廓光」，与 Photoshop「光照效果 › 轮廓光」对齐，需确认",
     "Tonal Contrast — 源自 Color Efex，非 Adobe 术语",
     "Dither / Scanlines — Photoshop 无同名滤镜，暂用「抖动」「扫描线」"
-  ]
+  ],
+  "termOverrides": {
+    "Type": {
+      "allow": [
+        "类型"
+      ],
+      "reason": "术语表把 Type 定为「文字」，那是文字工具的用法；此处是画笔/修复模式的选择器（Picker(\"Type\")），应为「类型」。"
+    }
+  },
+  "reviewed": {
+    "Transparency": "导出选项里的 Transparency 就是「透明度」（保留透明区域），PS 简中版同样用「透明度」；禁用的「透明度→不透明度」针对的是 Opacity 被误译。",
+    "Preserve Transparency": "同上：图层选项，指保留透明区域。",
+    "Blur only the colors, keeping the layer's outline and transparency as they are": "同上，正文里的 transparency 是「透明区域」，不是 Opacity。",
+    "Diffusion is soft and wide, Bloom is tighter, and Halation is a red fringe.": "Halation（胶片光晕）与 Glow 滤镜是两回事，此处「光晕」是正确译法。",
+    "How much light scatters: a soft halo around bright areas, and gently lifted shadows": "halo 是光学晕圈，不是「泛光」滤镜。",
+    "Light blooming around the lines, like a CRT's phosphors": "CRT 荧光粉的 blooming 就是「光晕/辉光」，与泛光滤镜无关。",
+    "Grid Settings…": "本应用的网格对话框，不是 macOS 首选项（Preferences）。「设置」在这里是 Settings 的本义。",
+    "Hide Compositor": "产品名不能缩短，13 字已是极限。",
+    "Relaunch Compositor": "「重新启动」单独出现会有歧义（像在说重启语言），带上产品名才准确；13 字的上限本来就不适用于含产品名的命令。"
+  }
 }

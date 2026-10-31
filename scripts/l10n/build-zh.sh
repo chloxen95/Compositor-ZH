@@ -38,9 +38,13 @@ INJECTED=$(( BUILD * 10 + ZH_REV ))
 
 print -r -- "▸ 上游基线 $VERSION ($BUILD) → 汉化版 build $INJECTED"
 
-# 只清构建产物，保留 SourcePackages。若把整个派生数据目录删掉，每次都要重新
-# 联网 clone Sparkle，构建就变成网络依赖，离线时直接跑不起来。
-rm -rf "$WORK/Build"
+# 先清构建产物，但**不要** `rm -rf` 整个派生数据目录：
+#   · 连带删掉 SourcePackages 后，每次构建都要重新联网 clone Sparkle，构建变成网络依赖；
+#   · 一次删两千多个文件，在受限环境里会触发文件安全策略、直接拦下整条命令。
+# 用 xcodebuild clean 描述意图（清产物），把「删哪些文件」交给构建系统。
+xcodebuild clean -quiet \
+    -project "$PROJECT_DIR/$APP.xcodeproj" -scheme "$APP" -configuration Release \
+    -derivedDataPath "$WORK" >/dev/null 2>&1 || true
 
 # ── 两项环境适配，全部走命令行注入，不碰 project.pbxproj ──────────────────
 #

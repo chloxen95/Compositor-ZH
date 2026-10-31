@@ -1,0 +1,49 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Adobe Photoshop Document": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adobe Photoshop 文档"
+          }
+        }
+      }
+    },
+    "Adobe Photoshop Large Document": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adobe Photoshop 大型文档"
+          }
+        }
+      }
+    },
+    "Compositor": {
+      "shouldTranslate": false
+    },
+    "Compositor Layer": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compositor 图层"
+          }
+        }
+      }
+    },
+    "Compositor Project": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compositor 项目"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

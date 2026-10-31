@@ -142,20 +142,110 @@ git push origin update-feed
 ```bash
 git fetch upstream
 git checkout main && git merge --ff-only upstream/main
-git checkout hans && git merge main          # 有冲突就解，解完跑下面三条
+git checkout hans && git merge main          # 有冲突就解，解完跑下面几条
 ./scripts/l10n/typecheck.sh --typecheck      # 类型层；不加参数是语法层，更快
-python3 scripts/l10n/extract.py --csv l10n/translations.csv   # 看新增/孤儿
-python3 scripts/l10n/lint.py
+python3 scripts/l10n/harvest.py              # 重新采集 key：看新增/孤儿
+python3 scripts/l10n/apply.py --init         # 把新 key 加进 TM，标 new
+python3 scripts/l10n/lint.py                 # 缺译会被 E1 拦住，逐条补
+python3 scripts/l10n/make_catalog.py         # 再生成 catalog，构建才会变中文
 ```
 
 - 只用 **merge**，不用 rebase：rebase 要反复解同一批冲突。
-- 合并后 `extract.py` 会报新增 key 与孤儿 key。孤儿不要删，是上游改了英文句子，
-  用旧译文做模糊匹配比重新翻便宜。
+- 合并后 `harvest.py` 会报新增/孤儿。孤儿不要删，是上游改了英文句子，
+  用旧译文做模糊匹配比重新翻便宜（`apply.py --init` 会保留有译文的孤儿，标 `orphan`）。
 - 每次合并打 tag（如 `upstream-1.5.13`），便于定位。
 
 ---
 
-## 六、故障排查
+## 六、翻译：改了文字怎么落进 App
+
+四步，顺序不能颠倒。**人只碰 `l10n/translations.csv`，其余都是生成物。**
+
+```bash
+python3 scripts/l10n/harvest.py                 # ① 问 Xcode：有哪些 key
+python3 scripts/l10n/apply.py batch.json        # ② 译文写进 TM（人工/批量都走这里）
+python3 scripts/l10n/make_catalog.py            # ③ TM → Localizable.xcstrings
+./scripts/l10n/lint.py                          # ④ 闸门
+```
+
+| 文件 | 谁写 | 说明 |
+|---|---|---|
+| `l10n/source-keys.json` | `harvest.py` | 权威键表，含每个 key 的源码位置 |
+| `l10n/translations.csv` | **人** | 翻译记忆库，唯一的译文来源 |
+| `Compositor/Localizable.xcstrings` | `make_catalog.py` | 构建产物，**不要手改** |
+| `Compositor/InfoPlist.xcstrings` | `make_catalog.py` | Finder 的「种类」列（Compositor 项目 / Adobe Photoshop 文档） |
+| `l10n/keys.json` | `extract.py` | **旧的手写扫描器结果，只作盲区报告用，不是键源**。别拿它建 catalog |
+
+### 为什么键要从 Xcode 拿，而不是自己扫源码
+
+自己写的扫描器够用来估规模、找盲区，但它不是编译器：
+
+- 带嵌套字符串字面量的插值 `\(cond ? "a" : "b")` 会被提前截断；
+- 多参数插值在运行时是 **带位置的格式符**（`%1$lld × %2$lld px`），扫描器只能
+  给出 `\(Int(w)) × \(Int(h)) px`，拿这种 key 去建 catalog 永远匹配不上；
+- AppKit 的 `NSMenuItem(title:)` 之类不会出现在编译器结果里——这些正是「盲区」，
+  必须先在代码里收口（改成 `String(localized:)`），而不是靠 catalog 硬塞。
+
+`harvest.py` 走的是 `xcodebuild -exportLocalizations`：它用编译器吐出的
+`.stringsdata` 合成 xliff，这一份就是 App 运行时真正会去查的 key 集合。
+
+### `status` 三态
+
+| 值 | 含义 | 进 catalog 吗 |
+|---|---|---|
+| `new` | 还没有译文 | 不进（运行时回落英文，不会出现空白） |
+| `translated` | 已译 | 进 |
+| `verbatim` | 专名，保持原文（Compositor、CMYK、`%lld%%`） | 进，写成 `shouldTranslate: false` |
+
+`verbatim` 不是偷懒：它让 Xcode 与译者在界面上都看到「这条是刻意不翻的」，
+比写一条和原文一模一样的译文准确。
+
+### 闸门会拦什么
+
+`lint.py` 现在对 649 条键是 0 ERROR / 0 WARN。它拦的是：
+
+- **E1 覆盖率**：有 key 没译文（上游加了新句子时必然触发）；
+- **E2 占位符**：`%@`、`%lld`、`%1$lld` 的数量或位置对不上——这条最要命，
+  少一个 `%lld` 在运行时会直接崩，不是显示错乱；
+- **E3 术语**：整条 key 就是术语表里的词（`Cancel` 必须「取消」）。
+  一词多义在 `glossary.termOverrides` 里登记，例如 `Type` 在画笔面板是「类型」，
+  在工具栏才是「文字」；
+- **E5 省略号**：原文以 `…` 结尾，译文也必须以 `…` 结尾；
+- **E6 不译名**：`PNG`/`Camera Raw`/`sRGB` 等不许译丢；
+- **E7 状态**：标了 `translated` 却和原文一模一样。
+
+`E4 禁用译法` 分两档：`hard`（蒙板、撤销操作这类任何语境都错）直接 ERROR；
+`soft`（透明度、设置这类看语境）只 WARN。确认无误的写进 `glossary.reviewed`
+并附理由——**裁定要留痕**，否则下次谁改回去也没人知道。
+
+### 应用内切换语言
+
+App 菜单 › **语言** › 跟随系统 / English / 简体中文。选完菜单里出现
+**重新启动 Compositor**，点它才重启。
+
+不自动重启是有意的：可能还有没存的项目，替用户决定重启等于替他丢工作。
+
+实现（`Compositor/App/LanguagePreference.swift`）的三条要点：
+
+1. **写 `AppleLanguages`**。CFBundle 在进程启动时按它解析 `.lproj`，所以改动
+   必然下次启动生效；热切换要重建整棵视图树并让已取到的字符串失效，Apple 自己
+   也不这么做。
+2. **「跟随系统」= 删键**，不是写 `["en"]`。写死英文会让用户在系统切到中文后
+   仍然是英文——这是这类实现最常见的错。
+3. **逻辑与界面分离**，所以能脱离 App 断言：
+
+   ```bash
+   ./scripts/l10n/selftest-language.sh    # 18 项断言，不需要 Xcode 测试宿主
+   ```
+
+> App 是**沙盒**的（`com.apple.security.app-sandbox`），偏好落在
+> `~/Library/Containers/com.wonderassembly.compositor/`。
+> 因此**从外部** `defaults write ... AppleLanguages` 会被沙盒挡下，
+> 语言只能用菜单改——这也顺带说明为什么这条必须做进 App 里。
+
+---
+
+## 七、故障排查
 
 | 现象 | 原因 | 处理 |
 |---|---|---|
@@ -184,7 +274,7 @@ python3 scripts/l10n/lint.py
 
 ---
 
-## 六、本机构建
+## 八、本机构建
 
 ```bash
 ./scripts/l10n/build-zh.sh          # Release 构建，产物在 ~/Library/Caches/CompositorZH/Build/Products/Release/
@@ -193,6 +283,10 @@ ZH_REV=2 ./scripts/l10n/build-zh.sh # 同一上游基线上再出一版
 
 脚本做四件事：读上游的 `MARKETING_VERSION` / `CURRENT_PROJECT_VERSION`、把 build 号注入成
 `上游 × 10 + 汉化修订`、构建、再回头核对产物 `Info.plist` 里的版本与更新源。
+
+清产物用的是 `xcodebuild clean`，**不是 `rm -rf` 派生数据目录**：后者会连带删掉
+`SourcePackages`，于是每次构建都要重新联网 clone Sparkle；而且一次删两千多个文件，
+在受限环境里会触发文件安全策略把整条命令拦下（本机就是这样）。
 
 所有开关都从命令行注入，**不写进 `project.pbxproj`**，因为上游每次发版都会改那里，写进去就每次都冲突。
 
@@ -229,6 +323,30 @@ xcodebuild test -project Compositor.xcodeproj -scheme Compositor -destination 'p
 `sample` 输出里**没有任何 XCTest 镜像**——测试包根本没被注入，所以不是「连不上」，
 是「没开始连」。注入靠 `DYLD_INSERT_LIBRARIES`，被当前受限会话的环境策略丢弃。
 
-**替代方案**：在 Xcode 图形界面里按 ⌘U 运行（Xcode 的测试流程与命令行不同），
-或把纯逻辑代码用 `swiftc` 单独编译成可执行的自检程序（`scripts/l10n/verify-ed25519.swift`
-就是这种形式）。类型闸门 `scripts/l10n/typecheck.sh --typecheck` 不受影响，可照常使用。
+**替代方案**（已落地，不是设想）：
+
+| 想验什么 | 用什么 | 需要 Xcode 测试宿主 |
+|---|---|---|
+| 语言偏好逻辑 | `./scripts/l10n/selftest-language.sh`（18 项断言） | 否 |
+| 更新签名密钥配对 | `scripts/l10n/verify-ed25519.swift` | 否 |
+| 翻译质量 | `./scripts/l10n/lint.py` | 否 |
+| catalog 与 CSV 是否同步 | `python3 scripts/l10n/make_catalog.py --check` | 否 |
+| 整模块类型 | `scripts/l10n/typecheck.sh --typecheck` | 否（只要 Xcode 的 SDK） |
+| 界面行为回归（104 套件） | Xcode 图形界面按 ⌘U | 是 |
+
+前五条都能在命令行跑，退出码即结论。第六条只能在 Xcode 图形界面里跑，
+因为注入测试包要靠 `DYLD_INSERT_LIBRARIES`，而受限会话的环境策略会把它丢掉。
+
+### 截图验证在本会话也不可用
+
+`screencapture` 报 `could not create image from display`（没有「屏幕录制」权限），
+`System Events` 取菜单报权限违例。所以界面是否真的变中文，本会话用两条**可复跑**的证据代替：
+
+```bash
+APP=~/Library/Caches/CompositorZH/Build/Products/Release/Compositor.app
+plutil -convert json -o - "$APP/Contents/Resources/zh-Hans.lproj/Localizable.strings" | head
+```
+
+资源表里 632 条译文齐备（`shouldTranslate: false` 的 17 条按设计不出现），
+且 App 以中文偏好启动后进程稳定存活。肉眼看一眼仍然值得做一次。
+
