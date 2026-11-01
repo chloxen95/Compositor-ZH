@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T15:11:00+00:00",
+ "generatedAt": "2026-11-01T06:47:32+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-26x96v8f/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-aqfkb0xh/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -117,7 +117,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1263
+     "line": 1268
     }
    ]
   },
@@ -225,7 +225,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 403
+     "line": 429
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -245,7 +245,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1504
+     "line": 1509
     }
    ]
   },
@@ -326,7 +326,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1072
+     "line": 1077
     }
    ]
   },
@@ -335,7 +335,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 393
+     "line": 419
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -431,6 +431,15 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 414
+    }
+   ]
+  },
+  {
+   "key": "Add Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 207
     }
    ]
   },
@@ -568,7 +577,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1067
+     "line": 1072
     }
    ]
   },
@@ -840,7 +849,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1070
+     "line": 1075
     }
    ]
   },
@@ -2367,7 +2376,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 352
+     "line": 378
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -2393,7 +2402,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 357
+     "line": 383
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -2523,7 +2532,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 353
+     "line": 379
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -2540,7 +2549,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1260
+     "line": 1265
     }
    ]
   },
@@ -2549,7 +2558,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 387
+     "line": 413
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -2566,7 +2575,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1077
+     "line": 1082
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -2574,7 +2583,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1100
+     "line": 1105
     }
    ]
   },
@@ -2587,7 +2596,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1078
+     "line": 1083
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -2595,7 +2604,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1101
+     "line": 1106
     }
    ]
   },
@@ -2920,6 +2929,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 291
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 291
     }
    ]
   },
@@ -3153,6 +3166,10 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 261
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 261
     }
    ]
   },
@@ -3192,6 +3209,28 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Convert to 16-Bit",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 191
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 197
+    }
+   ]
+  },
+  {
+   "key": "Convert to 8-Bit",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 191
     }
    ]
   },
@@ -3265,7 +3304,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 327
+     "line": 353
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -3278,7 +3317,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 323
+     "line": 349
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -3296,6 +3335,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 394
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 157
     }
    ]
   },
@@ -3809,6 +3852,10 @@
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 142
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 230
     }
    ]
   },
@@ -4059,6 +4106,15 @@
    ]
   },
   {
+   "key": "Disable Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 223
+    }
+   ]
+  },
+  {
    "key": "Distortion",
    "sites": [
     {
@@ -4248,7 +4304,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 349
+     "line": 375
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4261,7 +4317,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 373
+     "line": 399
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4274,7 +4330,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 348
+     "line": 374
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4326,7 +4382,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 371
+     "line": 397
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4339,7 +4395,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 379
+     "line": 405
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4352,7 +4408,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 375
+     "line": 401
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4365,7 +4421,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 377
+     "line": 403
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4378,7 +4434,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 360
+     "line": 386
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4391,7 +4447,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 381
+     "line": 407
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4404,7 +4460,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 361
+     "line": 387
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4417,7 +4473,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 383
+     "line": 409
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4430,7 +4486,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 367
+     "line": 393
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4443,7 +4499,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 440
+     "line": 466
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4456,7 +4512,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 356
+     "line": 382
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4482,7 +4538,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 366
+     "line": 392
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4495,7 +4551,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 364
+     "line": 390
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -4651,6 +4707,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 391
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 128
     }
    ]
   },
@@ -4762,7 +4822,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1053
+     "line": 1058
     }
    ]
   },
@@ -4857,6 +4917,15 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 95
+    }
+   ]
+  },
+  {
+   "key": "Enable Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 223
     }
    ]
   },
@@ -5014,6 +5083,10 @@
   {
    "key": "Expand Selection",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 260
+    },
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 260
@@ -5235,6 +5308,10 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 262
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 262
     }
    ]
   },
@@ -5313,6 +5390,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 359
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 326
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -5587,7 +5668,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1068
+     "line": 1073
     }
    ]
   },
@@ -6179,6 +6260,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 400
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 164
     }
    ]
   },
@@ -6238,7 +6323,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1071
+     "line": 1076
     }
    ]
   },
@@ -6463,7 +6548,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1082
+     "line": 1087
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -6471,7 +6556,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1246
+     "line": 1251
     }
    ]
   },
@@ -6485,6 +6570,15 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 323
+    }
+   ]
+  },
+  {
+   "key": "Hide All (Black)",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 213
     }
    ]
   },
@@ -6511,6 +6605,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 410
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 247
     }
    ]
   },
@@ -7315,6 +7413,10 @@
      "line": 298
     },
     {
+     "file": "Compositor/ContentView.swift",
+     "line": 298
+    },
+    {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 7
     },
@@ -7436,7 +7538,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 318
+     "line": 344
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -7462,7 +7564,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 412
+     "line": 438
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -7784,6 +7886,10 @@
     {
      "file": "Compositor/UI/KeyboardShortcuts.swift",
      "line": 189
+    },
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 189
     }
    ]
   },
@@ -8093,6 +8199,10 @@
   {
    "key": "Levels",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 285
+    },
     {
      "file": "Compositor/ContentView.swift",
      "line": 285
@@ -8520,6 +8630,15 @@
    ]
   },
   {
+   "key": "Link Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 237
+    }
+   ]
+  },
+  {
    "key": "Link layer and mask so they move together",
    "sites": [
     {
@@ -8528,7 +8647,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1047
+     "line": 1052
     }
    ]
   },
@@ -8541,7 +8660,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1050
+     "line": 1055
     }
    ]
   },
@@ -9284,7 +9403,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1076
+     "line": 1081
     }
    ]
   },
@@ -9460,6 +9579,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 404
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 178
     }
    ]
   },
@@ -9822,7 +9945,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 385
+     "line": 411
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -9882,15 +10005,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 321
-    },
-    {
-     "file": "Compositor/ContentView.swift",
-     "line": 325
-    },
-    {
-     "file": "Compositor/ContentView.swift",
-     "line": 329
+     "line": 347
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -9899,6 +10014,14 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 351
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 351
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 355
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -10289,7 +10412,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 369
+     "line": 395
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -11489,7 +11612,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 405
+     "line": 431
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -11674,6 +11797,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 394
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 157
     }
    ]
   },
@@ -11817,6 +11944,15 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 408
+    }
+   ]
+  },
+  {
+   "key": "Rename…",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 134
     }
    ]
   },
@@ -12018,6 +12154,15 @@
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 158
+    }
+   ]
+  },
+  {
+   "key": "Reveal All (White)",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 209
     }
    ]
   },
@@ -12644,7 +12789,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1054
+     "line": 1059
     }
    ]
   },
@@ -12657,7 +12802,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1059
+     "line": 1064
     }
    ]
   },
@@ -12670,7 +12815,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1055
+     "line": 1060
     }
    ]
   },
@@ -12683,7 +12828,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 908
+     "line": 913
     }
    ]
   },
@@ -12709,7 +12854,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1060
+     "line": 1065
     }
    ]
   },
@@ -12735,7 +12880,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1058
+     "line": 1063
     }
    ]
   },
@@ -13217,7 +13362,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1083
+     "line": 1088
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -13225,7 +13370,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1247
+     "line": 1252
     }
    ]
   },
@@ -13278,6 +13423,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 410
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 247
     }
    ]
   },
@@ -14300,7 +14449,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1066
+     "line": 1071
     }
    ]
   },
@@ -14939,6 +15088,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 402
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 171
     }
    ]
   },
@@ -14990,6 +15143,15 @@
    ]
   },
   {
+   "key": "Unlink Mask",
+   "sites": [
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 237
+    }
+   ]
+  },
+  {
    "key": "Unlink layer and mask to move or transform them separately",
    "sites": [
     {
@@ -14998,7 +15160,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1048
+     "line": 1053
     }
    ]
   },
@@ -15011,7 +15173,7 @@
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
-     "line": 1051
+     "line": 1056
     }
    ]
   },
@@ -15721,7 +15883,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 409
+     "line": 435
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -15932,7 +16094,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 395
+     "line": 421
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -15997,7 +16159,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 404
+     "line": 430
     },
     {
      "file": "Compositor/ContentView.swift",
@@ -16010,7 +16172,7 @@
    "sites": [
     {
      "file": "Compositor/ContentView.swift",
-     "line": 394
+     "line": 420
     },
     {
      "file": "Compositor/ContentView.swift",

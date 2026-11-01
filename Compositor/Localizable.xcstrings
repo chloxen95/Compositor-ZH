@@ -215,6 +215,16 @@
         }
       }
     },
+    "Add Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加蒙版"
+          }
+        }
+      }
+    },
     "Add Noise": {
       "localizations": {
         "zh-Hans": {
@@ -1837,6 +1847,26 @@
         }
       }
     },
+    "Convert to 16-Bit": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "转换为 16 位"
+          }
+        }
+      }
+    },
+    "Convert to 8-Bit": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "转换为 8 位"
+          }
+        }
+      }
+    },
     "Copies to one side of the picture, or out to both": {
       "localizations": {
         "zh-Hans": {
@@ -2393,6 +2423,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "方向"
+          }
+        }
+      }
+    },
+    "Disable Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停用蒙版"
           }
         }
       }
@@ -2973,6 +3013,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "启用配置文件校正"
+          }
+        }
+      }
+    },
+    "Enable Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用蒙版"
           }
         }
       }
@@ -3999,6 +4049,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "在预览中隐藏 %@"
+          }
+        }
+      }
+    },
+    "Hide All (Black)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部隐藏（黑色）"
           }
         }
       }
@@ -5349,6 +5409,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "实线"
+          }
+        }
+      }
+    },
+    "Link Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "链接蒙版"
           }
         }
       }
@@ -7516,6 +7586,16 @@
         }
       }
     },
+    "Rename…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重命名…"
+          }
+        }
+      }
+    },
     "Replaces this curve with a straight line or a contrast curve.": {
       "localizations": {
         "zh-Hans": {
@@ -7642,6 +7722,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "结果：%lld × %lld 像素"
+          }
+        }
+      }
+    },
+    "Reveal All (White)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部显示（白色）"
           }
         }
       }
@@ -9522,6 +9612,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "单位：像素、英寸、厘米或毫米。点按可切换。"
+          }
+        }
+      }
+    },
+    "Unlink Mask": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消蒙版链接"
           }
         }
       }
