@@ -6548,6 +6548,16 @@
         }
       }
     },
+    "More": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更多"
+          }
+        }
+      }
+    },
     "More formats": {
       "localizations": {
         "zh-Hans": {

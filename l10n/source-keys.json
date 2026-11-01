@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-01T07:29:01+00:00",
+ "generatedAt": "2026-11-01T07:36:22+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-3gawlvv5/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-atohu13q/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -1421,12 +1421,16 @@
      "line": 287
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 287
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 417
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
-     "line": 417
+     "line": 418
     }
    ]
   },
@@ -3101,6 +3105,10 @@
      "line": 298
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 298
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
     },
@@ -3177,6 +3185,10 @@
   {
    "key": "Color + neutral midtones",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 299
+    },
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 299
@@ -3598,6 +3610,10 @@
   {
    "key": "Contrast",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 297
+    },
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 297
@@ -7125,6 +7141,10 @@
   {
    "key": "Gray",
    "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 288
+    },
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 288
@@ -10970,6 +10990,15 @@
    ]
   },
   {
+   "key": "More",
+   "sites": [
+    {
+     "file": "Compositor/UI/ExportAsSheet.swift",
+     "line": 403
+    }
+   ]
+  },
+  {
    "key": "More formats",
    "sites": [
     {
@@ -10978,7 +11007,7 @@
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
-     "line": 403
+     "line": 404
     }
    ]
   },
@@ -12120,7 +12149,7 @@
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
-     "line": 409
+     "line": 410
     }
    ]
   },
@@ -17877,7 +17906,7 @@
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
-     "line": 425
+     "line": 426
     }
    ]
   },
@@ -17936,12 +17965,16 @@
      "line": 289
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 289
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 418
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
-     "line": 418
+     "line": 419
     }
    ]
   },

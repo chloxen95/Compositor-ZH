@@ -399,7 +399,8 @@ struct ExportAsSheet: View {
     @ViewBuilder private var moreFormats: some View {
         let others = formats.filter { $0 != .png && $0 != .jpeg }
         let chosen = others.contains(format)
-        let menu = Menu(chosen ? format.rawValue : "More") {
+        // 格式名是专名（PNG/JPEG…），保留原样；「更多」要翻译。
+        let menu = Menu(chosen ? format.rawValue : String(localized: "More")) {
             Picker("More formats", selection: $format) {
                 ForEach(others, id: \.self) { Text($0.rawValue).tag($0) }
             }
