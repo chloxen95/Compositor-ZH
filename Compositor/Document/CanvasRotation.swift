@@ -1,4 +1,5 @@
 import CoreGraphics
+import Foundation
 
 extension LayerTransform {
     /// This placement turned a quarter turn with the canvas it sits on (`width` × `height` before the turn): the
@@ -37,7 +38,7 @@ extension EditorSession {
         guard canEditLayers, let document else { return }
         let canvas = document.size
         finishOpacityEdit()
-        beginEdit(clockwise ? "Rotate Canvas 90° Clockwise" : "Rotate Canvas 90° Counterclockwise")
+        beginEdit(clockwise ? String(localized: "Rotate Canvas 90° Clockwise") : String(localized: "Rotate Canvas 90° Counterclockwise"))
         var layers = document.layers
         for index in layers.indices {
             layers[index].transform = layers[index].transform.quarterTurned(clockwise: clockwise, canvas: canvas)

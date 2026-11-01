@@ -306,7 +306,7 @@ extension EditorSession {
     func duplicateLayer(_ id: UUID, in parent: UUID?, above target: UUID? = nil, atBottom: Bool = false) -> Bool {
         guard canEditLayers,
               canPlaceLayer(id, in: parent) else { return false }
-        beginEdit("Duplicate Layer")
+        beginEdit(String(localized: "Duplicate Layer"))
         defer { endEdit() }
         selectLayer(id)
         duplicateActiveLayer()

@@ -205,7 +205,7 @@ struct NativeLayerList: NSViewRepresentable {
 
             // 8. Add Mask >
             let addMaskItem = NSMenuItem(title: String(localized: "Add Mask"), action: nil, keyEquivalent: "")
-            let addMaskSubmenu = NSMenu(title: "Add Mask")
+            let addMaskSubmenu = NSMenu(title: String(localized: "Add Mask"))
             let revealAllItem = NSMenuItem(title: String(localized: "Reveal All (White)"), action: #selector(addWhiteMaskAction), keyEquivalent: "")
             revealAllItem.target = self
             revealAllItem.isEnabled = validateMenuItem(revealAllItem)
@@ -489,8 +489,8 @@ struct NativeLayerList: NSViewRepresentable {
             // Dropped above a layer (or at the very bottom) the last one placed ends up nearest it, so they go in
             // from the top down; dropped into a folder each lands on top, so they go in from the bottom up.
             let order = intoFolder ? Array(ids.reversed()) : ids
-            session.beginEdit(copying ? (ids.count > 1 ? "Duplicate Layers" : "Duplicate Layer")
-                                      : (ids.count > 1 ? "Move Layers" : "Move Layer"))
+            session.beginEdit(copying ? (ids.count > 1 ? String(localized: "Duplicate Layers") : String(localized: "Duplicate Layer"))
+                                      : (ids.count > 1 ? String(localized: "Move Layers") : String(localized: "Move Layer")))
             var placed = false
             for id in order {
                 let done = copying ? session.duplicateLayer(id, in: parent, above: above, atBottom: atBottom)

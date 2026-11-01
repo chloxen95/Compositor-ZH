@@ -142,7 +142,7 @@ extension EditorSession {
             guard let current = self.document?.layers[safe: index], current.id == layer.id else { return }
             guard pixelEditTargetMatches(current, original: layer), current.mask?.asset.image === layer.mask?.asset.image else { return }
             let edited = mask ? nil : try layerByEditingPixels(current, asset: asset, transform: current.transform, mask: current.mask)
-            beginEdit(mask ? "Invert Mask" : "Invert")
+            beginEdit(mask ? String(localized: "Invert Mask") : String(localized: "Invert"))
             if mask {
                 self.document?.layers[index].mask = current.mask.map { $0.replacing(asset) } ?? LayerMask(asset: asset)
             } else if let edited { self.document?.layers[index] = edited }

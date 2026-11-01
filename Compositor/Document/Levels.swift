@@ -230,7 +230,7 @@ extension EditorSession {
                   let current = document?.layers[index], displayedAsset(for: current)?.image === edit.original.image,
                   pixelEditTransformMatches(current, transform: edit.transform) else { return }
             let edited = try layerByEditingPixels(current, asset: asset, transform: current.transform, mask: current.mask)
-            beginEdit("Levels")
+            beginEdit(String(localized: "Levels"))
             document?.layers[index] = edited
             endEdit()
         } catch { brushError = error.localizedDescription }

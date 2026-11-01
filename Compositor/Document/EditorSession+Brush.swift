@@ -186,7 +186,7 @@ extension EditorSession {
                 name: original.asset.name, raster: raster))
         }
         let edited = stroke.isMask ? nil : try layerByEditingPixels(current, asset: result.asset, transform: result.transform, mask: mask)
-        beginEdit(stroke.editName ?? (stroke.isMask ? "Paint Mask" : stroke.settings.erasing ? "Erase" : stroke.isBlur ? "Blur" : stroke.clone != nil ? "Clone Stamp" : stroke.settings.healing ? "Spot Healing" : "Brush Stroke"))
+        beginEdit(stroke.editName ?? (stroke.isMask ? String(localized: "Paint Mask") : stroke.settings.erasing ? String(localized: "Erase") : stroke.isBlur ? String(localized: "Blur") : stroke.clone != nil ? String(localized: "Clone Stamp") : stroke.settings.healing ? String(localized: "Spot Healing") : String(localized: "Brush Stroke")))
         if stroke.isMask {
             document?.layers[index].mask = current.mask.map { mask in
                 var painted = mask.replacing(result.asset)

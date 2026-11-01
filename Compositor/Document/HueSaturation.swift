@@ -558,7 +558,7 @@ extension EditorSession {
               let current = document?.layers[index], displayedAsset(for: current)?.image === edit.original.image else { return }
         do {
             let edited = try layerByEditingPixels(current, asset: asset, transform: current.transform, mask: current.mask)
-            beginEdit("Hue/Saturation")
+            beginEdit(String(localized: "Hue/Saturation"))
             document?.layers[index] = edited
             endEdit()
         } catch { brushError = error.localizedDescription }

@@ -126,7 +126,7 @@ final class ProjectController {
         guard let options, let snapshot = session.projectSnapshot() else { return }
         do {
             let resized = try await CanvasResizer.shared.resize(snapshot, to: options)
-            session.applyDocumentSize(resized, actionName: "Canvas Size", keepingZoom: true)
+            session.applyDocumentSize(resized, actionName: String(localized: "Canvas Size"), keepingZoom: true)
         } catch { await showError("Couldn’t change canvas size", error: error) }
     }
 
@@ -172,7 +172,7 @@ final class ProjectController {
             guard let resized = try await ImageTrim.trim(snapshot, options: options) else {
                 return
             }
-            session.applyDocumentSize(resized, actionName: "Trim")
+            session.applyDocumentSize(resized, actionName: String(localized: "Trim"))
         } catch { await showError("Couldn’t trim image", error: error) }
     }
 

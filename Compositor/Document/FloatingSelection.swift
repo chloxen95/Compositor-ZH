@@ -36,7 +36,7 @@ extension EditorSession {
         } catch { brushError = error.localizedDescription; return }
         let before = document, beforeActive = activeLayerID
         // Outer edit: closed by commitTransform (merge) or cancelTransform (restore).
-        beginEdit("Transform Selection")
+        beginEdit(String(localized: "Transform Selection"))
         await clearSelectedPixels()
         let asset = lifted.image.bitsPerComponent > 8
             ? try? DeepLayer.asset(lifted.image, name: "Floating Selection")

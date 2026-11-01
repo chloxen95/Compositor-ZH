@@ -262,7 +262,7 @@ extension EditorSession {
     /// Moves the outline only (never pixels). The whole drag is one undo step.
     func beginSelectionMove() -> Bool {
         guard selectionMoveOrigin == nil, let selection, !selection.isEmpty, canEditSelection else { return false }
-        beginEdit("Move Selection")
+        beginEdit(String(localized: "Move Selection"))
         selectionMoveOrigin = selection
         return true
     }

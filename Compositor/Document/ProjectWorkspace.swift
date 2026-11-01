@@ -323,7 +323,7 @@ final class ProjectWorkspace {
                     gifAnimation: layer.gifAnimation)
             }
             target.session.isProjectBusy = false
-            target.session.beginEdit("Copy Layers from Project")
+            target.session.beginEdit(String(localized: "Copy Layers from Project"))
             if target.session.document == nil { target.session.createDocument(width: Int(size.width), height: Int(size.height)) }
             target.session.document?.layers.append(contentsOf: layers)
             target.session.activeLayerID = mapping[id]

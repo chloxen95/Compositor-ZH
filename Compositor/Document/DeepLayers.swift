@@ -288,7 +288,7 @@ extension EditorSession {
             guard let deep = try DeepLayer.flattened(asset) else { return }
             converted = try DeepLayer.asset(try DeepLayer.image(deep), name: asset.name)
         } catch { brushError = error.localizedDescription; return }
-        beginEdit("Convert to 16-Bit")
+        beginEdit(String(localized: "Convert to 16-Bit"))
         document?.layers[index].asset = converted
         endEdit()
     }
@@ -306,7 +306,7 @@ extension EditorSession {
                 let clear = try DeepLayer.context(width: document.width, height: document.height)
                 guard let deep = clear.makeImage() else { return }
                 let converted = try DeepLayer.asset(deep, name: layer.name)
-                beginEdit("Convert to 16-Bit")
+                beginEdit(String(localized: "Convert to 16-Bit"))
                 self.document?.layers[index].asset = converted
                 self.document?.layers[index].transform = LayerTransform(origin: .zero, size: document.size)
                 endEdit()
@@ -323,7 +323,7 @@ extension EditorSession {
                                           deep: try DeepLayer.image(asset.image))
             }
         } catch { brushError = error.localizedDescription; return }
-        beginEdit(asset.deep == nil ? "Convert to 16-Bit" : "Convert to 8-Bit")
+        beginEdit(asset.deep == nil ? String(localized: "Convert to 16-Bit") : String(localized: "Convert to 8-Bit"))
         self.document?.layers[index].asset = converted
         endEdit()
     }

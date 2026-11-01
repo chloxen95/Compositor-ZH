@@ -1090,7 +1090,7 @@ extension EditorSession {
                 mask = owned.replacing(try LayerMask.asset(from: carried))
             }
             let edited = try layerByEditingPixels(current, asset: asset, transform: made.transform ?? current.transform, mask: mask)
-            beginEdit(edit.kind.rawValue)
+            beginEdit(edit.kind.displayName)
             document?.layers[index] = edited
             endEdit()
         } catch { brushError = error.localizedDescription }
@@ -1125,7 +1125,7 @@ extension EditorSession {
                   let layer = document?.layers[index], displayedAsset(for: layer)?.image === edit.original.image,
                   pixelEditTransformMatches(layer, transform: edit.transform) else { return }
             let asset = try LayerMask.asset(from: made)
-            beginEdit(edit.kind.rawValue)
+            beginEdit(edit.kind.displayName)
             document?.layers[index].mask = layer.mask.map { $0.replacing(asset) } ?? LayerMask(asset: asset)
             document?.layers[index].mask?.isEnabled = true
             isMaskSelected = true
