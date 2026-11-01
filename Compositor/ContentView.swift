@@ -250,62 +250,24 @@ struct ContentView: View {
     }
 
     var body: some View {
-        editorChrome
-        .onChange(of: session.levels == nil) { _, closed in
-            if closed { levelsPanel.close() }
-            else {
-                levelsPanel.onClose = { session.cancelLevels() }
-                levelsPanel.show(title: "Levels", content: LevelsSheet(session: session))
+        // 拆成两段：整条链太长会让类型检查超时（见文件末尾两处注释）。
+        panelHooks(alerts(editorChrome))
+    }
+
+    /// 面板的显示/关闭钩子。从 `body` 里拆出来，一是让类型检查过得去，
+    /// 二是这些标题就在手边，改动时不用在一百行链子里找。
+    private func panelHooks<Content: View>(_ content: Content) -> some View {
+        content
+            .onChange(of: session.levels == nil) { _, closed in syncLevelsPanel(closed) }
+            .onChange(of: session.colorRange == nil) { _, closed in syncColorRangePanel(closed) }
+            .onChange(of: session.hueSaturation == nil) { _, closed in syncHueSaturationPanel(closed) }
+            .onChange(of: session.effectsEditing == nil) { _, closed in syncEffectsPanel(closed) }
+            .onChange(of: session.document?.layers) { _, layers in closeEffectsEditingIfGone(layers) }
+            .onChange(of: session.selectionAmountOperation?.rawValue) { _, _ in syncSelectionAmountPanel() }
+            .onChange(of: filterPanelClosed) { _, closed in syncFilterPanel(closed) }
+            .onChange(of: session.document == nil) { _, empty in
+                if !empty { session.canvasFocusRequest += 1 }
             }
-        }
-        .onChange(of: session.colorRange == nil) { _, closed in
-            if closed { colorRangePanel.close() }
-            else {
-                colorRangePanel.onClose = { session.cancelColorRange() }
-                colorRangePanel.show(title: "Color Range", content: ColorRangeSheet(session: session))
-            }
-        }
-        .onChange(of: session.hueSaturation == nil) { _, closed in
-            if closed { adjustmentPanel.close() }
-            else {
-                adjustmentPanel.onClose = { session.cancelHueSaturation() }
-                adjustmentPanel.show(title: "Hue/Saturation", content: HueSaturationSheet(session: session))
-            }
-        }
-        .onChange(of: session.effectsEditing) { _, selection in
-            if let selection {
-                effectsPanel.onClose = { session.finishEffectsEditing(commit: false) }
-                effectsPanel.show(title: selection.kind.displayName, content: EffectsSheet(session: session, kind: selection.kind))
-            } else { effectsPanel.close() }
-        }
-        .onChange(of: session.document?.layers) { _, layers in
-            if let editing = session.effectsEditing,
-               layers?.first(where: { $0.id == editing.layerID })?.effects?.contains(editing.kind) != true {
-                if let picker = session.colorPicker, case .effect = picker.target { session.closeColorPicker(commit: false) }
-                session.effectsEditing = nil
-                session.effectsEditingOriginal = nil
-            }
-        }
-        .onChange(of: session.selectionAmountOperation) { _, operation in
-            if let operation {
-                selectionAmountPanel.onClose = { session.selectionAmountOperation = nil }
-                selectionAmountPanel.show(title: operation.rawValue + " Selection",
-                    content: SelectionAmountSheet(session: session, operation: operation))
-            } else { selectionAmountPanel.close() }
-        }
-        // Last Filter applies without the panel.
-        .onChange(of: session.filterEdit == nil || session.filterEdit?.repeating == true) { _, closed in
-            if closed { filterPanel.close() }
-            else {
-                filterPanel.onClose = { session.cancelFilter() }
-                let placement: FloatingPanelPlacement = session.filterEdit?.kind == .cameraRaw ? .dockedToMainWindowRight : .automatic
-                filterPanel.show(title: session.filterEdit?.kind.rawValue ?? "Filter", content: FilterSheet(session: session),
-                                 placement: placement)
-            }
-        }
-        .onChange(of: session.document == nil) { _, empty in
-            if !empty { session.canvasFocusRequest += 1 }
-        }
         // A folder brings in the images directly inside it.
         .fileImporter(isPresented: $session.showsImporter,
                       allowedContentTypes: UTType.importableImages + [.folder], allowsMultipleSelection: true) { result in
@@ -315,6 +277,70 @@ struct ContentView: View {
                 if (error as NSError).code != NSUserCancelledError { session.importError = error.localizedDescription }
             }
         }
+    }
+
+    private func syncLevelsPanel(_ closed: Bool) {
+        guard !closed else { levelsPanel.close(); return }
+        levelsPanel.onClose = { session.cancelLevels() }
+        levelsPanel.show(title: String(localized: "Levels", comment: "Panel title"), content: LevelsSheet(session: session))
+    }
+
+    private func syncColorRangePanel(_ closed: Bool) {
+        guard !closed else { colorRangePanel.close(); return }
+        colorRangePanel.onClose = { session.cancelColorRange() }
+        colorRangePanel.show(title: String(localized: "Color Range", comment: "Panel title"),
+                             content: ColorRangeSheet(session: session))
+    }
+
+    private func syncHueSaturationPanel(_ closed: Bool) {
+        guard !closed else { adjustmentPanel.close(); return }
+        adjustmentPanel.onClose = { session.cancelHueSaturation() }
+        adjustmentPanel.show(title: String(localized: "Hue/Saturation", comment: "Panel title"),
+                             content: HueSaturationSheet(session: session))
+    }
+
+    private func syncEffectsPanel(_ closed: Bool) {
+        guard let selection = session.effectsEditing else { effectsPanel.close(); return }
+        effectsPanel.onClose = { session.finishEffectsEditing(commit: false) }
+        effectsPanel.show(title: selection.kind.displayName,
+                          content: EffectsSheet(session: session, kind: selection.kind))
+    }
+
+    private func syncSelectionAmountPanel() {
+        guard let operation = session.selectionAmountOperation else { selectionAmountPanel.close(); return }
+        selectionAmountPanel.onClose = { session.selectionAmountOperation = nil }
+        selectionAmountPanel.show(title: operation.panelTitle,
+                                  content: SelectionAmountSheet(session: session, operation: operation))
+    }
+
+    /// 滤镜面板该关的时候：没有在编辑滤镜，或者是在重复上一次滤镜（它不开面板）。
+    private var filterPanelClosed: Bool {
+        session.filterEdit == nil || session.filterEdit?.repeating == true
+    }
+
+    /// 面板的显示与关闭。从 `onChange` 闭包里搬出来，那段可选链写在视图链里会让类型检查超时。
+    private func syncFilterPanel(_ closed: Bool) {
+        guard !closed else { filterPanel.close(); return }
+        filterPanel.onClose = { session.cancelFilter() }
+        let placement: FloatingPanelPlacement = session.filterEdit?.kind == .cameraRaw ? .dockedToMainWindowRight : .automatic
+        let title = session.filterEdit?.kind.displayName ?? String(localized: "Filter", comment: "Panel title")
+        filterPanel.show(title: title, content: FilterSheet(session: session), placement: placement)
+    }
+
+    /// 撤销或删除之后，正在编辑的图层效果可能已经不在了，收起面板。
+    /// 独立成方法是为了让那段 `layers?.first(where:)… != true` 不要留在视图链里——
+    /// 它一个表达式就够让类型检查超时。
+    private func closeEffectsEditingIfGone(_ layers: [ImageLayer]?) {
+        guard let editing = session.effectsEditing,
+              layers?.first(where: { $0.id == editing.layerID })?.effects?.contains(editing.kind) != true else { return }
+        if let picker = session.colorPicker, case .effect = picker.target { session.closeColorPicker(commit: false) }
+        session.effectsEditing = nil
+        session.effectsEditingOriginal = nil
+    }
+
+    /// 三个错误告警。与上面拆开的原因相同。
+    private func alerts<Content: View>(_ content: Content) -> some View {
+        content
         .alert("Import couldn’t finish", isPresented: Binding(
             get: { session.importError != nil }, set: { if !$0 { session.importError = nil } })) {
                 // No cancel role: an alert with only a cancel button gets a second OK of its own.

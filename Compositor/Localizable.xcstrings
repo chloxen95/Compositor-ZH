@@ -1634,6 +1634,16 @@
         }
       }
     },
+    "Color Range": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "色彩范围"
+          }
+        }
+      }
+    },
     "Color Range…": {
       "localizations": {
         "zh-Hans": {
@@ -1783,6 +1793,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "连续"
+          }
+        }
+      }
+    },
+    "Contract Selection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收缩选区"
           }
         }
       }
@@ -3060,6 +3080,16 @@
         }
       }
     },
+    "Expand Selection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "扩展选区"
+          }
+        }
+      }
+    },
     "Expand…": {
       "localizations": {
         "zh-Hans": {
@@ -3186,6 +3216,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "羽化"
+          }
+        }
+      }
+    },
+    "Feather Selection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "羽化选区"
           }
         }
       }
@@ -4819,6 +4859,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "保持该点固定。图像不缩放；被裁掉的内容仍在画布之外。"
+          }
+        }
+      }
+    },
+    "Keyboard Shortcuts": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "键盘快捷键"
           }
         }
       }

@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31T14:59:23+00:00",
+ "generatedAt": "2026-10-31T15:11:00+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-35iuyhu9/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-26x96v8f/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -229,7 +229,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 403
+     "line": 429
     },
     {
      "file": "Compositor/UI/CropControls.swift",
@@ -238,6 +238,14 @@
     {
      "file": "Compositor/UI/CropControls.swift",
      "line": 48
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1504
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 1504
     }
    ]
   },
@@ -331,7 +339,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 393
+     "line": 419
     }
    ]
   },
@@ -1072,6 +1080,10 @@
   {
    "key": "Background color",
    "sites": [
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 59
+    },
     {
      "file": "Compositor/UI/ColorPaletteControls.swift",
      "line": 59
@@ -2359,7 +2371,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 352
+     "line": 378
     }
    ]
   },
@@ -2385,7 +2397,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 357
+     "line": 383
     }
    ]
   },
@@ -2515,7 +2527,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 353
+     "line": 379
     }
    ]
   },
@@ -2541,7 +2553,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 387
+     "line": 413
     }
    ]
   },
@@ -2903,6 +2915,15 @@
    ]
   },
   {
+   "key": "Color Range",
+   "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 291
+    }
+   ]
+  },
+  {
    "key": "Color Range…",
    "sites": [
     {
@@ -3127,6 +3148,15 @@
    ]
   },
   {
+   "key": "Contract Selection",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 261
+    }
+   ]
+  },
+  {
    "key": "Contract…",
    "sites": [
     {
@@ -3239,7 +3269,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 327
+     "line": 353
     }
    ]
   },
@@ -3252,7 +3282,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 323
+     "line": 349
     }
    ]
   },
@@ -4222,7 +4252,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 349
+     "line": 375
     }
    ]
   },
@@ -4235,7 +4265,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 373
+     "line": 399
     }
    ]
   },
@@ -4248,7 +4278,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 348
+     "line": 374
     }
    ]
   },
@@ -4300,7 +4330,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 371
+     "line": 397
     }
    ]
   },
@@ -4313,7 +4343,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 379
+     "line": 405
     }
    ]
   },
@@ -4326,7 +4356,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 375
+     "line": 401
     }
    ]
   },
@@ -4339,7 +4369,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 377
+     "line": 403
     }
    ]
   },
@@ -4352,7 +4382,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 360
+     "line": 386
     }
    ]
   },
@@ -4365,7 +4395,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 381
+     "line": 407
     }
    ]
   },
@@ -4378,7 +4408,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 361
+     "line": 387
     }
    ]
   },
@@ -4391,7 +4421,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 383
+     "line": 409
     }
    ]
   },
@@ -4404,7 +4434,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 367
+     "line": 393
     }
    ]
   },
@@ -4417,7 +4447,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 440
+     "line": 466
     }
    ]
   },
@@ -4430,7 +4460,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 356
+     "line": 382
     }
    ]
   },
@@ -4456,7 +4486,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 366
+     "line": 392
     }
    ]
   },
@@ -4469,7 +4499,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 364
+     "line": 390
     }
    ]
   },
@@ -4982,6 +5012,15 @@
    ]
   },
   {
+   "key": "Expand Selection",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 260
+    }
+   ]
+  },
+  {
    "key": "Expand…",
    "sites": [
     {
@@ -5191,6 +5230,15 @@
    ]
   },
   {
+   "key": "Feather Selection",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 262
+    }
+   ]
+  },
+  {
    "key": "Feather…",
    "sites": [
     {
@@ -5265,6 +5313,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 359
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 326
     }
    ]
   },
@@ -5622,6 +5674,10 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 134
+    },
+    {
+     "file": "Compositor/UI/ColorPaletteControls.swift",
+     "line": 59
     },
     {
      "file": "Compositor/UI/ColorPaletteControls.swift",
@@ -7255,6 +7311,10 @@
    "key": "Hue/Saturation",
    "sites": [
     {
+     "file": "Compositor/ContentView.swift",
+     "line": 298
+    },
+    {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 7
     },
@@ -7380,7 +7440,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 318
+     "line": 344
     }
    ]
   },
@@ -7406,7 +7466,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 412
+     "line": 438
     }
    ]
   },
@@ -7719,6 +7779,15 @@
    ]
   },
   {
+   "key": "Keyboard Shortcuts",
+   "sites": [
+    {
+     "file": "Compositor/UI/KeyboardShortcuts.swift",
+     "line": 189
+    }
+   ]
+  },
+  {
    "key": "Keyboard Shortcuts…",
    "sites": [
     {
@@ -8024,6 +8093,10 @@
   {
    "key": "Levels",
    "sites": [
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 285
+    },
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 8
@@ -9753,7 +9826,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 385
+     "line": 411
     }
    ]
   },
@@ -9813,14 +9886,6 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 321
-    },
-    {
-     "file": "Compositor/ContentView.swift",
-     "line": 325
-    },
-    {
-     "file": "Compositor/ContentView.swift",
      "line": 325
     },
     {
@@ -9829,7 +9894,15 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 329
+     "line": 347
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 351
+    },
+    {
+     "file": "Compositor/ContentView.swift",
+     "line": 355
     },
     {
      "file": "Compositor/IO/ProjectController.swift",
@@ -10220,7 +10293,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 369
+     "line": 395
     }
    ]
   },
@@ -11420,7 +11493,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 405
+     "line": 431
     }
    ]
   },
@@ -15652,7 +15725,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 409
+     "line": 435
     },
     {
      "file": "Compositor/UI/FilterSheet.swift",
@@ -15863,7 +15936,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 395
+     "line": 421
     }
    ]
   },
@@ -15928,7 +16001,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 404
+     "line": 430
     }
    ]
   },
@@ -15941,7 +16014,7 @@
     },
     {
      "file": "Compositor/ContentView.swift",
-     "line": 394
+     "line": 420
     }
    ]
   },

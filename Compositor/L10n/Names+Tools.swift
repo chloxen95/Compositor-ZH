@@ -252,3 +252,14 @@ extension GridAppearance.Style {
         }
     }
 }
+
+extension EditorSession.SelectionAmountOperation {
+    /// 浮动面板标题。整句成键，不在调用点拼 "\(名字) Selection"——那样的插值不好译。
+    var panelTitle: String {
+        switch self {
+        case .expand: String(localized: "Expand Selection", comment: "Panel title")
+        case .contract: String(localized: "Contract Selection", comment: "Panel title")
+        case .feather: String(localized: "Feather Selection", comment: "Panel title")
+        }
+    }
+}
