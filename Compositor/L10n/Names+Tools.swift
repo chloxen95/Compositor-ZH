@@ -263,3 +263,40 @@ extension EditorSession.SelectionAmountOperation {
         }
     }
 }
+
+extension DitherStyle {
+    var displayName: String {
+        switch self {
+        case .atkinson: String(localized: "Atkinson (Classic Mac)", comment: "Dither style")
+        case .floydSteinberg: String(localized: "Floyd–Steinberg", comment: "Dither style")
+        case .bayer2: String(localized: "Bayer 2 × 2", comment: "Dither style")
+        case .bayer4: String(localized: "Bayer 4 × 4", comment: "Dither style")
+        case .bayer8: String(localized: "Bayer 8 × 8", comment: "Dither style")
+        case .dots: String(localized: "Halftone Dots", comment: "Dither style")
+        case .lines: String(localized: "Halftone Lines", comment: "Dither style")
+        case .diamonds: String(localized: "Halftone Diamonds", comment: "Dither style")
+        case .patterns: String(localized: "Mac Patterns", comment: "Dither style")
+        case .ascii: String(localized: "ASCII", comment: "Dither style")
+        }
+    }
+}
+
+extension LevelsSample {
+    var displayName: String {
+        switch self {
+        case .black: String(localized: "Black", comment: "Levels eyedropper")
+        case .gray: String(localized: "Gray", comment: "Levels eyedropper")
+        case .white: String(localized: "White", comment: "Levels eyedropper")
+        }
+    }
+}
+
+extension LevelsAuto {
+    var displayName: String {
+        switch self {
+        case .contrast: String(localized: "Contrast", comment: "Auto levels")
+        case .color: String(localized: "Color", comment: "Auto levels")
+        case .neutral: String(localized: "Color + neutral midtones", comment: "Auto levels")
+        }
+    }
+}

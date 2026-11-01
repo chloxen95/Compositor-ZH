@@ -27,20 +27,20 @@ struct LevelsSheet: View {
                 handles(output: false).frame(height: 20)
             }
             HStack {
-                field("Input black", value(\.black), decimals: 0)
+                field("Input black", value(\.black), decimals: 0, identifier: "InputBlack")
                 Spacer()
-                field("Gamma", value(\.gamma), decimals: 2)
+                field("Gamma", value(\.gamma), decimals: 2, isGamma: true, identifier: "Gamma")
                 Spacer()
-                field("Input white", value(\.white), decimals: 0)
+                field("Input white", value(\.white), decimals: 0, identifier: "InputWhite")
             }
             VStack(spacing: 0) {
                 LinearGradient(colors: [.black, .white], startPoint: .leading, endPoint: .trailing).frame(height: 14)
                 handles(output: true).frame(height: 20)
             }
             HStack {
-                field("Output black", value(\.outputBlack), decimals: 0)
+                field("Output black", value(\.outputBlack), decimals: 0, identifier: "OutputBlack")
                 Spacer()
-                field("Output white", value(\.outputWhite), decimals: 0)
+                field("Output white", value(\.outputWhite), decimals: 0, identifier: "OutputWhite")
             }
             HStack {
                 Text("Sample").font(.caption).foregroundStyle(.secondary)
@@ -49,19 +49,19 @@ struct LevelsSheet: View {
                         edit?.sampleMode = edit?.sampleMode == mode ? nil : mode
                         session.brushRevision += 1
                     } label: {
-                        Label(mode.rawValue, systemImage: "eyedropper")
+                        Label(mode.displayName, systemImage: "eyedropper")
                     }.tint(edit?.sampleMode == mode ? .accentColor : .secondary)
                 }
             }
             if let mode = edit?.sampleMode {
-                Text("Click the original layer to set \(mode.rawValue.lowercased()). Click the eyedropper again to stop.")
+                Text("Click the original layer to set \(mode.displayName). Click the eyedropper again to stop.")
                     .font(.caption).foregroundStyle(.secondary)
             }
             VStack(alignment: .leading, spacing: 6) {
                 Text("Auto").font(.caption).foregroundStyle(.secondary)
                 HStack {
                     ForEach(LevelsAuto.allCases, id: \.self) { mode in
-                        Button(mode.rawValue) { session.autoLevels(mode) }
+                        Button(mode.displayName) { session.autoLevels(mode) }
                     }
                 }.disabled(edit?.histogramReady != true)
             }
@@ -86,14 +86,19 @@ struct LevelsSheet: View {
         .padding(24).frame(width: 440).fixedSize()
         .disabled(edit?.committing == true)
     }
-    private func field(_ name: String, _ binding: Binding<Double>, decimals: Int) -> some View {
-        let range: ClosedRange<Double> = name == "Gamma" ? 0.1...9.99 : 0...255
+    private func field(_ name: LocalizedStringKey, _ binding: Binding<Double>, decimals: Int,
+                    isGamma: Bool = false, identifier: String) -> some View {
+        // 范围由调用点说明，不再靠 `name == "Gamma"` 判断：标题一翻译，那个条件永远为假，
+        // Gamma 会拿到 0...255 的范围。
+        let range: ClosedRange<Double> = isGamma ? 0.1...9.99 : 0...255
         return VStack(alignment: .leading, spacing: 5) {
             Text(name).font(.caption).foregroundStyle(.secondary)
                 .scrubbable(sensitivity: decimals == 0 ? 1 : 0.01, value: binding, range: range)
             TextField(name, value: binding, format: .number.precision(.fractionLength(decimals)))
                 .textFieldStyle(.roundedBorder).multilineTextAlignment(.trailing).frame(width: 80)
-                .accessibilityIdentifier("levels\(name.replacingOccurrences(of: " ", with: ""))")
+                // 标识符必须是稳定 ASCII：原来从标题拼，标题一翻译就变成中文，
+                // UI 测试按 levelsInputBlack 找控件会全部失败。
+                .accessibilityIdentifier("levels\(identifier)")
         }
     }
     private var histogram: some View {
@@ -117,7 +122,8 @@ struct LevelsSheet: View {
             let gammaPosition = current.black + (current.white - current.black) * pow(0.5, current.gamma)
             let positions = output ? [current.outputBlack, current.outputWhite] : [current.black, gammaPosition, current.white]
             ForEach(positions.indices, id: \.self) { index in
-                let names = output ? ["Output black", "Output white"] : ["Input black", "Gamma", "Input white"]
+                let names = output ? [String(localized: "Output black"), String(localized: "Output white")]
+                    : [String(localized: "Input black"), String(localized: "Gamma"), String(localized: "Input white")]
                 Image(systemName: "triangle.fill").font(.system(size: 12))
                     .foregroundStyle(index == 0 ? Color.black : index == positions.count - 1 ? .white : .gray)
                     .shadow(color: .gray, radius: 0.5)

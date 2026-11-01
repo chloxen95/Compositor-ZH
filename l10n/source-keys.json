@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-01T07:03:18+00:00",
+ "generatedAt": "2026-11-01T07:29:01+00:00",
  "tool": "scripts/l10n/harvest.py",
  "note": "key 来自 Xcode 编译期抽取（xcloc），不是手写扫描器；插值已规范化为 printf 形式",
- "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-36w_ghyt/en.xcloc/Localized Contents/en.xliff",
+ "xliff": "/var/folders/hs/48phb3j94kq4vrcts4lcrswh0000gn/T/zh-harvest-3gawlvv5/en.xcloc/Localized Contents/en.xliff",
  "infoPlistKeys": [
   "Adobe Photoshop Document",
   "Adobe Photoshop Large Document",
@@ -89,14 +89,6 @@
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 167
-    },
-    {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 587
-    },
-    {
-     "file": "Compositor/UI/FilterSheet.swift",
-     "line": 587
     },
     {
      "file": "Compositor/UI/HueSaturationSheet.swift",
@@ -370,6 +362,19 @@
    ]
   },
   {
+   "key": "ASCII",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 279
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 279
+    }
+   ]
+  },
+  {
    "key": "Actual Pixels",
    "sites": [
     {
@@ -424,6 +429,10 @@
   {
    "key": "Add Hide-All Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 274
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 274
@@ -488,6 +497,10 @@
   {
    "key": "Add Reveal-All Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 274
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 274
@@ -814,6 +827,78 @@
      "line": 12
     },
     {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 65
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 140
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 170
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 178
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 183
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 183
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 186
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 186
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 432
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 432
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 440
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 460
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 460
+    },
+    {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 212
     },
@@ -867,6 +952,59 @@
     {
      "file": "Compositor/UI/CanvasSizeSheet.swift",
      "line": 103
+    }
+   ]
+  },
+  {
+   "key": "Angle",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 129
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 129
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 137
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 137
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 271
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 271
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 405
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 405
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 445
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 445
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 465
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 465
     }
    ]
   },
@@ -1000,6 +1138,19 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 45
+    }
+   ]
+  },
+  {
+   "key": "Atkinson (Classic Mac)",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 270
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 270
     }
    ]
   },
@@ -1208,6 +1359,45 @@
    ]
   },
   {
+   "key": "Bayer 2 × 2",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 272
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 272
+    }
+   ]
+  },
+  {
+   "key": "Bayer 4 × 4",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 273
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 273
+    }
+   ]
+  },
+  {
+   "key": "Bayer 8 × 8",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 274
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 274
+    }
+   ]
+  },
+  {
    "key": "Black",
    "sites": [
     {
@@ -1225,6 +1415,10 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 240
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 287
     },
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
@@ -1262,6 +1456,19 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 13
+    }
+   ]
+  },
+  {
+   "key": "Black Level",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 343
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 343
     }
    ]
   },
@@ -1424,6 +1631,14 @@
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 143
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 437
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 437
     }
    ]
   },
@@ -1450,6 +1665,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 52
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 37
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 37
     }
    ]
   },
@@ -1461,12 +1684,32 @@
      "line": 189
     },
     {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
+    {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 88
     },
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 88
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 467
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 467
     }
    ]
   },
@@ -1626,6 +1869,19 @@
    ]
   },
   {
+   "key": "Brightness",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 483
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 483
+    }
+   ]
+  },
+  {
    "key": "Brightness added by this wheel.",
    "sites": [
     {
@@ -1680,6 +1936,10 @@
   {
    "key": "Brush Stroke",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
     {
      "file": "Compositor/Document/EditorSession+Brush.swift",
      "line": 189
@@ -1897,11 +2157,11 @@
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 161
+     "line": 162
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 161
+     "line": 162
     },
     {
      "file": "Compositor/UI/KeyboardShortcuts.swift",
@@ -2098,6 +2358,19 @@
    ]
   },
   {
+   "key": "Cell Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 268
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 268
+    }
+   ]
+  },
+  {
    "key": "Center",
    "sites": [
     {
@@ -2138,6 +2411,10 @@
   {
    "key": "Change GIF Delays",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession+GIF.swift",
+     "line": 13
+    },
     {
      "file": "Compositor/Document/EditorSession+GIF.swift",
      "line": 13
@@ -2208,6 +2485,19 @@
    ]
   },
   {
+   "key": "Choke",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 410
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 410
+    }
+   ]
+  },
+  {
    "key": "Choose a custom grid color",
    "sites": [
     {
@@ -2222,14 +2512,31 @@
   },
   {
    "key": "Choose the %@ color",
+   "sites": []
+  },
+  {
+   "key": "Choose the highlight color",
    "sites": [
     {
      "file": "Compositor/UI/FilterSheet.swift",
-     "line": 586
+     "line": 572
     },
     {
      "file": "Compositor/UI/FilterSheet.swift",
-     "line": 586
+     "line": 572
+    }
+   ]
+  },
+  {
+   "key": "Choose the shadow color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 569
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 569
     }
    ]
   },
@@ -2321,6 +2628,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 221
+    },
+    {
+     "file": "Compositor/Document/Guides.swift",
+     "line": 232
     },
     {
      "file": "Compositor/Document/Guides.swift",
@@ -2680,6 +2991,10 @@
      "line": 189
     },
     {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 7
     },
@@ -2782,6 +3097,10 @@
      "line": 199
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 298
+    },
+    {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 122
     },
@@ -2852,6 +3171,15 @@
     {
      "file": "Compositor/UI/GridSettingsSheet.swift",
      "line": 58
+    }
+   ]
+  },
+  {
+   "key": "Color + neutral midtones",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 299
     }
    ]
   },
@@ -3027,6 +3355,19 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 36
+    }
+   ]
+  },
+  {
+   "key": "Color Split",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 338
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 338
     }
    ]
   },
@@ -3258,12 +3599,40 @@
    "key": "Contrast",
    "sites": [
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 297
+    },
+    {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 203
     },
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 203
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 80
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 80
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 342
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 342
     }
    ]
   },
@@ -3289,7 +3658,19 @@
     },
     {
      "file": "Compositor/Document/DeepLayers.swift",
+     "line": 291
+    },
+    {
+     "file": "Compositor/Document/DeepLayers.swift",
      "line": 309
+    },
+    {
+     "file": "Compositor/Document/DeepLayers.swift",
+     "line": 309
+    },
+    {
+     "file": "Compositor/Document/DeepLayers.swift",
+     "line": 326
     },
     {
      "file": "Compositor/Document/DeepLayers.swift",
@@ -3321,12 +3702,29 @@
      "line": 326
     },
     {
+     "file": "Compositor/Document/DeepLayers.swift",
+     "line": 326
+    },
+    {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 191
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 191
+    }
+   ]
+  },
+  {
+   "key": "Copies",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 461
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 461
     }
    ]
   },
@@ -3375,12 +3773,20 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 312
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 312
     }
    ]
   },
   {
    "key": "Copy Layers from Project",
    "sites": [
+    {
+     "file": "Compositor/Document/ProjectWorkspace.swift",
+     "line": 326
+    },
     {
      "file": "Compositor/Document/ProjectWorkspace.swift",
      "line": 326
@@ -3449,6 +3855,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 394
+    },
+    {
+     "file": "Compositor/Document/LiveLayerMask.swift",
+     "line": 34
     },
     {
      "file": "Compositor/Document/LiveLayerMask.swift",
@@ -3563,11 +3973,11 @@
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 108
+     "line": 107
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 108
+     "line": 107
     }
    ]
   },
@@ -3732,6 +4142,35 @@
    ]
   },
   {
+   "key": "Cyan / Red",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 51
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 55
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 59
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 59
+    }
+   ]
+  },
+  {
    "key": "Cyans",
    "sites": [
     {
@@ -3741,6 +4180,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 51
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 36
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 36
     }
    ]
   },
@@ -3931,6 +4378,10 @@
     {
      "file": "Compositor/Document/EditorSession+GIF.swift",
      "line": 88
+    },
+    {
+     "file": "Compositor/Document/EditorSession+GIF.swift",
+     "line": 88
     }
    ]
   },
@@ -3940,12 +4391,20 @@
     {
      "file": "Compositor/Document/EditorSession+GIF.swift",
      "line": 88
+    },
+    {
+     "file": "Compositor/Document/EditorSession+GIF.swift",
+     "line": 88
     }
    ]
   },
   {
    "key": "Delete Guide",
    "sites": [
+    {
+     "file": "Compositor/Document/Guides.swift",
+     "line": 205
+    },
     {
      "file": "Compositor/Document/Guides.swift",
      "line": 205
@@ -3962,6 +4421,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 440
+    },
+    {
+     "file": "Compositor/Document/LiveLayerMask.swift",
+     "line": 136
     },
     {
      "file": "Compositor/Document/LiveLayerMask.swift",
@@ -3991,6 +4454,10 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 291
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 291
     }
    ]
   },
@@ -4004,6 +4471,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 440
+    },
+    {
+     "file": "Compositor/Document/LiveLayerMask.swift",
+     "line": 160
     },
     {
      "file": "Compositor/Document/LiveLayerMask.swift",
@@ -4130,6 +4601,27 @@
    ]
   },
   {
+   "key": "Density",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 289
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 289
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 340
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 340
+    }
+   ]
+  },
+  {
    "key": "Depth",
    "sites": [
     {
@@ -4228,6 +4720,14 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 118
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 286
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 286
     }
    ]
   },
@@ -4284,6 +4784,10 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 283
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 283
     }
    ]
   },
@@ -4301,8 +4805,46 @@
    ]
   },
   {
+   "key": "Displace",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 330
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 330
+    }
+   ]
+  },
+  {
+   "key": "Distance",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 124
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 138
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 138
+    }
+   ]
+  },
+  {
    "key": "Distort",
    "sites": [
+    {
+     "file": "Compositor/Document/Distort.swift",
+     "line": 353
+    },
     {
      "file": "Compositor/Document/Distort.swift",
      "line": 353
@@ -4315,12 +4857,20 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 359
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 359
     }
    ]
   },
   {
    "key": "Distort Layers",
    "sites": [
+    {
+     "file": "Compositor/Document/Distort.swift",
+     "line": 353
+    },
     {
      "file": "Compositor/Document/Distort.swift",
      "line": 353
@@ -4470,6 +5020,14 @@
     {
      "file": "Compositor/L10n/Names+Tools.swift",
      "line": 251
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 328
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 328
     }
    ]
   },
@@ -4483,6 +5041,27 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 17
+    }
+   ]
+  },
+  {
+   "key": "Double-click to reset.",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 536
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 536
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 132
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 132
     }
    ]
   },
@@ -4916,6 +5495,10 @@
     {
      "file": "Compositor/Document/EditorSession+GIF.swift",
      "line": 49
+    },
+    {
+     "file": "Compositor/Document/EditorSession+GIF.swift",
+     "line": 49
     }
    ]
   },
@@ -4935,6 +5518,14 @@
      "line": 596
     },
     {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 596
+    },
+    {
+     "file": "Compositor/Document/SelectionClipboard.swift",
+     "line": 309
+    },
+    {
      "file": "Compositor/Document/SelectionClipboard.swift",
      "line": 309
     },
@@ -4949,6 +5540,10 @@
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 492
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 492
     }
    ]
   },
@@ -4958,6 +5553,14 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 596
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 596
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 492
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -5054,6 +5657,10 @@
   {
    "key": "Edit Text",
    "sites": [
+    {
+     "file": "Compositor/Document/TypeTool.swift",
+     "line": 301
+    },
     {
      "file": "Compositor/Document/TypeTool.swift",
      "line": 301
@@ -5165,6 +5772,10 @@
   {
    "key": "Enable Layer Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 283
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 283
@@ -5312,6 +5923,10 @@
   {
    "key": "Erase",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
     {
      "file": "Compositor/Document/EditorSession+Brush.swift",
      "line": 189
@@ -5490,6 +6105,14 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 201
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 25
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 25
     }
    ]
   },
@@ -5557,6 +6180,14 @@
      "line": 288
     },
     {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 174
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 174
+    },
+    {
      "file": "Compositor/UI/LassoControls.swift",
      "line": 64
     },
@@ -5603,6 +6234,10 @@
   {
    "key": "Fill Text",
    "sites": [
+    {
+     "file": "Compositor/Document/TypeTool.swift",
+     "line": 354
+    },
     {
      "file": "Compositor/Document/TypeTool.swift",
      "line": 354
@@ -5860,6 +6495,10 @@
     {
      "file": "Compositor/Document/LayerFlip.swift",
      "line": 61
+    },
+    {
+     "file": "Compositor/Document/LayerFlip.swift",
+     "line": 61
     }
    ]
   },
@@ -5877,12 +6516,20 @@
     {
      "file": "Compositor/Document/LayerFlip.swift",
      "line": 61
+    },
+    {
+     "file": "Compositor/Document/LayerFlip.swift",
+     "line": 61
     }
    ]
   },
   {
    "key": "Flip Horizontal",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerFlip.swift",
+     "line": 41
+    },
     {
      "file": "Compositor/Document/LayerFlip.swift",
      "line": 41
@@ -5939,8 +6586,8 @@
      "line": 41
     },
     {
-     "file": "Compositor/UI/TransformInspector.swift",
-     "line": 52
+     "file": "Compositor/Document/LayerFlip.swift",
+     "line": 41
     },
     {
      "file": "Compositor/UI/TransformInspector.swift",
@@ -5953,6 +6600,23 @@
     {
      "file": "Compositor/UI/TransformInspector.swift",
      "line": 52
+    },
+    {
+     "file": "Compositor/UI/TransformInspector.swift",
+     "line": 52
+    }
+   ]
+  },
+  {
+   "key": "Floyd–Steinberg",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 271
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 271
     }
    ]
   },
@@ -6163,6 +6827,32 @@
    ]
   },
   {
+   "key": "Fringe",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 469
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 469
+    }
+   ]
+  },
+  {
+   "key": "From",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 104
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 104
+    }
+   ]
+  },
+  {
    "key": "Fuzziness",
    "sites": [
     {
@@ -6193,6 +6883,35 @@
     {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 224
+    }
+   ]
+  },
+  {
+   "key": "Gamma",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 27
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 32
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
     }
    ]
   },
@@ -6295,6 +7014,22 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 261
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 326
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 326
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 377
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 377
     }
    ]
   },
@@ -6388,6 +7123,15 @@
    ]
   },
   {
+   "key": "Gray",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 288
+    }
+   ]
+  },
+  {
    "key": "Green",
    "sites": [
     {
@@ -6473,6 +7217,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 50
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 35
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 35
     }
    ]
   },
@@ -6550,6 +7302,10 @@
   {
    "key": "Group Layers",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerGroups.swift",
+     "line": 220
+    },
     {
      "file": "Compositor/Document/LayerGroups.swift",
      "line": 220
@@ -6677,6 +7433,45 @@
    ]
   },
   {
+   "key": "Halftone Diamonds",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 277
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 277
+    }
+   ]
+  },
+  {
+   "key": "Halftone Dots",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 275
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 275
+    }
+   ]
+  },
+  {
+   "key": "Halftone Lines",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 276
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 276
+    }
+   ]
+  },
+  {
    "key": "Hand (H)",
    "sites": [
     {
@@ -6757,19 +7552,19 @@
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 120
+     "line": 121
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 120
+     "line": 121
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 124
+     "line": 125
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 124
+     "line": 125
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -6926,6 +7721,14 @@
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
+     "line": 908
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 918
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
      "line": 918
     },
     {
@@ -6954,6 +7757,10 @@
   {
    "key": "Hide Selection",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 261
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 261
@@ -7101,6 +7908,43 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 58
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 175
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 175
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 189
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 571
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 571
+    }
+   ]
+  },
+  {
+   "key": "Highlights color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 573
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 573
     }
    ]
   },
@@ -7646,6 +8490,22 @@
     {
      "file": "Compositor/UI/ColorPickerSheet.swift",
      "line": 95
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 42
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 43
     }
    ]
   },
@@ -7756,6 +8616,10 @@
      "line": 561
     },
     {
+     "file": "Compositor/Document/HueSaturation.swift",
+     "line": 561
+    },
+    {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 7
     },
@@ -7812,11 +8676,11 @@
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 107
+     "line": 106
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 107
+     "line": 106
     }
    ]
   },
@@ -7855,6 +8719,14 @@
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
+     "line": 1000
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1106
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
      "line": 1106
     },
     {
@@ -7881,6 +8753,14 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 1000
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1000
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1263
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
@@ -8069,6 +8949,48 @@
    ]
   },
   {
+   "key": "Input black",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 30
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
+    }
+   ]
+  },
+  {
+   "key": "Input white",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 126
+    }
+   ]
+  },
+  {
    "key": "Inside",
    "sites": [
     {
@@ -8136,6 +9058,10 @@
      "line": 145
     },
     {
+     "file": "Compositor/Document/SelectionEdits.swift",
+     "line": 145
+    },
+    {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 16
     },
@@ -8171,6 +9097,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 335
+    },
+    {
+     "file": "Compositor/Document/SelectionEdits.swift",
+     "line": 145
     },
     {
      "file": "Compositor/Document/SelectionEdits.swift",
@@ -8416,6 +9346,10 @@
     {
      "file": "Compositor/Document/LayerAppearance.swift",
      "line": 134
+    },
+    {
+     "file": "Compositor/Document/LayerAppearance.swift",
+     "line": 134
     }
    ]
   },
@@ -8441,7 +9375,19 @@
     },
     {
      "file": "Compositor/Document/LayerAppearance.swift",
+     "line": 91
+    },
+    {
+     "file": "Compositor/Document/LayerAppearance.swift",
      "line": 104
+    },
+    {
+     "file": "Compositor/Document/LayerAppearance.swift",
+     "line": 104
+    },
+    {
+     "file": "Compositor/Document/LayerAppearance.swift",
+     "line": 118
     },
     {
      "file": "Compositor/Document/LayerAppearance.swift",
@@ -8544,6 +9490,27 @@
    ]
   },
   {
+   "key": "Length",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 433
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 433
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 441
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 441
+    }
+   ]
+  },
+  {
    "key": "Lens Correction",
    "sites": [
     {
@@ -8608,6 +9575,10 @@
     {
      "file": "Compositor/ContentView.swift",
      "line": 285
+    },
+    {
+     "file": "Compositor/Document/Levels.swift",
+     "line": 233
     },
     {
      "file": "Compositor/Document/Levels.swift",
@@ -8809,6 +9780,19 @@
    ]
   },
   {
+   "key": "Lightness",
+   "sites": [
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 46
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 46
+    }
+   ]
+  },
+  {
    "key": "Lights",
    "sites": [
     {
@@ -8865,6 +9849,19 @@
     {
      "file": "Compositor/L10n/Names+Canvas.swift",
      "line": 8
+    }
+   ]
+  },
+  {
+   "key": "Line Spacing",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 322
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 322
     }
    ]
   },
@@ -8988,11 +9985,11 @@
    "sites": [
     {
      "file": "Compositor/UI/LevelsSheet.swift",
-     "line": 113
+     "line": 118
     },
     {
      "file": "Compositor/UI/LevelsSheet.swift",
-     "line": 113
+     "line": 118
     }
    ]
   },
@@ -9038,6 +10035,10 @@
   {
    "key": "Link Layer Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 324
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 324
@@ -9161,11 +10162,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 126
+     "line": 127
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 126
+     "line": 127
     }
    ]
   },
@@ -9337,6 +10338,19 @@
    ]
   },
   {
+   "key": "Mac Patterns",
+   "sites": [
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 278
+    },
+    {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 278
+    }
+   ]
+  },
+  {
    "key": "Magenta",
    "sites": [
     {
@@ -9350,6 +10364,35 @@
    ]
   },
   {
+   "key": "Magenta / Green",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 52
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 56
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 56
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 60
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 60
+    }
+   ]
+  },
+  {
    "key": "Magentas",
    "sites": [
     {
@@ -9359,6 +10402,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 53
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 38
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 38
     }
    ]
   },
@@ -9768,6 +10819,14 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 135
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 172
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 172
     }
    ]
   },
@@ -9797,6 +10856,14 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 54
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 188
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 188
     }
    ]
   },
@@ -9968,6 +11035,10 @@
     {
      "file": "Compositor/Document/Guides.swift",
      "line": 216
+    },
+    {
+     "file": "Compositor/Document/Guides.swift",
+     "line": 216
     }
    ]
   },
@@ -9977,6 +11048,14 @@
     {
      "file": "Compositor/Document/LayerGroups.swift",
      "line": 312
+    },
+    {
+     "file": "Compositor/Document/LayerGroups.swift",
+     "line": 312
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 493
     },
     {
      "file": "Compositor/UI/NativeLayerList.swift",
@@ -10016,6 +11095,10 @@
     {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 493
+    },
+    {
+     "file": "Compositor/UI/NativeLayerList.swift",
+     "line": 493
     }
    ]
   },
@@ -10043,6 +11126,10 @@
   {
    "key": "Move Selection",
    "sites": [
+    {
+     "file": "Compositor/Document/Selection.swift",
+     "line": 265
+    },
     {
      "file": "Compositor/Document/Selection.swift",
      "line": 265
@@ -10214,12 +11301,20 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 871
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 871
     }
    ]
   },
   {
    "key": "New Canvas",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 1304
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 1304
@@ -10245,6 +11340,10 @@
     {
      "file": "Compositor/Document/LayerGroups.swift",
      "line": 277
+    },
+    {
+     "file": "Compositor/Document/LayerGroups.swift",
+     "line": 277
     }
    ]
   },
@@ -10254,6 +11353,14 @@
     {
      "file": "Compositor/Document/Guides.swift",
      "line": 212
+    },
+    {
+     "file": "Compositor/Document/Guides.swift",
+     "line": 212
+    },
+    {
+     "file": "Compositor/Document/Guides.swift",
+     "line": 241
     },
     {
      "file": "Compositor/Document/Guides.swift",
@@ -10396,6 +11503,19 @@
     {
      "file": "Compositor/UI/CommandPaletteView.swift",
      "line": 36
+    }
+   ]
+  },
+  {
+   "key": "No foreground subject was detected in this layer. Try an image with a more distinct subject.",
+   "sites": [
+    {
+     "file": "Compositor/Document/SubjectRemoval.swift",
+     "line": 9
+    },
+    {
+     "file": "Compositor/Document/SubjectRemoval.swift",
+     "line": 9
     }
    ]
   },
@@ -10655,6 +11775,27 @@
    ]
   },
   {
+   "key": "Offset",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 26
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 463
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 463
+    }
+   ]
+  },
+  {
    "key": "Offset X",
    "sites": [
     {
@@ -10711,11 +11852,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 155
+     "line": 156
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 155
+     "line": 156
     }
    ]
   },
@@ -10936,11 +12077,11 @@
    "sites": [
     {
      "file": "Compositor/UI/LevelsSheet.swift",
-     "line": 112
+     "line": 117
     },
     {
      "file": "Compositor/UI/LevelsSheet.swift",
-     "line": 112
+     "line": 117
     }
    ]
   },
@@ -11001,6 +12142,48 @@
     {
      "file": "Compositor/UI/EffectsSheet.swift",
      "line": 123
+    }
+   ]
+  },
+  {
+   "key": "Output black",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 41
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 125
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 125
+    }
+   ]
+  },
+  {
+   "key": "Output white",
+   "sites": [
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 125
+    },
+    {
+     "file": "Compositor/UI/LevelsSheet.swift",
+     "line": 125
     }
    ]
   },
@@ -11080,6 +12263,10 @@
   {
    "key": "Paint Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
     {
      "file": "Compositor/Document/EditorSession+Brush.swift",
      "line": 189
@@ -11304,6 +12491,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 308
+    }
+   ]
+  },
+  {
+   "key": "Pixel Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 260
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 260
     }
    ]
   },
@@ -12024,6 +13224,38 @@
      "line": 14
     },
     {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 89
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 89
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 180
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 180
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 184
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 184
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 190
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 190
+    },
+    {
      "file": "Compositor/UI/ShapeControls.swift",
      "line": 64
     },
@@ -12252,6 +13484,27 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 48
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 33
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 33
+    }
+   ]
+  },
+  {
+   "key": "Refine",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 78
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 78
     }
    ]
   },
@@ -12304,6 +13557,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 394
+    },
+    {
+     "file": "Compositor/Document/LiveLayerMask.swift",
+     "line": 64
     },
     {
      "file": "Compositor/Document/LiveLayerMask.swift",
@@ -12368,6 +13625,19 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 93
+    }
+   ]
+  },
+  {
+   "key": "Remove Distortion",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 192
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 192
     }
    ]
   },
@@ -12455,6 +13725,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 901
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 901
     }
    ]
   },
@@ -12493,6 +13767,14 @@
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
+     "line": 934
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 951
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
      "line": 951
     }
    ]
@@ -12500,6 +13782,10 @@
   {
    "key": "Replace Layer Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 312
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 312
@@ -12524,11 +13810,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 140
+     "line": 141
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 140
+     "line": 141
     }
    ]
   },
@@ -12605,11 +13891,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 163
+     "line": 164
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 163
+     "line": 164
     }
    ]
   },
@@ -12618,11 +13904,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 152
+     "line": 153
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 152
+     "line": 153
     }
    ]
   },
@@ -12631,19 +13917,19 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 128
-    },
-    {
-     "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 128
-    },
-    {
-     "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 129
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
      "line": 129
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 130
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 130
     }
    ]
   },
@@ -12699,11 +13985,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 158
+     "line": 159
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 158
+     "line": 159
     }
    ]
   },
@@ -12726,6 +14012,10 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 261
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 261
     }
    ]
   },
@@ -12734,11 +14024,11 @@
    "sites": [
     {
      "file": "Compositor/UI/FilterSheet.swift",
-     "line": 568
+     "line": 576
     },
     {
      "file": "Compositor/UI/FilterSheet.swift",
-     "line": 568
+     "line": 576
     },
     {
      "file": "Compositor/UI/GradientControls.swift",
@@ -12790,6 +14080,19 @@
    ]
   },
   {
+   "key": "Ring",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 485
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 485
+    }
+   ]
+  },
+  {
    "key": "Rotate",
    "sites": [
     {
@@ -12816,6 +14119,10 @@
     {
      "file": "Compositor/Document/CanvasRotation.swift",
      "line": 41
+    },
+    {
+     "file": "Compositor/Document/CanvasRotation.swift",
+     "line": 41
     }
    ]
   },
@@ -12829,6 +14136,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 351
+    },
+    {
+     "file": "Compositor/Document/CanvasRotation.swift",
+     "line": 41
     },
     {
      "file": "Compositor/Document/CanvasRotation.swift",
@@ -12859,6 +14170,14 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 299
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 67
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 67
     }
    ]
   },
@@ -12906,6 +14225,14 @@
     {
      "file": "Compositor/UI/CameraRawControls.swift",
      "line": 286
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 173
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 173
     }
    ]
   },
@@ -13003,11 +14330,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 149
+     "line": 150
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 149
+     "line": 150
     },
     {
      "file": "Compositor/UI/TransformInspector.swift",
@@ -13077,6 +14404,22 @@
     {
      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
      "line": 116
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 43
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 44
+    },
+    {
+     "file": "Compositor/UI/HueSaturationSheet.swift",
+     "line": 44
     }
    ]
   },
@@ -13643,6 +14986,35 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 50
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 187
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 187
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 568
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 568
+    }
+   ]
+  },
+  {
+   "key": "Shadows color",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 570
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 570
     }
    ]
   },
@@ -13801,6 +15173,19 @@
     {
      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
      "line": 11
+    }
+   ]
+  },
+  {
+   "key": "Shift Edge",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 82
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 82
     }
    ]
   },
@@ -14027,6 +15412,14 @@
     },
     {
      "file": "Compositor/Document/EditorSession.swift",
+     "line": 908
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 918
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
      "line": 918
     },
     {
@@ -14179,6 +15572,30 @@
      "line": 154
     },
     {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 66
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 457
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 457
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 481
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 481
+    },
+    {
      "file": "Compositor/UI/NewCanvasSheet.swift",
      "line": 116
     },
@@ -14318,6 +15735,19 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 106
+    }
+   ]
+  },
+  {
+   "key": "Smoothness",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 332
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 332
     }
    ]
   },
@@ -14470,6 +15900,10 @@
     {
      "file": "Compositor/Document/SplitChannels.swift",
      "line": 63
+    },
+    {
+     "file": "Compositor/Document/SplitChannels.swift",
+     "line": 63
     }
    ]
   },
@@ -14515,6 +15949,10 @@
   {
    "key": "Spot Healing",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession+Brush.swift",
+     "line": 189
+    },
     {
      "file": "Compositor/Document/EditorSession+Brush.swift",
      "line": 189
@@ -14685,6 +16123,22 @@
     {
      "file": "Compositor/UI/BrushControls.swift",
      "line": 69
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 407
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 407
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 455
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 455
     }
    ]
   },
@@ -15029,6 +16483,19 @@
    ]
   },
   {
+   "key": "Text Size",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 264
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 264
+    }
+   ]
+  },
+  {
    "key": "Text color",
    "sites": [
     {
@@ -15180,6 +16647,19 @@
    ]
   },
   {
+   "key": "Thickness",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 324
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 324
+    }
+   ]
+  },
+  {
    "key": "This Layer",
    "sites": [
     {
@@ -15261,6 +16741,35 @@
    ]
   },
   {
+   "key": "Threshold",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 334
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 334
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 435
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 435
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 443
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 443
+    }
+   ]
+  },
+  {
    "key": "Tint",
    "sites": [
     {
@@ -15286,6 +16795,19 @@
     {
      "file": "Compositor/UI/FilterSheet.swift",
      "line": 39
+    }
+   ]
+  },
+  {
+   "key": "To",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 106
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 106
     }
    ]
   },
@@ -15341,6 +16863,19 @@
     {
      "file": "Compositor/L10n/Names+Filters.swift",
      "line": 20
+    }
+   ]
+  },
+  {
+   "key": "Tones",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 282
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 282
     }
    ]
   },
@@ -15482,6 +17017,10 @@
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 639
+    },
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 639
     }
    ]
   },
@@ -15491,12 +17030,20 @@
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 369
+    },
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 369
     }
    ]
   },
   {
    "key": "Transform Layers",
    "sites": [
+    {
+     "file": "Compositor/Document/EditorSession.swift",
+     "line": 624
+    },
     {
      "file": "Compositor/Document/EditorSession.swift",
      "line": 624
@@ -15526,6 +17073,10 @@
     {
      "file": "Compositor/CompositorApp.swift",
      "line": 389
+    },
+    {
+     "file": "Compositor/Document/FloatingSelection.swift",
+     "line": 39
     },
     {
      "file": "Compositor/Document/FloatingSelection.swift",
@@ -15758,6 +17309,10 @@
      "line": 247
     },
     {
+     "file": "Compositor/Document/LayerGroups.swift",
+     "line": 247
+    },
+    {
      "file": "Compositor/UI/NativeLayerList.swift",
      "line": 171
     },
@@ -15793,11 +17348,11 @@
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 109
+     "line": 108
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 109
+     "line": 108
     }
    ]
   },
@@ -15817,6 +17372,10 @@
   {
    "key": "Unlink Layer Mask",
    "sites": [
+    {
+     "file": "Compositor/Document/LayerMask.swift",
+     "line": 324
+    },
     {
      "file": "Compositor/Document/LayerMask.swift",
      "line": 324
@@ -15993,11 +17552,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 158
+     "line": 159
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 158
+     "line": 159
     }
    ]
   },
@@ -16373,6 +17932,10 @@
      "line": 94
     },
     {
+     "file": "Compositor/L10n/Names+Tools.swift",
+     "line": 289
+    },
+    {
      "file": "Compositor/UI/ExportAsSheet.swift",
      "line": 418
     },
@@ -16483,20 +18046,28 @@
      "line": 82
     },
     {
-     "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 113
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 408
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 408
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 113
+     "line": 114
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 117
+     "line": 114
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 117
+     "line": 118
+    },
+    {
+     "file": "Compositor/UI/ImageSizeSheet.swift",
+     "line": 118
     },
     {
      "file": "Compositor/UI/NewCanvasSheet.swift",
@@ -16564,6 +18135,19 @@
    ]
   },
   {
+   "key": "Wobble",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 336
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 336
+    }
+   ]
+  },
+  {
    "key": "Working…",
    "sites": [
     {
@@ -16598,6 +18182,35 @@
    ]
   },
   {
+   "key": "Yellow / Blue",
+   "sites": [
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 53
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 57
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 61
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 61
+    }
+   ]
+  },
+  {
    "key": "Yellows",
    "sites": [
     {
@@ -16607,6 +18220,14 @@
     {
      "file": "Compositor/L10n/Names+Adjustment.swift",
      "line": 49
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 34
+    },
+    {
+     "file": "Compositor/UI/FilterSheet.swift",
+     "line": 34
     }
    ]
   },
@@ -16805,11 +18426,11 @@
    "sites": [
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 138
+     "line": 139
     },
     {
      "file": "Compositor/UI/ImageSizeSheet.swift",
-     "line": 138
+     "line": 139
     }
    ]
   },

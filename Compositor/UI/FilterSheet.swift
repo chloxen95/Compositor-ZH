@@ -253,7 +253,7 @@ struct FilterSheet: View {
         Picker("Style", selection: Binding(get: { dither.style }, set: { new in update { $0.dither.style = new } })) {
             ForEach(DitherStyle.groups.indices, id: \.self) { group in
                 if group > 0 { Divider() }
-                ForEach(DitherStyle.groups[group], id: \.self) { Text($0.rawValue).tag($0) }
+                ForEach(DitherStyle.groups[group], id: \.self) { Text($0.displayName).tag($0) }
             }
         }
         if dither.style.usesPixelSize {
@@ -515,7 +515,9 @@ struct FilterSheet: View {
 
     /// A slider plus an exact field. Logarithmic sliders give the small values used most most of the travel.
     /// A colored track draws the slider as Camera Raw's, where a double-click on the title or knob resets it.
-    private func control(_ title: String, _ key: WritableKeyPath<FilterSettings, Double>, range: ClosedRange<Double>,
+    /// 参数名与数值框的标签。收 key 而不是 `String`：95 个调用点全是字面量，
+    /// 声明成 String 的话 `Text(title)` 只画原文，滤镜面板里就一直是英文。
+    private func control(_ title: LocalizedStringKey, _ key: WritableKeyPath<FilterSettings, Double>, range: ClosedRange<Double>,
                          unit: String, decimals: Int, logarithmic: Bool, track: CameraRawSliderTrack? = nil) -> some View {
         let step = pow(10, Double(decimals))
         let reset = { update { $0 = Self.resetting(key, in: $0) } }
@@ -529,7 +531,9 @@ struct FilterSheet: View {
                             range: range)
             if let track {
                 CameraRawSlider(value: settings[keyPath: key], range: range, track: track,
-                                help: "\(title). Double-click to reset.",
+                                // 不再把参数名拼进提示：`title` 是 key，插值会打印出 LocalizedStringKey 的调试描述
+            // （LocalizedStringKey(key: "Radius", ...)）。标签就在旁边，复位说明单独成句即可。
+            help: String(localized: "Double-click to reset.", comment: "Slider help"),
                                 onChange: { value in update { $0[keyPath: key] = (value * step).rounded() / step } },
                                 onReset: reset)
             } else {
@@ -561,8 +565,12 @@ struct GradientMapControls: View {
                 .overlay { RoundedRectangle(cornerRadius: 4, style: .continuous).strokeBorder(.black.opacity(0.35)) }
                 .accessibilityHidden(true)
             HStack(spacing: 20) {
-                swatch("Shadows", settings.shadows) { pick(false) }
-                swatch("Highlights", settings.highlights) { pick(true) }
+                swatch("Shadows", settings.shadows,
+                       help: String(localized: "Choose the shadow color"),
+                       label: String(localized: "Shadows color")) { pick(false) }
+                swatch("Highlights", settings.highlights,
+                       help: String(localized: "Choose the highlight color"),
+                       label: String(localized: "Highlights color")) { pick(true) }
                 Spacer()
             }
             Toggle("Reverse", isOn: $settings.reversed)
@@ -571,7 +579,10 @@ struct GradientMapControls: View {
 
     private func color(_ value: AdjustmentColor) -> Color { Color(.sRGB, red: value.red, green: value.green, blue: value.blue) }
 
-    private func swatch(_ title: String, _ value: AdjustmentColor, action: @escaping () -> Void) -> some View {
+    /// `help` 与 `label` 单独传入：原来靠 `"\(title) color"` 拼，`title` 一变成 key 就会
+    /// 打印出 `LocalizedStringKey(key: …)` 的调试描述。
+    private func swatch(_ title: LocalizedStringKey, _ value: AdjustmentColor,
+                        help: String, label: String, action: @escaping () -> Void) -> some View {
         let shape = RoundedRectangle(cornerRadius: 6, style: .continuous)
         return HStack(spacing: 8) {
             Button(action: action) {
@@ -583,8 +594,8 @@ struct GradientMapControls: View {
                     .contentShape(shape)
             }
             .buttonStyle(.plain)
-            .help("Choose the \(title.lowercased()) color")
-            .accessibilityLabel("\(title) color")
+            .help(help)
+            .accessibilityLabel(label)
             Text(title)
         }
     }
